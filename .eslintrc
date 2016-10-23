@@ -3,6 +3,7 @@
   "rules": {
     "comma-dangle": ["error", "never"],
     "no-console": ["error", {"allow": ["log"]}],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "forbid-prop-types": [0]
   }
 }

@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router';
 import sortBy from 'lodash/sortBy';
+import moment from 'moment';
 import { prefixLink } from 'gatsby-helpers';
-import { rhythm } from 'utils/typography';
 import Helmet from 'react-helmet';
 import access from 'safe-access';
 import { config } from 'config';
 import include from 'underscore.string/include';
 import Bio from 'components/Bio';
 
-class BlogIndex extends React.Component {
+class BlogIndex extends Component {
   render() {
     const pageLinks = [];
     // Sort pages.
@@ -20,25 +20,24 @@ class BlogIndex extends React.Component {
       if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
         const title = access(page, 'data.title') || page.path;
 
+        // Parse teaser-text
         const body = access(page, 'data.body');
-        const bodyFirstPStart = body.indexOf('<p>') + 2;
+        const bodyFirstPStart = body.indexOf('<p>');
         const bodyFirstPEnd = body.indexOf('</p>') - bodyFirstPStart;
-        const description = body.substring(bodyFirstPStart, bodyFirstPEnd);
+        const description = body.substring(bodyFirstPStart + 3, bodyFirstPEnd);
 
         const datePublished = access(page, 'data.date');
         const category = access(page, 'data.category');
-        console.log(page);
 
         pageLinks.push(
-          // Here goes the preview post
-          <li
-            key={page.path}
-            style={{
-              marginBottom: rhythm(1 / 4)
-            }}
-          >
-            <Link style={{ boxShadow: 'none' }} to={prefixLink(page.path)}>{title}</Link>
-          </li>
+          <div className="post" key={page.path}>
+            <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
+              {moment(datePublished).format('MMMM YYYY')}
+            </time>
+            <span className="post__category">{ category }</span>
+            <h2><Link to={prefixLink(page.path)}> { title } </Link></h2>
+            <p dangerouslySetInnerHTML={{ __html: description }} />
+          </div>
         );
       }
     });
