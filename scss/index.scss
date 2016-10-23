@@ -1,15 +1,37 @@
+@import '_variables';
+
 .post {
   margin-bottom: 40px;
+
+  h2 {
+    a {
+      color: $colorText;
+    }
+  }
 
   p {
     margin: 0 0 10px 0;
   }
 
+  &__hero {
+    margin-bottom: 10px;
+    max-height:250px;
+    overflow: hidden;
+
+    img {
+      max-width:100%;
+    }
+  }
+
   time {
+    color: $colorTextLight;
+    font-family: 'Roboto Mono', monospace;
     margin-right: 15px;
   }
 
   &__category {
+    color: $colorTextAccent;
+    font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
   }
 }

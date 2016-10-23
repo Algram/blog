@@ -1,14 +1,20 @@
 @import '_variables';
 
 body {
+  background: $colorBackground;
+  color: $colorText;
   font-family: Merriweather, serif;
+  margin: 2% auto;
   width: 60%;
-  margin: 0 auto;
+}
+
+p {
+  line-height: 1.6em;
 }
 
 h2 {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 
   a {
     text-decoration: none;

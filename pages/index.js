@@ -22,6 +22,7 @@ class BlogIndex extends Component {
     sortedPages.forEach((page) => {
       if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
         const title = access(page, 'data.title') || page.path;
+        console.log(page);
 
         // Parse teaser-text
         const body = access(page, 'data.body');
@@ -34,6 +35,9 @@ class BlogIndex extends Component {
 
         pageLinks.push(
           <div className="post" key={page.path}>
+            <div className="post__hero">
+              <img src={`${prefixLink(page.path)}hero.jpg`} />
+            </div>
             <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
               {moment(datePublished).format('MMMM YYYY')}
             </time>
