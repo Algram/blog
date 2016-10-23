@@ -40,12 +40,13 @@ class BlogIndex extends Component {
             <span className="post__category">{ category }</span>
             <h2><Link to={prefixLink(page.path)}> { title } </Link></h2>
             <p dangerouslySetInnerHTML={{ __html: description }} />
+            <Link to={prefixLink(page.path)}>Read more</Link>
           </div>
         );
       }
     });
     return (
-      <div id="content">
+      <div id="startpage">
         <Helmet
           title={config.blogTitle}
           meta={[
