@@ -19,6 +19,11 @@
     "underscore.string": "^3.2.3"
   },
   "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
     "gh-pages": "^0.11.0"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
