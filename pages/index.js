@@ -16,6 +16,7 @@ class BlogIndex extends Component {
     const sortedPages = sortBy(this.props.route.pages, page =>
       access(page, 'data.date')
     ).reverse();
+
     sortedPages.forEach((page) => {
       if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
         const title = access(page, 'data.title') || page.path;
