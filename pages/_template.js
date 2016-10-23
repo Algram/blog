@@ -3,14 +3,13 @@ import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
 
+import 'normalize.css';
+import '../scss/global.scss';
+
 class Template extends Component {
   render() {
     const { children } = this.props;
-    return (
-      <div id="blog">
-        {children}
-      </div>
-    );
+    return (children);
   }
 }
 

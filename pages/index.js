@@ -9,6 +9,8 @@ import { config } from 'config';
 import include from 'underscore.string/include';
 import Bio from 'components/Bio';
 
+import '../scss/index.scss';
+
 class BlogIndex extends Component {
   render() {
     const pageLinks = [];
@@ -43,7 +45,7 @@ class BlogIndex extends Component {
       }
     });
     return (
-      <div>
+      <div id="content">
         <Helmet
           title={config.blogTitle}
           meta={[
@@ -52,9 +54,9 @@ class BlogIndex extends Component {
           ]}
         />
         <Bio />
-        <ul>
+        <div className="postList">
           {pageLinks}
-        </ul>
+        </div>
       </div>
     );
   }

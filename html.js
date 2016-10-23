@@ -30,12 +30,11 @@ module.exports = React.createClass({
           {head.title.toComponent()}
           {head.meta.toComponent()}
           {css}
+          <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet" />
         </head>
-        <body className="landing-page">
-          <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
-        </body>
+        <body id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
+        <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
       </html>
     )
   },
