@@ -11,9 +11,9 @@ class Template extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-8 col-xl-7">
+          <div className="col-xs-12 col-sm-12 col-md-8 offset-md-2 col-xl-7 offset-xl-0">
             {children}
           </div>
         </div>
