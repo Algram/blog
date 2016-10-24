@@ -87,7 +87,7 @@
   display: block;
   background: #2d3642;
   color: #DCDCDC;
-  overflow-y: hidden;
+  word-wrap: break-word;
 }
 
 .markdown pre code {
@@ -96,8 +96,6 @@
   border-radius: 3px;
   display: inline-block;
   padding: 1.2rem;
-  white-space: inherit;
-  word-wrap: normal;
 }
 
 code {
@@ -119,7 +117,6 @@ code {
   font-size: 0.85em;
   line-height: 1.6em;
   max-width: 100%;
-  padding: 0 0.1625rem;
 }
 
 /*.hljs-keyword,
