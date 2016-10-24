@@ -7,7 +7,6 @@ import Helmet from 'react-helmet';
 import access from 'safe-access';
 import { config } from 'config';
 import include from 'underscore.string/include';
-import Bio from 'components/Bio';
 
 import '../scss/index.scss';
 
@@ -34,17 +33,21 @@ class BlogIndex extends Component {
         const category = access(page, 'data.category');
 
         pageLinks.push(
-          <div className="post" key={page.path}>
-            <div className="post__hero">
-              <img src={`${prefixLink(page.path)}hero.jpg`} />
+          <div className="postpreview" key={page.path}>
+            <div className="postpreview__hero">
+              <Link to={prefixLink(page.path)}>
+                <img src={`${prefixLink(page.path)}hero.jpg`} />
+              </Link>
             </div>
-            <time dateTime={moment(datePublished).format('MMMM D, YYYY')}>
-              {moment(datePublished).format('MMMM YYYY')}
+            <time dateTime={moment(datePublished).format('DD MMMM YYYY')}>
+              {moment(datePublished).format('DD MMMM YYYY')}
             </time>
-            <span className="post__category">{ category }</span>
+            <span className="postpreview__category">{ category }</span>
             <h2><Link to={prefixLink(page.path)}> { title } </Link></h2>
-            <p dangerouslySetInnerHTML={{ __html: description }} />
-            <Link to={prefixLink(page.path)}>Read more</Link>
+            <p className="postpreview__content">
+              <span dangerouslySetInnerHTML={{ __html: description }} />
+              <Link to={prefixLink(page.path)}>Read more</Link>
+            </p>
           </div>
         );
       }
@@ -58,8 +61,7 @@ class BlogIndex extends Component {
             { name: 'keywords', content: 'blog, articles' }
           ]}
         />
-        <Bio />
-        <div className="postList">
+        <div>
           {pageLinks}
         </div>
       </div>

@@ -33,7 +33,9 @@ module.exports = React.createClass({
           <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet" />
         </head>
-        <body id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
+        <body>
+          <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
+        </body>
         <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
       </html>
     )

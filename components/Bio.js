@@ -1,18 +1,28 @@
 import React from 'react';
 import { config } from 'config';
 import { prefixLink } from 'gatsby-helpers';
-import profilePic from './profile-pic.jpg';
+import profilePic from './profile-pic.png';
+
+import '../scss/bio.scss';
 
 class Bio extends React.Component {
   render() {
-    return (null
-      /*<p>
+    return (
+      <p className="bio">
         <img
+          className="bio__img"
           src={prefixLink(profilePic)}
           alt={`author ${config.authorName}`}
         />
-        Written by <strong>{config.authorName}</strong> who lives and works in San Francisco building useful things. <a href="https://twitter.com/kylemathews">You should follow him on Twitter</a>
-      </p>*/
+        Written by <strong>{config.authorName}</strong> who lives in Germany and likes to code a lot.
+        <a
+          href="https://github.com/Algram"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          You should check out my GitHub.
+        </a>
+      </p>
     );
   }
 }

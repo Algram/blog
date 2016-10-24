@@ -53,7 +53,7 @@ Next up is the interesting part – Okay, not quite. First the feed string gets 
 After that the script checks if there are new podcasts available. It basically iterates over the feed-list and compares it to the already downloaded files – Pretty easy, huh?
 A quick fix to the encoding (always trouble with that..) and we come to the last part of this section:
 
-> If a feed from the feed list has a new podcast and isn't in your Dropbox yet, download
+> If a feed from the feed list has a new podcast and isn't in your Dropbox yet, download it
 
 The block above explains the entire logic of this part. All podcasts get downloaded to your `SAVE_DIR` – in my case that is the Pi's local storage.
 

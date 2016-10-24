@@ -1,7 +1,7 @@
 @import '_variables';
 
-.post {
-  margin-bottom: 40px;
+.postpreview {
+  margin-bottom: 60px;
 
   h2 {
     a {
@@ -33,5 +33,11 @@
     color: $colorTextAccent;
     font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
+  }
+
+  &__content {
+    a {
+      margin-left: 5px;
+    }
   }
 }
