@@ -5,7 +5,6 @@ body {
   color: $colorText;
   font-family: Merriweather, serif;
   margin: 5% auto;
-  width: 60%;
 }
 
 p {
@@ -13,6 +12,7 @@ p {
 }
 
 h2 {
+  line-height: 1.4em;
   margin-top: 5px;
   margin-bottom: 10px;
 

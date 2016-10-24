@@ -4,12 +4,21 @@ import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
 
 import 'normalize.css';
+import '../scss/bootstrap/bootstrap-grid.min.css';
 import '../scss/global.scss';
 
 class Template extends Component {
   render() {
     const { children } = this.props;
-    return (children);
+    return (
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-xs-12 col-sm-12 col-md-8 col-xl-7">
+            {children}
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 
