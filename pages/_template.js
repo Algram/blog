@@ -13,7 +13,7 @@ class Template extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-8 offset-md-2 col-xl-7 offset-xl-0">
+          <div className="col-xs-12 col-sm-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
             {children}
           </div>
         </div>

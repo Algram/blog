@@ -2,6 +2,12 @@
   &__img {
     float: left;
     padding-right: 15px;
-    width: 80px;
+    width: 100px;
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }

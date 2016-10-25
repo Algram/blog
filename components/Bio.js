@@ -1,7 +1,7 @@
 import React from 'react';
 import { config } from 'config';
 import { prefixLink } from 'gatsby-helpers';
-import profilePic from './profile-pic.png';
+import profilePic from './profile-pic.svg';
 
 import '../scss/bio.scss';
 
@@ -14,7 +14,7 @@ class Bio extends React.Component {
           src={prefixLink(profilePic)}
           alt={`author ${config.authorName}`}
         />
-        Written by <strong>{config.authorName}</strong> who lives in Germany and likes to code a lot.
+      Written by <strong>{config.authorName}</strong> who lives in Germany and likes to code a lot.&nbsp;
         <a
           href="https://github.com/Algram"
           target="_blank"

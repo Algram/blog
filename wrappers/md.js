@@ -28,8 +28,9 @@ class MarkdownWrapper extends React.Component {
             Posted {moment(post.date).format('MMMM D, YYYY')}
           </em>
           <hr />
-          <ReadNext post={post} pages={route.pages} />
           <Bio />
+          <hr />
+          <ReadNext post={post} pages={route.pages} />
         </div>
       </div>
     );

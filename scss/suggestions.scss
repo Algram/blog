@@ -1,0 +1,32 @@
+@import '_variables';
+
+.suggestions {
+  margin-top: 15px;
+  background: $colorBackgroundDark;
+  padding: 20px;
+  color: $colorTextLight;
+
+  a {
+    color: $colorTextLight;
+    text-decoration: none;
+  }
+
+  h3 {
+    line-height: 1.4em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  h6 {
+    color: $colorTextAccent;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9em;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 0;
+  }
+}
