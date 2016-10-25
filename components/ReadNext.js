@@ -9,7 +9,17 @@ import '../scss/suggestions.scss';
 class ReadNext extends React.Component {
   render() {
     const { pages, post } = this.props;
-    const { next } = post;
+    let { next } = post;
+
+    // find similar post by category
+    if (!next) {
+      const similarArray = pages.filter(p =>
+        (p.data.category === post.category) &&
+        (p.data.body !== post.body)
+      );
+
+      next = similarArray[Math.floor(Math.random() * similarArray.length)].path;
+    }
 
     let nextPost;
     if (next) {
