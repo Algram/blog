@@ -21,7 +21,6 @@ class BlogIndex extends Component {
     sortedPages.forEach((page) => {
       if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
         const title = access(page, 'data.title') || page.path;
-        console.log(page);
 
         // Parse teaser-text
         const body = access(page, 'data.body');
