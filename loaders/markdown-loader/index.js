@@ -1,7 +1,7 @@
-import frontMatter from 'front-matter';
-import markdownIt from 'markdown-it';
-import hljs from 'highlight.js';
-import objectAssign from 'object-assign';
+const frontMatter = require('front-matter');
+const markdownIt = require('markdown-it');
+const hljs = require('highlight.js');
+const objectAssign = require('object-assign');
 
 const highlight = (str, lang) => {
   if ((lang !== null) && hljs.getLanguage(lang)) {
@@ -33,7 +33,7 @@ md.use(require('markdown-it-external-links'), {
   externalRel: 'noopener'
 });
 
-module.exports = (content) => {
+module.exports = function(content) {
   this.cacheable();
   const meta = frontMatter(content);
   const body = md.render(meta.body);

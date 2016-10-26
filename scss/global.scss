@@ -16,6 +16,28 @@ body {
   }
 }
 
+.link {
+  &--external {
+    display: inline-block;
+
+    // Fix for consistent word-wrapping
+    padding-right: 16px;
+
+    &:after {
+      // Fix for consistent word-wrapping
+      width: 16px;
+      margin-right: -16px;
+
+      display: inline-block;
+      position: relative;
+      bottom: 2px;
+      left: 2px;
+      text-decoration: none;
+      content: "🗗";
+    }
+  }
+}
+
 p {
   line-height: 1.8em;
 }

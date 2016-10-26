@@ -12,7 +12,7 @@ Now back to my story. The last article ended with me having ordered all my parts
 
 So, what did actually arrive? **Almost** everything. The shaft-couplers are still missing and I ordered a new pair from a different seller a while ago that got delivered really fast – thank god. The other package had the wrong contents. Instead of 624RS ball bearings I got 625RS ones. Not a big deal for some people but for a 3D printer this makes a huge difference and I actually wouldn't have been able to assemble it with these ones. I opened a **dispute** on Aliexpress with an image as proof. A few days later I got my money back without a problem. Basically I got the 625RS ball bearings for free now. From the new money I bought the 624RS bearings and this time they got delivered.
 
-![packaging material](inline1.jpg?resize=500){.size-full .wp-image-2000 .alignright}
+![packaging material](inline1.jpg?resize=500)
 To be honest at first I didn't realize how many packages there were going to arrive at my house. It is **a lot** of stuff after all. On the image you can see *part* of them. The pile of garbage got so big that I eventually gave up and just threw the packaging material away. Feels good to get so much (packaging) for your money though!
 
 After everything I ordered arrived I started building. Five minutes later I realized that I forgot something. **You forgot about it too, right?**
@@ -21,7 +21,7 @@ After everything I ordered arrived I started building. Five minutes later I real
 
 Do you remember when I wrote last time that I wanted to build a custom Wilson II with less plastic parts? Yeah. Less plastic means more of a different kind of material – In my case MDF (basically wood + glue + pressure). You can get that stuff from literally anywhere and it is extremely cheap. I got my sheet for 5€ and only used about 10% of it.
 
-![custom wood part](inline2.jpg?resize=500){.size-full .wp-image-2000 .alignleft}
+![custom wood part](inline2.jpg?resize=500)
 The next step was to somehow get the holes into that sheet of MDF. Luckily I have a friend that has a hand-router. This made milling the wood into its correct shape a matter of minutes. If someone wants the schematic I used for the parts just leave a comment and let me know.
 
 **Finally** everything was there and I could start building for real! Assembling such a big project was one of the most rewarding experiences I ever had. You get to understand those people that constantly build new 3D printers just for fun.
@@ -40,7 +40,7 @@ This was among the first things I heard on the #reprap IRC. I remember this a lo
 ![gallery image](gallery8.jpg?lightbox=1024&resize=225)
 ![gallery image](gallery9.jpg?lightbox=1024&resize=225)
 
-Once most of what I could add to the plastic was done, I started to build the extruder. I am using the E3D v6 Lite. There is some really good documentation from the E3D guys out there on how to assemble that thing [here](http://wiki.e3d-online.com/wiki/E3D-Lite6_Assembly){.external}
+Once most of what I could add to the plastic was done, I started to build the extruder. I am using the E3D v6 Lite. There is some really good documentation from the E3D guys out there on how to assemble that thing [here](http://wiki.e3d-online.com/wiki/E3D-Lite6_Assembly)
 
 It was pretty straightforward to build. The only two things you need to look out for are:
 1. Be careful about the cables. Add zip ties where the guide says. This will stress relief the wires and help out prolong the life of your printer.

@@ -23,10 +23,10 @@ even keep them on your Pi locally.
 How does the Pi know where to look for new podcasts you might ask? Well, almost
 every one of those has a RSS-Feed that the script will parse and extract the
 download links for you. If you want to know how an example of such a feed looks,
-check out the one from [Bad Voltage](http://www.badvoltage.org/feed/mp3/){.external}.
+check out the one from [Bad Voltage](http://www.badvoltage.org/feed/mp3/).
 
 In the next few paragraphs I will explain all the steps necessary to get the
-podcast automation going. You can find the [full script at the GitHub repo here](https://github.com/Algram/PodcastAutomator){.external}.
+podcast automation going. You can find the [full script at the GitHub repo here](https://github.com/Algram/PodcastAutomator).
 
 ## Setup
 ! For those who chose not to use Dropbox as a storage medium, ignore/adapt accordingly
@@ -34,7 +34,7 @@ podcast automation going. You can find the [full script at the GitHub repo here]
 The first part of the script is the configuration part. It should be self explanatory.
 You add the paths to the locations of the different folders and scripts. The `url`
 variable holds all the feeds in a comma separated list.
-You can get the `dropbox_uploader.sh` with the `dropbox_uploader.conf` from [this GitHub Repo](https://github.com/andreafabrizi/Dropbox-Uploader){.external}.
+You can get the `dropbox_uploader.sh` with the `dropbox_uploader.conf` from [this GitHub Repo](https://github.com/andreafabrizi/Dropbox-Uploader).
 
 ```bash
 #!/bin/bash
