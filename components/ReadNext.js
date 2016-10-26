@@ -18,7 +18,9 @@ class ReadNext extends React.Component {
         (p.data.body !== post.body)
       );
 
-      next = similarArray[Math.floor(Math.random() * similarArray.length)].path;
+      if (similarArray.length !== 0) {
+        next = similarArray[Math.floor(Math.random() * similarArray.length)].path;
+      }
     }
 
     let nextPost;
