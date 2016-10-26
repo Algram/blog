@@ -1,3 +1,5 @@
+@import '_variables';
+
 .hljs-comment,
 .hljs-quote {
   color: #5c6370;
@@ -88,20 +90,20 @@
   background: #2d3642;
   color: #DCDCDC;
   word-wrap: break-word;
+  width: 100vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: calc(-50vw + 50%);
 }
 
 .markdown pre code {
   background: none;
   border: none;
-  border-radius: 3px;
-  display: inline-block;
+  display: block;
   padding: 1.2rem;
 }
 
 code {
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
   white-space: pre;
   white-space: pre-wrap;
   white-space: pre-line;
@@ -110,14 +112,15 @@ code {
   white-space: -moz-pre-wrap;
   white-space: -hp-pre-wrap;
   word-wrap: break-word;
-  word-break:break-all;
-  background: #e5e5e5;
-  border: 1px solid #cccccc;
+  word-break:break-after;
+  background: $colorBackgroundLight;
+  padding: 2px 4px;
   display: inline;
   font-family: 'Roboto Mono', monospace, serif;
   font-size: 0.85em;
   line-height: 1.6em;
-  max-width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 /*.hljs-keyword,

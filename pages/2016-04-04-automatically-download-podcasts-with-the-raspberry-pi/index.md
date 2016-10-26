@@ -83,17 +83,15 @@ done
 
 This part is only for those who want to use Dropbox or any other *cloud* service. All the files in the local directory on the Pi get uploaded to Dropbox (again via the upload script mentioned above).
 
+Don't forget to clean up the local directory as the last step. Otherwise this will get clogged up pretty quickly.
+
 ```bash
 # Upload the downloaded files to dropbox using dropbox_uploader.sh
 for file in $SAVE_DIR*
 do
   $DROPBOX_UPLOADER -f $DROPBOX_UPLOADER_CONFIG -s upload "${file}" "${UPLOAD_DIR}"
 done
-```
 
-Don't forget to clean up the local directory as the last step. Otherwise this will get clogged up pretty quickly.
-
-```bash
 # Clean tmp folder
 rm -rf $SAVE_DIR*
 ```
