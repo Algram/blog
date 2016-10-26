@@ -7,10 +7,15 @@
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
   "dependencies": {
+    "front-matter": "^2.1.0",
     "gatsby": "^0.12.6",
+    "highlight.js": "^9.7.0",
     "lodash": "^4.15.0",
+    "markdown-it": "^8.0.1",
+    "markdown-it-external-links": "0.0.6",
     "moment": "^2.15.1",
     "normalize.css": "^5.0.0",
+    "object-assign": "^4.1.0",
     "react-helmet": "^3.1.0",
     "safe-access": "^0.1.0",
     "underscore.string": "^3.2.3"
