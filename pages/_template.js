@@ -4,7 +4,7 @@ import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
 
 import 'normalize.css';
-import '../scss/bootstrap/bootstrap-grid.min.css';
+//import '../scss/bootstrap/bootstrap-grid.min.css';
 import '../scss/global.scss';
 
 class Template extends Component {
