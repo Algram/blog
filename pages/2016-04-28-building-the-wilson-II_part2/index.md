@@ -6,7 +6,7 @@ layout: post
 path: "/building-wilson-part-2/"
 ---
 
-This is the second part of me documenting my adventures on the journey of building a 3D printer. If you missed the first one make sure to check it out: [Part 1: Sourcing](http://blog.rphl.io/building-the-wilson-II_part1).
+This is the second part of me documenting my adventures on the journey of building a 3D printer. If you missed the first one make sure to check it out: [Part 1: Sourcing](/building-wilson-part-1/).
 
 Now back to my story. The last article ended with me having ordered all my parts. This was about two months ago. Yes, **two months**. As I stated last time, one of the most annoying disadvantages about Aliexpress is the incredible long waiting time. Also you have no tracking as soon as the package leaves China and so you are constantly in doubt and fear about your parts not arriving.
 

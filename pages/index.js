@@ -6,7 +6,8 @@ import { prefixLink } from 'gatsby-helpers';
 import Helmet from 'react-helmet';
 import access from 'safe-access';
 import { config } from 'config';
-import include from 'underscore.string/include';
+import { prune, include } from 'underscore.string';
+import Bio from 'components/Bio';
 
 import '../scss/index.scss';
 
@@ -24,9 +25,7 @@ class BlogIndex extends Component {
 
         // Parse teaser-text
         const body = access(page, 'data.body');
-        const bodyFirstPStart = body.indexOf('<p>');
-        const bodyFirstPEnd = body.indexOf('</p>') - bodyFirstPStart;
-        const description = body.substring(bodyFirstPStart + 3, bodyFirstPEnd);
+        const description = prune(body.replace(/<[^>]*>/g, ''), 300);
 
         const datePublished = access(page, 'data.date');
         const category = access(page, 'data.category');
