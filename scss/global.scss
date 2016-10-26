@@ -6,6 +6,9 @@ body {
   margin: 40px auto;
   padding: 0 20px;
   max-width: 640px;
+
+  // TODO Remove when browser vendors properly support 100vw with scrollbars
+  overflow-x: hidden;
 }
 
 p {
