@@ -13,6 +13,22 @@ module.exports = React.createClass({
   render() {
     const { body } = this.props;
     const head = Helmet.rewind();
+    const piwikTracking = `
+      <!-- Piwik -->
+        var _paq = _paq || [];
+        _paq.push(["setDomains", ["*.blog.rphl.io"]]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//blog.rphl.io/piwik/";
+          _paq.push(['setTrackerUrl', u+'piwik.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+      <!-- End Piwik Code -->
+    `;
+
 
     let css;
     if (process.env.NODE_ENV === 'production') {
@@ -35,6 +51,8 @@ module.exports = React.createClass({
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
         </body>
         <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: piwikTracking }} />
+        <noscript><p><img src="//blog.rphl.io/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
       </html>
     );
   }
