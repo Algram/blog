@@ -49,10 +49,10 @@ module.exports = React.createClass({
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
+          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script type="text/javascript" dangerouslySetInnerHTML={{ __html: piwikTracking }} />
+          <noscript><p><img src="//blog.rphl.io/piwik/piwik.php?idsite=1" style={{ border: 0}} alt="" /></p></noscript>
         </body>
-        <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
-        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: piwikTracking }} />
-        <noscript><p><img src="//blog.rphl.io/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
       </html>
     );
   }
