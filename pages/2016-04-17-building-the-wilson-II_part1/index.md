@@ -4,7 +4,7 @@ date: 13:05 04/17/2016
 category: 3d printing
 layout: post
 path: "/building-wilson-part-1/"
-next: "/building-wilson-part-2/"
+readNext: "/building-wilson-part-2/"
 ---
 
 I've been playing with the idea of building a 3D printer for a while. Two months ago I stumbled upon this one model called **Wilson II** from a guy named mrice. It looked pretty straightforward and he had put up videos on YouTube that showed how to assemble the printer.

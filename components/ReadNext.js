@@ -9,31 +9,31 @@ import '../scss/suggestions.scss';
 class ReadNext extends React.Component {
   render() {
     const { pages, post } = this.props;
-    let { next } = post;
+    let { readNext } = post;
 
     // find similar post by category
-    if (!next) {
+    if (!readNext) {
       const similarArray = pages.filter(p =>
         (p.data.category === post.category) &&
         (p.data.body !== post.body)
       );
 
       if (similarArray.length !== 0) {
-        next = similarArray[Math.floor(Math.random() * similarArray.length)].path;
+        readNext = similarArray[Math.floor(Math.random() * similarArray.length)].path;
       }
     }
 
     let nextPost;
-    if (next) {
+    if (readNext) {
       nextPost = find(pages, page =>
-        includes(page.path, next)
+        includes(page.path, readNext)
       );
     }
     if (!nextPost) {
       return React.createElement('noscript', null);
     } else {
       nextPost = find(pages, page =>
-        includes(page.path, next.slice(1, -1))
+        includes(page.path, readNext.slice(1, -1))
       );
       // Create pruned version of the body.
       const html = nextPost.data.body;
