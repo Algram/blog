@@ -21,6 +21,9 @@ class MarkdownWrapper extends React.Component {
         <div className="markdown">
           <Helmet
             title={`${post.title} | ${config.blogTitle}`}
+            meta={[
+              { name: 'keywords', content: post.keywords }
+            ]}
           />
           <h1>{post.title}</h1>
           <div className="post__content" dangerouslySetInnerHTML={{ __html: post.body }} />
