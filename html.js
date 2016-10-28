@@ -4,7 +4,6 @@ import { prefixLink } from 'gatsby-helpers';
 
 const BUILD_TIME = new Date().getTime();
 
-
 module.exports = React.createClass({
   displayName: 'HTML',
   propTypes: {
@@ -47,6 +46,7 @@ module.exports = React.createClass({
           {css}
           <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet" />
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />

@@ -30,10 +30,11 @@ body {
 
       display: inline-block;
       position: relative;
-      bottom: 2px;
-      left: 2px;
+      left: 3px;
       text-decoration: none;
-      content: "🗗";
+      font-family: FontAwesome;
+      font-size: 0.8em;
+      content: "\f08e"; //"🗗";
     }
   }
 }
