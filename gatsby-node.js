@@ -1,22 +1,14 @@
-Feed = require('feed')
-filter = require('lodash/filter')
-sortBy = require('lodash/sortBy')
-moment = require('moment')
-MarkdownIt = require('markdown-it')
-const fs = require('fs')
-frontmatter = require('front-matter')
+const Feed = require('feed');
+const moment = require('moment');
+const markdownIt = require('markdown-it');
+const fs = require('fs');
+const frontmatter = require('front-matter');
 
-exports.postBuild = (pages, callback) => {
-  // perform actions on pages here
-  md = MarkdownIt({
-    html: true,
-    linkify: true,
-    typographer: true
-  })
-
-  generateAtomFeed(pages);
-  callback();
-};
+const md = markdownIt({
+  html: true,
+  linkify: true,
+  typographer: true
+});
 
 function generateAtomFeed(allPages) {
   const pages = allPages.filter(page => page.data.layout === 'post');
@@ -61,3 +53,9 @@ function generateAtomFeed(allPages) {
 
   fs.writeFileSync(`${__dirname}/public/feed.rss`, feed.render('rss-2.0'));
 }
+
+exports.postBuild = (pages, callback) => {
+  // perform actions on pages here
+  generateAtomFeed(pages);
+  callback();
+};
