@@ -86,4 +86,16 @@
 			color: darken($colorDanger, 15%);
 		}
 	}
+
+	.img {
+		&--left {
+			float: left;
+			margin-right: 20px;
+		}
+
+		&--right {
+			float: right;
+			margin-left: 20px;
+		}
+	}
 }

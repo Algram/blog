@@ -11,7 +11,7 @@ Over the years Atom has really gotten my goto editor for all kinds of programmin
 With the help of plugins Atom can get a lot more powerful though. They are all availiable through the `apm (Atom package manager)`. Here is a collection of plugins that I find specifically useful and that you should try out for sure:
 
 ## 1 Activate Power Mode
-![Activate Power Mode](activate-power-mode.gif "best plugin EVER")
+![Activate Power Mode](activate-power-mode.gif "best plugin EVER"){.img .img--right}
 Okey let's get serious. The plugin is pretty neat and it certainly gives you this feeling of endless power at the tip of your fingers. If we get back down from our position of divinity though, we quickly realize how useless the power mode actually is. You go crazy just from looking at the gif – right? Onto the next one!
 
 [Activate Power Mode](https://atom.io/packages/activate-power-mode)
@@ -41,7 +41,7 @@ This is a weird one. Some love it, some can't stand it. For me personally this i
 [Minimap](https://atom.io/packages/minimap)
 
 ## 6 Docblockr
-![Docblockr](docblockr.gif "Docblockr")
+![Docblockr](docblockr.gif "Docblockr"){.img .img--left}
 This is a real gem. I don't think many people know about it. Docblockr helps you to write documentations – A developers bane. It adds auto-completion for most of the comment-functions in different languages. It even has some more fancy stuff like *decorating* a comment (basically putting slashes around a string). There is no way you can live without Docblockr once you tried it out!
 
 [Docblockr](https://atom.io/packages/docblockr)
@@ -53,7 +53,7 @@ This is a real gem. I don't think many people know about it. Docblockr helps you
 [Markdown Preview](https://atom.io/packages/markdown-preview)
 
 ## 8 Color Picker
-![Color Picker](color-picker.gif "Color Picker")
+![Color Picker](color-picker.gif "Color Picker"){.img .img--right}
 My last pick but nonetheless an important one: The Color Picker package allows you to – well yeah, pick colors. It works really well in conjunction with the pigments package. Get it, try it out, love it.
 
 [Color Picker](https://atom.io/packages/color-picker)
