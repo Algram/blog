@@ -70,14 +70,20 @@
 	}
 
 	.notice {
-		margin: 15px 0;
+		margin: 20px 0;
     padding: 10px 10px 10px 20px;
 		font-family: 'Roboto Mono', monospace;
 
 		&--info {
 			background:  lighten($colorInfo, 20%);
 			border-left: 10px solid $colorInfo;
-			color: darken($colorInfo, 20%);
+			color: darken($colorInfo, 30%);
+		}
+
+		&--danger {
+			background:  lighten($colorDanger, 35%);
+			border-left: 10px solid $colorDanger;
+			color: darken($colorDanger, 15%);
 		}
 	}
 }
