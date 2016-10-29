@@ -1,6 +1,6 @@
 ---
 title: Most Useful Atom Packages
-date: 21:08 04/18/2016
+date: 2016-04-18 21:08 
 category: development
 keywords: atom, packages, plugins, useful, development, editor
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: "Building the Wilson II – Part 1: Sourcing"
-date: 13:05 04/17/2016
+date: 2016-04-17 13:05 
 category: 3d printing
 keywords: 3d printing, wilson ii, wilson 2, reprap, sourcing, building
 layout: post

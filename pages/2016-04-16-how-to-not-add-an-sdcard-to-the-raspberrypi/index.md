@@ -1,6 +1,6 @@
 ---
 title: How to not add an SD card to the Raspberry Pi
-date: 20:31 04/16/2016
+date: 2016-04-16 20:31 
 category: raspberry pi
 keywords: raspberry pi, sdcard, soldering, accident
 layout: post

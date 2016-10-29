@@ -49,9 +49,7 @@ class MarkdownWrapper extends React.Component {
 }
 
 MarkdownWrapper.propTypes = {
-  route: React.PropTypes.object,
-  location: React.PropTypes.string,
-  pathname: React.PropTypes.string
+  route: React.PropTypes.object
 };
 
 export default MarkdownWrapper;
