@@ -68,4 +68,16 @@
 			display: block;
 		}
 	}
+
+	.notice {
+		margin: 15px 0;
+    padding: 10px 10px 10px 20px;
+		font-family: 'Roboto Mono', monospace;
+
+		&--info {
+			background:  lighten($colorInfo, 20%);
+			border-left: 10px solid $colorInfo;
+			color: darken($colorInfo, 20%);
+		}
+	}
 }

@@ -33,6 +33,9 @@ md.use(require('markdown-it-external-links'), {
   externalRel: 'noopener'
 });
 
+md.use(require('markdown-it-attrs'));
+
+// TODO convert to arrow function as soon as a solution for this-binding is found
 module.exports = function(content) {
   this.cacheable();
   const meta = frontMatter(content);

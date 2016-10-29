@@ -30,7 +30,7 @@ In the next few paragraphs I will explain all the steps necessary to get the
 podcast automation going. You can find the [full script at the GitHub repo here](https://github.com/Algram/PodcastAutomator).
 
 ## Setup
-! For those who chose not to use Dropbox as a storage medium, ignore/adapt accordingly
+For those who chose not to use Dropbox as a storage medium, ignore/adapt accordingly{.notice .notice--info}
 
 The first part of the script is the configuration part. It should be self explanatory.
 You add the paths to the locations of the different folders and scripts. The `url`
