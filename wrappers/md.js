@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import Helmet from 'react-helmet';
+import DisqusThread from 'react-disqus-thread';
 import ReadNext from '../components/ReadNext';
 import { config } from 'config';
 import Bio from 'components/Bio';
@@ -35,6 +36,12 @@ class MarkdownWrapper extends React.Component {
           <Bio />
           <hr />
           <ReadNext post={post} pages={route.pages} />
+          {/* <DisqusThread
+            shortname="rphl-io"
+            identifier="rphl-io"
+            title={post.title}
+            url={`https://blog.rphl.io${this.props.location.pathname}`}
+          />*/}
         </div>
       </div>
     );
@@ -42,7 +49,9 @@ class MarkdownWrapper extends React.Component {
 }
 
 MarkdownWrapper.propTypes = {
-  route: React.PropTypes.object
+  route: React.PropTypes.object,
+  location: React.PropTypes.string,
+  pathname: React.PropTypes.string
 };
 
 export default MarkdownWrapper;
