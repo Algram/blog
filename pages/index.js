@@ -55,8 +55,8 @@ class BlogIndex extends Component {
         <Helmet
           title={config.blogTitle}
           meta={[
-            { name: 'description', content: 'Sample blog' },
-            { name: 'keywords', content: 'blog, articles' }
+            { name: 'keywords', content: 'blog, articles, coding, design, 3d printing, raspberry pi, development, linux' },
+            { name: 'robots', content: 'index, follow' }
           ]}
         />
         <div>

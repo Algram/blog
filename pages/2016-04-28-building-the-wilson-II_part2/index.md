@@ -2,6 +2,7 @@
 title: "Building the Wilson II – Part 2: Waiting & Assembly"
 date: 22:46 04/28/2016
 category: 3d printing
+keywords: 3d printing, wilson ii, wilson 2, reprap, assembling, building 
 layout: post
 path: "/building-wilson-part-2/"
 ---

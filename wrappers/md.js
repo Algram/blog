@@ -14,6 +14,7 @@ class MarkdownWrapper extends React.Component {
   render() {
     const { route } = this.props;
     const post = route.page.data;
+    console.log(post);
 
     return (
       <div className="post">
@@ -22,7 +23,8 @@ class MarkdownWrapper extends React.Component {
           <Helmet
             title={`${post.title} | ${config.blogTitle}`}
             meta={[
-              { name: 'keywords', content: post.keywords }
+              { name: 'keywords', content: post.keywords },
+              { name: 'robots', content: 'index, follow' }
             ]}
           />
           <h1>{post.title}</h1>
