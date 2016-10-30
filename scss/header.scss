@@ -1,0 +1,17 @@
+@import '_variables';
+
+.header {
+  height: 400px;
+  background: $colorBackgroundDark;
+  width: 100vw;
+  margin-bottom: -200px;
+  margin-left: calc(-50vw + 50%);
+
+  &__headline {
+    color: $colorTextLight;
+    font-size: 4em;
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+  }
+}

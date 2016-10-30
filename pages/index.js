@@ -8,6 +8,7 @@ import access from 'safe-access';
 import { config } from 'config';
 import { prune, include } from 'underscore.string';
 import Bio from 'components/Bio';
+import Header from 'components/Header';
 
 import '../scss/index.scss';
 
@@ -60,6 +61,7 @@ class BlogIndex extends Component {
           ]}
         />
         <div>
+          <Header />
           {pageLinks}
         </div>
       </div>
