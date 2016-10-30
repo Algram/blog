@@ -5,7 +5,7 @@ import DisqusThread from 'react-disqus-thread';
 import ReadNext from '../components/ReadNext';
 import { config } from 'config';
 import Bio from 'components/Bio';
-import { Link } from 'react-router';
+import { Link, browserHistory } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 
 import '../scss/post.scss';
@@ -18,7 +18,9 @@ class MarkdownWrapper extends React.Component {
 
     return (
       <div className="post">
-        <Link className="navHome" to={prefixLink('/')}> All Articles </Link>
+        <Link className="navHome" onClick={() => { browserHistory.goBack(); }}>
+          All Articles
+        </Link>
         <div className="markdown">
           <Helmet
             title={`${post.title} | ${config.blogTitle}`}
