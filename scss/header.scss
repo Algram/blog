@@ -6,12 +6,34 @@
   width: 100vw;
   margin-bottom: -200px;
   margin-left: calc(-50vw + 50%);
+  text-align: center;
 
   &__headline {
     color: $colorTextLight;
-    font-size: 4em;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2em;
     margin: 0;
-    padding-top: 60px;
-    text-align: center;
+    padding: 40px 20px;
+  }
+
+  &__me {
+    margin: 0 auto;
+    margin-top: -85px;
+    margin-left: -330px;
+    width: 140px;
+  }
+
+  &__links {
+    .link {
+      padding: 15px;
+
+      &__github, &__feed {
+        color: $colorTextLight;
+      }
+
+      &__donate {
+        color: $colorDonate;
+      }
+    }
   }
 }
