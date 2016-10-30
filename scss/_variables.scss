@@ -20,7 +20,7 @@ $colorDanger: #bb354c;
 
 $mobileWidth: 480px;
 $tabletWidth: 768px;
-$desktopWidth: 1024px;
+$desktopWidth: 1100px;
 
 @mixin mobile {
   @media (max-width: #{$mobileWidth}) {

@@ -1,31 +1,40 @@
 @import '_variables';
 
 .header {
-  height: 400px;
-  background: $colorBackgroundDark;
-  width: 100vw;
-  margin-bottom: -200px;
-  margin-left: calc(-50vw + 50%);
-  text-align: center;
+  color: $colorTextLight;
+
+  &__backdrop {
+    height: 400px;
+    background: $colorBackgroundDark;
+    width: 100vw;
+    margin-bottom: -400px;
+    margin-left: calc(-50vw + 50%);
+    text-align: center;
+  }
 
   &__headline {
-    color: $colorTextLight;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 2em;
     margin: 0;
-    padding: 40px 20px;
+    padding: 40px 0 10px;
+    text-align: center;
+
+    @include mobile {
+      font-size: 1.4em;
+    }
   }
 
   &__me {
-    margin: 0 auto;
-    margin-top: -85px;
-    margin-left: -330px;
-    width: 140px;
+    float: left;
+    padding-right: 15px;
+    margin-left: -5px;
+    width: 120px;
   }
 
   &__links {
+    font-size: 1.4em;
+    float: right;
+    padding-bottom: 12px;
     .link {
-      padding: 15px;
+      padding-left: 20px;
 
       &__github, &__feed {
         color: $colorTextLight;
@@ -35,5 +44,11 @@
         color: $colorDonate;
       }
     }
+  }
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }

@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import sortBy from 'lodash/sortBy';
 import moment from 'moment';
 import { prefixLink } from 'gatsby-helpers';
 import Helmet from 'react-helmet';
 import access from 'safe-access';
 import { config } from 'config';
 import { prune, include } from 'underscore.string';
-import Bio from 'components/Bio';
 import Header from 'components/Header';
 import { tee } from 'util/helpers';
 
