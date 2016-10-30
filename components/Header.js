@@ -2,7 +2,7 @@ import React from 'react';
 import { config } from 'config';
 import profilePic from './profile-pic.svg';
 
-import '../scss/header.scss';
+import 'scss/header.scss';
 
 class Header extends React.Component {
   render() {

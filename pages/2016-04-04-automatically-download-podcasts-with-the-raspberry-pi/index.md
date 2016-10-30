@@ -1,10 +1,11 @@
 ---
 title: Automatically download Podcasts with the Raspberry Pi
-date: 2016-04-24 21:51 
+date: 2016-04-24 21:51
 category: raspberry pi
 keywords: raspberry pi, podcasts, automatic downloading, automation, bash, script
 layout: post
 path: "/raspberry-pi-podcast-downloader/"
+pinned: true
 ---
 As a regular listener to podcasts you will know the pain of not having
 them available right when you need them most. There are tons of apps for your

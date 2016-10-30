@@ -17,6 +17,12 @@
     margin: 0 0 10px 0;
   }
 
+  &__pinned {
+    color: $colorTextAccent;
+    float: right;
+    font-size: 1.6em;
+  }
+
   &__hero {
     margin-bottom: 20px;
     max-height:250px;

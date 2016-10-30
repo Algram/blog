@@ -9,18 +9,26 @@ import { config } from 'config';
 import { prune, include } from 'underscore.string';
 import Bio from 'components/Bio';
 import Header from 'components/Header';
+import { tee } from 'util/helpers';
 
-import '../scss/index.scss';
+import 'scss/index.scss';
 
 class BlogIndex extends Component {
   render() {
+    let pages = this.props.route.pages;
     const pageLinks = [];
-    // Sort pages.
-    const sortedPages = sortBy(this.props.route.pages, page =>
-      access(page, 'data.date')
-    ).reverse();
 
-    sortedPages.forEach((page) => {
+    // Sort pages.
+    pages.sort((a, b) => {
+      return (new Date(a.data.date) - new Date(b.data.date));
+    });
+
+    pages.reverse();
+
+    // Move pinned post to top
+    pages = tee(pages, page => page.data.pinned === true);
+
+    pages.forEach((page) => {
       if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
         const title = access(page, 'data.title') || page.path;
 
@@ -30,6 +38,12 @@ class BlogIndex extends Component {
 
         const datePublished = access(page, 'data.date');
         const category = access(page, 'data.category');
+
+        // Styling for pinned post
+        let pinned;
+        if (page.data.pinned) {
+          pinned = <i className="postpreview__pinned fa fa-thumb-tack" />;
+        }
 
         pageLinks.push(
           <div className="postpreview" key={page.path}>
@@ -42,6 +56,7 @@ class BlogIndex extends Component {
               {moment(datePublished).format('DD MMMM YYYY')}
             </time>
             <span className="postpreview__category">{ category }</span>
+            {pinned}
             <h2><Link to={prefixLink(page.path)}> { title } </Link></h2>
             <p className="postpreview__content">
               <span dangerouslySetInnerHTML={{ __html: description }} />

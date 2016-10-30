@@ -3,7 +3,7 @@ import { config } from 'config';
 import { prefixLink } from 'gatsby-helpers';
 import profilePic from './profile-pic.svg';
 
-import '../scss/bio.scss';
+import 'scss/bio.scss';
 
 class Bio extends React.Component {
   render() {

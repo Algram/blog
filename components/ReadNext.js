@@ -4,7 +4,7 @@ import { prefixLink } from 'gatsby-helpers';
 import { prune, include as includes } from 'underscore.string';
 import find from 'lodash/find';
 
-import '../scss/suggestions.scss';
+import 'scss/suggestions.scss';
 
 class ReadNext extends React.Component {
   render() {
