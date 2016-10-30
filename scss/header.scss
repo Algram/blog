@@ -4,10 +4,10 @@
   color: $colorTextLight;
 
   &__backdrop {
-    height: 400px;
+    height: 350px;
     background: $colorBackgroundDark;
     width: 100vw;
-    margin-bottom: -400px;
+    margin-bottom: -350px;
     margin-left: calc(-50vw + 50%);
     text-align: center;
   }

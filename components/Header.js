@@ -29,9 +29,9 @@ class Header extends React.Component {
             <a className="link link__feed" href="/feed.xml" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-rss" />
             </a>
-            <a className=" link link__donate" href="#" rel="noopener noreferrer" target="_blank">
+            {/* <a className=" link link__donate" href="#" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-coffee" />
-            </a>
+            </a>*/}
           </div>
         </p>
       </div>
