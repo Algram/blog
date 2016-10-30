@@ -20,7 +20,7 @@
   &__pinned {
     color: $colorTextAccent;
     float: right;
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   &__hero {
@@ -30,6 +30,10 @@
 
     img {
       max-width:100%;
+    }
+
+    @include mobile {
+      max-height: 150px;
     }
   }
 
@@ -48,6 +52,7 @@
   &__content {
     a {
       margin-left: 5px;
+      white-space: nowrap;
     }
   }
 }

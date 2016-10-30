@@ -60,7 +60,7 @@ class BlogIndex extends Component {
             <h2><Link to={prefixLink(page.path)}> { title } </Link></h2>
             <p className="postpreview__content">
               <span dangerouslySetInnerHTML={{ __html: description }} />
-              <Link to={prefixLink(page.path)}>Read more »</Link>
+              <Link to={prefixLink(page.path)}>more »</Link>
             </p>
           </div>
         );

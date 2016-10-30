@@ -17,3 +17,25 @@ $colorDonate: #e3b93c;
 
 $colorInfo: #61bde2;
 $colorDanger: #bb354c;
+
+$mobileWidth: 480px;
+$tabletWidth: 768px;
+$desktopWidth: 1024px;
+
+@mixin mobile {
+  @media (max-width: #{$mobileWidth}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tabletWidth}) and (max-width: #{$desktopWidth - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktopWidth}) {
+    @content;
+  }
+}
