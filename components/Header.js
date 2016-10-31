@@ -21,7 +21,7 @@ class Header extends React.Component {
             Write me
           </a>
           &nbsp; if you have any questions!
-          <div className="header__links">
+          <span className="header__links">
             <a className="link link__github" href="https://github.com/Algram" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-github" />
             </a>
@@ -31,7 +31,7 @@ class Header extends React.Component {
             {/* <a className=" link link__donate" href="#" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-coffee" />
             </a>*/}
-          </div>
+          </span>
         </p>
       </div>
     );
