@@ -23,7 +23,7 @@ module.exports = React.createClass({
             _paq.push(['trackPageView']);
             _paq.push(['enableLinkTracking']);
             (function() {
-              var u="//blog.rphl.io/piwik/";
+              var u="//rphl.io/piwik/";
               _paq.push(['setTrackerUrl', u+'piwik.php']);
               _paq.push(['setSiteId', '1']);
               var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
@@ -32,7 +32,7 @@ module.exports = React.createClass({
           <!-- End Piwik Code -->`
         }} />
 
-      piwikTrackingNoJS = <noscript><p><img src="//blog.rphl.io/piwik/piwik.php?idsite=1" style={{ border: 0 }} alt="" /></p></noscript>
+      piwikTrackingNoJS = <noscript><p><img src="//rphl.io/piwik/piwik.php?idsite=1" style={{ border: 0 }} alt="" /></p></noscript>
     }
 
     return (

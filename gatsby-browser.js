@@ -12,16 +12,16 @@ function getDuration() {
   return difference;
 }
 
-exports.onRouteUpdate = state => {
+exports.onRouteUpdate = (state, page) => {
   window._paq = window._paq || [];
 
   if (first) {
     first = false;
-    window._paq.push(['trackEvent', 'javascript', 'load', 'duration', getDuration()]);
+    //window._paq.push(['trackEvent', 'javascript', 'load', 'duration', getDuration()]);
   }
   else {
     window._paq.push(['setCustomUrl', state.pathname]);
-    window._paq.push(['setDocumentTitle', state.pathname]);
+    window._paq.push(['setDocumentTitle', page && page.data && page.data.title ? page.data.title : state.pathname]);
     window._paq.push(['trackPageView']);
   }
 };
