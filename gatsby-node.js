@@ -1,7 +1,10 @@
 const Feed = require('feed');
 const markdownIt = require('markdown-it');
 const fs = require('fs');
+const moment = require('moment');
+const prune = require('underscore.string').prune;
 const frontmatter = require('front-matter');
+const config = require('./configFeed');
 
 const md = markdownIt({
   html: true,
@@ -10,43 +13,41 @@ const md = markdownIt({
 });
 
 function generateRSSFeed(allPages) {
+  // Only generate feed for actual posts
   const pages = allPages.filter(page => page.data.layout === 'post');
 
+  const author = {
+    name: config.authorName,
+    email: config.authorEmail,
+    link: config.domain
+  };
+
   const feed = new Feed({
-    title: 'Feed Title',
-    description: 'This is my personnal feed!',
-    link: 'http://example.com/',
-    image: 'http://example.com/image.png',
-    copyright: 'All rights reserved 2013, John Doe',
-    author: {
-      name: 'John Doe',
-      email: 'johndoe@example.com',
-      link: 'https://example.com/johndoe'
-    }
+    title: config.blogTitle,
+    description: config.blogDescription,
+    link: config.domain,
+    copyright: `All rights reserved ${moment(new Date()).format('YYYY')}, Raphael`,
+    author
   });
 
   for (const page of pages) {
-    const description = md.render(
+    const content = md.render(
       frontmatter(
         fs.readFileSync(
           `${__dirname}/pages/${page.requirePath}`,
           'utf-8'
-        )
-      ).body);
+      )
+    ).body);
+
+    const description = prune(content.replace(/<[^>]*>/g, ''), 600);
 
     feed.addItem({
       title: page.data.title,
-      link: page.url,
+      link: config.domain + page.path,
       description,
-      author: [
-        {
-          name: 'Jane Doe',
-          email: 'janedoe@example.com',
-          link: 'https://example.com/janedoe'
-        }
-      ],
-      date: page.date,
-      image: page.image
+      content,
+      author: [author],
+      date: page.date
     });
   }
 
