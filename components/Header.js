@@ -1,7 +1,6 @@
 import React from 'react';
 import { config } from 'config';
 import profilePic from './profile-pic.svg';
-import Bio from 'components/Bio';
 
 import 'scss/header.scss';
 

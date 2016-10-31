@@ -1,5 +1,4 @@
 const Feed = require('feed');
-const moment = require('moment');
 const markdownIt = require('markdown-it');
 const fs = require('fs');
 const frontmatter = require('front-matter');
@@ -10,7 +9,7 @@ const md = markdownIt({
   typographer: true
 });
 
-function generateAtomFeed(allPages) {
+function generateRSSFeed(allPages) {
   const pages = allPages.filter(page => page.data.layout === 'post');
 
   const feed = new Feed({
@@ -51,11 +50,10 @@ function generateAtomFeed(allPages) {
     });
   }
 
-  fs.writeFileSync(`${__dirname}/public/feed.rss`, feed.render('rss-2.0'));
+  fs.writeFileSync(`${__dirname}/public/feed.xml`, feed.render('rss-2.0'));
 }
 
 exports.postBuild = (pages, callback) => {
-  // perform actions on pages here
-  generateAtomFeed(pages);
+  generateRSSFeed(pages);
   callback();
 };
