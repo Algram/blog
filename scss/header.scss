@@ -3,6 +3,10 @@
 .header {
   color: $colorTextLight;
 
+  @include mobile {
+    color: $colorText;
+  }
+
   &__backdrop {
     height: 350px;
     background: $colorBackgroundDark;
@@ -10,11 +14,15 @@
     margin-bottom: -350px;
     margin-left: calc(-50vw + 50%);
     text-align: center;
+
+    @include mobile {
+      background: $colorBackground;
+    }
   }
 
   &__headline {
     margin: 0;
-    padding: 40px 0 10px;
+    padding: 20px 0 10px;
     text-align: center;
 
     @include mobile {
@@ -35,9 +43,14 @@
     padding-bottom: 12px;
     .link {
       padding-left: 20px;
+      outline: 0;
 
       &__github, &__feed {
         color: $colorTextLight;
+
+        @include mobile {
+          color: $colorText;
+        }
       }
 
       &__donate {
