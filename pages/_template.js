@@ -4,6 +4,7 @@ import { prefixLink } from 'gatsby-helpers';
 import { config } from 'config';
 
 import 'normalize.css';
+import 'scss/font-awesome/font-awesome.css';
 import 'scss/global.scss';
 
 class Template extends Component {

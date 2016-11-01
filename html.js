@@ -44,7 +44,6 @@ module.exports = React.createClass({
           {head.title.toComponent()}
           {head.meta.toComponent()}
           {css}
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         </head>
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
