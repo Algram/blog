@@ -27,7 +27,11 @@ class BlogIndex extends Component {
     pages = tee(pages, page => page.data.pinned === true);
 
     pages.forEach((page) => {
-      if (access(page, 'file.ext') === 'md' && !include(page.path, '/404')) {
+      if (
+        access(page, 'file.ext') === 'md' &&
+        !include(page.path, '/404') &&
+        moment(access(page, 'data.date')).isBefore(new Date())
+      ) {
         const title = access(page, 'data.title') || page.path;
 
         // Parse teaser-text
