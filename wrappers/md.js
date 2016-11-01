@@ -8,8 +8,8 @@ import Bio from 'components/Bio';
 import { Link } from 'react-router';
 import { prefixLink } from 'gatsby-helpers';
 
-import '../scss/post.scss';
-import '../scss/material.scss';
+import 'scss/post.scss';
+import 'scss/material.scss';
 
 class MarkdownWrapper extends React.Component {
   render() {
