@@ -1,11 +1,11 @@
 @import '_variables';
 
 .suggestions {
+  background: $colorBackgroundDark;
+  color: $colorTextLight;
   margin-top: 15px;
   margin-bottom: 15px;
-  background: $colorBackgroundDark;
   padding: 20px;
-  color: $colorTextLight;
 
   a {
     color: $colorTextLight;
@@ -19,7 +19,7 @@
   }
 
   h6 {
-    color: $colorTextAccent;
+    color: $colorAccent;
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9em;
     margin: 0;

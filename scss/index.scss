@@ -2,19 +2,20 @@
 
 .postpreview {
   background: $colorBackground;
+  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.16);
   margin-bottom: 40px;
   padding: 20px;
-  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.16);
 
   @include mobile {
-    padding: 0px;
-    box-shadow: none;
-    padding-bottom: 20px;
     border-bottom: 1px solid $colorBackgroundLight;
+    box-shadow: none;
+    padding: 0px;
+    padding-bottom: 20px;
   }
 
   h2 {
     padding-top: 10px;
+
     a {
       color: $colorText;
     }
@@ -25,10 +26,10 @@
   }
 
   &__pinned {
-    color: $colorTextAccent;
+    color: $colorAccent;
     float: right;
-    margin-top: 2px;
     font-size: 1.2em;
+    margin-top: 2px;
   }
 
   &__hero {
@@ -52,7 +53,7 @@
   }
 
   &__category {
-    color: $colorTextAccent;
+    color: $colorAccent;
     font-family: 'Roboto Mono', monospace;
     text-transform: uppercase;
   }
