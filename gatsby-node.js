@@ -47,7 +47,8 @@ function generateRSSFeed(allPages) {
       description,
       content,
       author: [author],
-      date: page.date
+      date: page.date,
+      image: `${config.domain}${page.path}hero.jpg`
     });
   }
 
