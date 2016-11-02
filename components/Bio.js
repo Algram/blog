@@ -14,7 +14,7 @@ class Bio extends React.Component {
           src={prefixLink(profilePic)}
           alt={`author ${config.authorName}`}
         />
-        Written by <strong>{config.authorName}</strong> who lives in Germany and likes to code a lot.&nbsp;
+          Written by <strong>{config.authorName}</strong> who lives in Germany and likes to code a lot.&nbsp;
         <a
           href="https://github.com/Algram"
           target="_blank"

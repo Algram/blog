@@ -17,9 +17,7 @@ class BlogIndex extends Component {
     const pageLinks = [];
 
     // Sort pages.
-    pages.sort((a, b) => {
-      return (new Date(a.data.date) - new Date(b.data.date));
-    });
+    pages.sort((a, b) => (new Date(a.data.date) - new Date(b.data.date)));
 
     pages.reverse();
 
@@ -51,7 +49,7 @@ class BlogIndex extends Component {
           <div className="postpreview" key={page.path}>
             <div className="postpreview__hero">
               <Link to={prefixLink(page.path)}>
-                <img src={`${prefixLink(page.path)}hero.jpg`} />
+                <img alt="post-hero" src={`${prefixLink(page.path)}hero.jpg`} />
               </Link>
             </div>
             <time dateTime={moment(datePublished).format('DD MMMM YYYY')}>

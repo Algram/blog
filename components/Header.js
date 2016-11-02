@@ -16,7 +16,7 @@ class Header extends React.Component {
             src={profilePic}
             alt={`author ${config.authorName}`}
           />
-        Hi I'm <strong>{config.authorName}</strong> and I love to code.&nbsp;
+          Hi I'm <strong>{config.authorName}</strong> and I love to code.&nbsp;
           <a href={`mailto:${config.authorEmail}`}>
             Write me
           </a>

@@ -1,3 +1,5 @@
+/* global window */
+
 exports.onRouteUpdate = (state, page) => {
   window._paq = window._paq || [];
   window._paq.push(['setCustomUrl', state.pathname]);

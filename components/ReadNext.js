@@ -29,6 +29,7 @@ class ReadNext extends React.Component {
         includes(page.path, readNext)
       );
     }
+
     if (!nextPost) {
       return React.createElement('noscript', null);
     } else {
