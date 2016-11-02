@@ -8,12 +8,12 @@
   }
 
   &__backdrop {
-    height: 350px;
     background: $colorBackgroundDark;
-    width: 100vw;
+    height: 350px;
     margin-bottom: -350px;
     margin-left: calc(-50vw + 50%);
     text-align: center;
+    width: 100vw;
 
     @include mobile {
       background: $colorBackground;
@@ -32,15 +32,16 @@
 
   &__me {
     float: left;
-    padding-right: 15px;
     margin-left: -5px;
+    padding-right: 15px;
     width: 120px;
   }
 
   &__links {
-    font-size: 1.4em;
     float: right;
+    font-size: 1.4em;
     padding-bottom: 12px;
+
     .link {
       padding-left: 20px;
       outline: 0;
@@ -60,8 +61,8 @@
   }
 
   &:after {
+    clear: both;
     content: "";
     display: table;
-    clear: both;
   }
 }

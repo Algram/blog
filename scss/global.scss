@@ -11,8 +11,8 @@ body {
 #react-mount {
   .container {
     margin: 0 auto;
-    padding: 0 20px 20px;
     max-width: 640px;
+    padding: 0 20px 20px;
   }
 }
 
@@ -24,17 +24,17 @@ body {
     padding-right: 16px;
 
     &:after {
-      // Fix for consistent word-wrapping
-      width: 16px;
-      margin-right: -16px;
-
+      content: "\f08e"; //"🗗";
       display: inline-block;
-      position: relative;
-      left: 3px;
-      text-decoration: none;
       font-family: FontAwesome;
       font-size: 0.8em;
-      content: "\f08e"; //"🗗";
+      left: 3px;
+      position: relative;
+      text-decoration: none;
+
+      // Fix for consistent word-wrapping
+      margin-right: -16px;
+      width: 16px;
     }
   }
 }
