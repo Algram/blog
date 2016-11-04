@@ -1,62 +1,39 @@
 ---
 title: Host your own YouTube-Downloader with Docker
-date: 2017-10-31 19:21
+date: 2016-10-31 19:21
 category: development
 keywords: selfhosting, docker, youtube downloader, nodejs, react, webserver
 layout: post
 path: "/selfhosted-youtube-downloader-with-docker/"
-pinned: true
 ---
 
-Over the years Atom has really gotten my goto editor for all kinds of programming. I rarely use anything besides it now. By itself Atom seems barebone – and that is intentional. As the main developer of the editor, GitHub wanted a lean and fast piece of software to write more software with – Yay!
-With the help of plugins Atom can get a lot more powerful though. They are all availiable through the `apm (Atom package manager)`. Here is a collection of plugins that I find specifically useful and that you should try out for sure:
+I always hated the clunky pieces of software that call themselves *Youtube Downloader*. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.
 
-## 1 Activate Power Mode
-![Activate Power Mode](activate-power-mode.gif "best plugin EVER"){.img .img--right}
-Okey let's get serious. The plugin is pretty neat and it certainly gives you this feeling of endless power at the tip of your fingers. If we get back down from our position of divinity though, we quickly realize how useless the power mode actually is. You go crazy just from looking at the gif – right? Onto the next one!
+As a big fan of selfhosting I wanted something that was under my control. Docker is a perfect solution for an isolated problem like a Youtube Downloader, but after some research I realized that there was no such thing for Docker yet (Okey, there was no **good** one).
 
-[Activate Power Mode](https://atom.io/packages/activate-power-mode)
+I was really excited because this seemed like a nice opportunity to finally stress my homeserver a bit. Up to this point it was basically converting electricity to heat at terrible efficiency. The coding was done using **react** for the frontend and a **hapi**-webserver in the backend *(You gotta love Node.js)*.
 
-## 2 File Icons
-![File Icons](file-icons.png "File Icons")
-This is the #1 (hah) package you absolutely need to install when using Atom. Its job is simple: Adding file icons for various file types. It is beautiful and helpful when trying to recognize different files. No way around it – install!
 
-[File Icons](https://atom.io/packages/file-icons)
+## 2 What does it do
+tlrd; Watch the GIF down below{.notice .notice--info}
 
-## 3 Material UI & Material Syntax
-![Material UI & Material Syntax](material-syntax.png "Material UI & Material Syntax")
-Most beautiful theme for Atom – **Period** There is no better theme both for looks and functionality. The Material Syntax provides a healthy mix of modern colors pleasing to the eye. The Material UI provides a modern experience in the style of Google Material Design. They support all extensions and they simply looks **great**!
+At the moment the application takes a link from a YouTube video as an input. Then the video gets downloaded with the popular command line tool [youtube-dl](https://rg3.github.io/youtube-dl/). Once it is finished it gets converted to an MP3. Note that I plan on adding other options here like downloading the video without converting, converting it to different formats, etc.
 
-[Material UI](https://atom.io/themes/atom-material-ui) | [Material Syntax](https://atom.io/themes/atom-material-syntax)
+Functionality like that is easy to implement with the current structure, so if you enjoy coding as much as I do, head over to the [project page](https://github.com/Algram/ytdl-webserver) and **contribute**.
 
-## 4 Pigments
-![Pigments](pigments.gif "Pigments")
-This is one of those small packages that you get so used to that you can't use Atom without them anymore – Pigments is one of those. It adds color overlays to HEX and RGB-Snippets. This is really useful especially for Web Developers since it provides a visual notification about what color you are using at the moment. It is unobtrusive and integrates very well into your precious code.
+![Youtube Downloader](hero.gif "Youtube Downloader Demonstration GIF")
 
-[Pigments](https://atom.io/packages/pigments)
 
-## 5 Minimap
-![Minimap](minimap.png "Minimap")
-This is a weird one. Some love it, some can't stand it. For me personally this is useful in large files with lots of *spaghetti-code*. It gets in the way sometimes, especially when trying to scroll but its advantages outweigh that most of the time. My advice is to just try it out for a while and then decide about keeping it or not.
+## 3 Using it
+The appliation is super easy to get going. Everything runs with Node.js, so installing is a matter of one line. Since the GitHub-Repo also includes a `Dockerfile` you can even build your own image and host it wherever you want!
 
-[Minimap](https://atom.io/packages/minimap)
+```bash
+# Run the application locally
+npm install && npm start
 
-## 6 Docblockr
-![Docblockr](docblockr.gif "Docblockr"){.img .img--left}
-This is a real gem. I don't think many people know about it. Docblockr helps you to write documentations – A developers bane. It adds auto-completion for most of the comment-functions in different languages. It even has some more fancy stuff like *decorating* a comment (basically putting slashes around a string). There is no way you can live without Docblockr once you tried it out!
+# Build a docker-image and run it anywhere
+docker build -t <your username>/ytdl-webserver .
+docker run -p 3000:3000 -d <your username>/ytdl-webserver
+```
 
-[Docblockr](https://atom.io/packages/docblockr)
-
-## 7 Markdown Preview
-![Markdown Preview](markdown-preview.png "Markdown Preview")
-**If** you use Markdown for **something** get this. If not, just ignore this package. As an example, I am writing my blog post with it at this very moment. Pretty cool, huh?
-
-[Markdown Preview](https://atom.io/packages/markdown-preview)
-
-## 8 Color Picker
-![Color Picker](color-picker.gif "Color Picker"){.img .img--right}
-My last pick but nonetheless an important one: The Color Picker package allows you to – well yeah, pick colors. It works really well in conjunction with the pigments package. Get it, try it out, love it.
-
-[Color Picker](https://atom.io/packages/color-picker)
-
-If you guys have any other cool Atom packages, feel free to leave a comment. I am always in search for some gems when it comes to plugins :)
+I hope this article deemed useful to someone who can now selfhost their own Youtube Downloader. The GitHub-Repo for the project [can be found here.](https://github.com/Algram/ytdl-webserver)
