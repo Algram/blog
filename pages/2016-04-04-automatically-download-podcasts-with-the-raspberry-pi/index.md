@@ -5,6 +5,7 @@ category: raspberry pi
 keywords: raspberry pi, podcasts, automatic downloading, automation, bash, script
 layout: post
 path: "/raspberry-pi-podcast-downloader/"
+hero: hero.png
 pinned: true
 ---
 As a regular listener to podcasts you will know the pain of not having

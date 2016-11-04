@@ -49,7 +49,7 @@ class BlogIndex extends Component {
           <div className="postpreview" key={page.path}>
             <div className="postpreview__hero">
               <Link to={prefixLink(page.path)}>
-                <img alt="post-hero" src={`${prefixLink(page.path)}hero.gif`} />
+                <img alt="post-hero" src={`${prefixLink(page.path)}${page.data.hero || 'hero.jpg'}`} />
               </Link>
             </div>
             <time dateTime={moment(datePublished).format('DD MMMM YYYY')}>
