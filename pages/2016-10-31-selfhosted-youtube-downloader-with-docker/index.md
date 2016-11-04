@@ -1,6 +1,6 @@
 ---
 title: Host your own YouTube-Downloader with Docker
-date: 2016-10-31 19:21
+date: 2016-11-04 14:21
 category: development
 keywords: selfhosting, docker, youtube downloader, nodejs, react, webserver
 layout: post
@@ -12,6 +12,34 @@ I always hated the clunky pieces of software that call themselves *Youtube Downl
 As a big fan of selfhosting I wanted something that was under my control. Docker is a perfect solution for an isolated problem like a Youtube Downloader, but after some research I realized that there was no such thing for Docker yet (Okey, there was no **good** one).
 
 I was really excited because this seemed like a nice opportunity to finally stress my homeserver a bit. Up to this point it was basically converting electricity to heat at terrible efficiency. The coding was done using **react** for the frontend and a **hapi**-webserver in the backend *(You gotta love Node.js)*.
+
+Since everything on my homeserver is running in an isolated Docker-Container, the `ytdl-webserver` *(thats what I will call this from now on)* needed a `Dockerfile`. Those are extremely easy to set up and it still blows my mind how much it abstracts from the complicated matter of an OS. I will show you mine:
+
+```Dockerfile
+# Dockerfile for ytdl-webserver
+
+FROM ubuntu:16.04
+
+RUN apt-get update
+RUN apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN apt-get install -y nodejs
+RUN apt-get install -y ffmpeg
+RUN apt-get install -y youtube-dl
+
+RUN mkdir -p /home/app
+WORKDIR /home/app
+RUN mkdir -p public/temp
+
+COPY . /home/app
+RUN npm install
+RUN npm run build
+
+EXPOSE 3000
+CMD [ "npm", "start" ]
+```
+
+Isn't that amazing? You build an image from this file and have an application that can run **everywhere** without having to know **anything** about the underlying OS? **What a time to be alive!**
 
 
 ## 2 What does it do
@@ -25,7 +53,7 @@ Functionality like that is easy to implement with the current structure, so if y
 
 
 ## 3 Using it
-The appliation is super easy to get going. Everything runs with Node.js, so installing is a matter of one line. Since the GitHub-Repo also includes a `Dockerfile` you can even build your own image and host it wherever you want!
+The appliation is super easy to get going. Everything runs with Node.js, so installing is a matter of one line. Since the GitHub-Repo also includes the `Dockerfile` you can even build your own image and host it wherever you want!
 
 ```bash
 # Run the application locally
