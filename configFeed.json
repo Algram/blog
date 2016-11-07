@@ -3,6 +3,6 @@
   "blogDescription": "A blog about coding, 3d printing and linux",
   "authorName": "Raphael",
   "authorEmail": "aliasgram@gmail.com",
-  "linkPrefix": "/new",
-  "domain": "http://blog.rphl.io"
+  "linkPrefix": "/",
+  "domain": "https://blog.rphl.io"
 }
