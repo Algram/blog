@@ -16,7 +16,7 @@ module.exports = React.createClass({
     let css;
     let piwikTracking;
     let piwikTrackingNoJS;
-    if (process.env.NODE_ENV === 'production') {
+    if (process.env.NODE_ENV !== 'production') {
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
       piwikTracking = (
         <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `

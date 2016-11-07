@@ -1,7 +1,7 @@
 /* global window */
 let firstPage = true;
 
-exports.onRouteUpdate = (state, page) => {
+exports.onRouteUpdate = (state) => {
   if (firstPage) {
     firstPage = false;
     return;
@@ -9,6 +9,6 @@ exports.onRouteUpdate = (state, page) => {
 
   window._paq = window._paq || [];
   window._paq.push(['setCustomUrl', state.pathname]);
-  window._paq.push(['setDocumentTitle', page && page.data && page.data.title ? page.data.title : state.pathname]);
-  window._paq.push(['trackPageView', page && page.data && page.data.title ? page.data.title : state.pathname]);
+  window._paq.push(['setDocumentTitle', document.title || state.pathname]);
+  window._paq.push(['trackPageView']);
 };
