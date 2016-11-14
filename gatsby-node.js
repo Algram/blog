@@ -16,6 +16,11 @@ function generateRSSFeed(allPages) {
   // Only generate feed for actual posts
   const pages = allPages.filter(page => page.data.layout === 'post');
 
+  // Sort pages.
+  pages.sort((a, b) => (new Date(a.data.date) - new Date(b.data.date)));
+
+  pages.reverse();
+
   const author = {
     name: config.authorName,
     email: config.authorEmail,
