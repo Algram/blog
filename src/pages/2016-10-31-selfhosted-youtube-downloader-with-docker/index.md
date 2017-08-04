@@ -14,7 +14,7 @@ As a big fan of selfhosting I wanted something that was under my control. [Docke
 
 Since everything on my homeserver is running in an isolated Docker-Container, the `ytdl-webserver` *(thats what I will call this from now on)* needed a `Dockerfile`. Those are extremely easy to set up and it still blows my mind how much it abstracts from the complicated matter of an OS. I will show you mine:
 
-```Dockerfile
+```docker
 # Dockerfile for ytdl-webserver
 
 FROM ubuntu:16.04

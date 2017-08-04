@@ -3,13 +3,11 @@ import moment from 'moment';
 import Helmet from 'react-helmet';
 import DisqusThread from 'react-disqus-thread';
 import ReadNext from '../components/ReadNext';
-import { config } from 'config';
-import Bio from 'components/Bio';
-import { Link } from 'react-router';
-import { prefixLink } from 'gatsby-helpers';
+import Bio from '../components/Bio';
+import Link from 'gatsby-link';
 
-import 'scss/post.scss';
-import 'scss/material.scss';
+import '../scss/post.scss';
+import '../scss/material.scss';
 
 class MarkdownWrapper extends React.Component {
   render() {
@@ -18,7 +16,7 @@ class MarkdownWrapper extends React.Component {
 
     return (
       <div className="post">
-        <Link className="navHome" to={prefixLink('/')}>
+        <Link className="navHome" to={'/'}>
           All Articles
         </Link>
         <div className="markdown">

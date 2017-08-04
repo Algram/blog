@@ -1,9 +1,7 @@
 import React from 'react';
-import { config } from 'config';
-import { prefixLink } from 'gatsby-helpers';
 import profilePic from './profile-pic.svg';
 
-import 'scss/bio.scss';
+import '../scss/bio.scss';
 
 class Bio extends React.Component {
   render() {
@@ -11,10 +9,10 @@ class Bio extends React.Component {
       <p className="bio">
         <img
           className="bio__img"
-          src={prefixLink(profilePic)}
-          alt={`author ${config.authorName}`}
+          src={profilePic}
+          alt={`author ${this.props.author.name}`}
         />
-          Written by <strong>{config.authorName}</strong> who lives in Germany and likes to code a lot.&nbsp;
+          Written by <strong>{this.props.author.name}</strong> who lives in Germany and likes to code a lot.&nbsp;
         <a
           href="https://github.com/Algram"
           target="_blank"
@@ -23,7 +21,7 @@ class Bio extends React.Component {
           You should check out his GitHub
         </a>
         &nbsp; or write him an &nbsp;
-        <a href={`mailto:${config.authorEmail}`}>
+        <a href={`mailto:${this.props.author.email}`}>
         Email
         </a>
         .
@@ -33,3 +31,16 @@ class Bio extends React.Component {
 }
 
 export default Bio;
+
+export const pageQuery = graphql`
+  query BioQuery {
+    site {
+      siteMetadata {
+        author {
+          name
+          email
+        }
+      }
+    }
+  }
+`

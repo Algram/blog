@@ -1,55 +1,55 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import Link from 'gatsby-link';
 import moment from 'moment';
-import { prefixLink } from 'gatsby-helpers';
+import get from 'lodash/get';
 import Helmet from 'react-helmet';
 import access from 'safe-access';
-import { config } from 'config';
 import { prune, include } from 'underscore.string';
-import Header from 'components/Header';
-import { tee } from 'util/helpers';
+import Header from '../components/Header';
+import { tee } from '../util/helpers';
 
-import 'scss/index.scss';
+import '../scss/index.scss';
 
 class BlogIndex extends Component {
   render() {
-    let pages = this.props.route.pages;
+    const metadata = this.props.data.site.siteMetadata;
+    let pages = get(this, 'props.data.allMarkdownRemark.edges');
     const pageLinks = [];
 
     // Sort pages.
-    pages.sort((a, b) => (new Date(a.data.date) - new Date(b.data.date)));
+    pages.sort((a, b) => (new Date(a.node.frontmatter.date) - new Date(b.node.frontmatter.date)));
 
     pages.reverse();
 
     // Move pinned post to top
-    pages = tee(pages, page => page.data.pinned === true);
+    pages = tee(pages, page => page.node.frontmatter.pinned === true);
 
-    pages.forEach((page) => {
+//         access(page, 'file.ext') === 'md' &&
+    pages.forEach((pageGraphQl) => {
+      const page = pageGraphQl.node.frontmatter;
+      const pageContent = pageGraphQl.node.html;
+
       if (
-        access(page, 'file.ext') === 'md' &&
         !include(page.path, '/404') &&
-        moment(access(page, 'data.date')).isBefore(new Date())
+        moment(page.date).isBefore(new Date())
       ) {
-        const title = access(page, 'data.title') || page.path;
-
         // Parse teaser-text
-        const body = access(page, 'data.body');
-        const description = prune(body.replace(/<[^>]*>/g, ''), 300);
+        const description = prune(pageContent.replace(/<[^>]*>/g, ''), 300);
 
         const datePublished = access(page, 'data.date');
         const category = access(page, 'data.category');
 
         // Styling for pinned post
         let pinned;
-        if (page.data.pinned) {
+        if (page.pinned) {
           pinned = <i className="postpreview__pinned fa fa-thumb-tack" />;
         }
 
         pageLinks.push(
           <div className="postpreview" key={page.path}>
             <div className="postpreview__hero">
-              <Link to={prefixLink(page.path)}>
-                <img alt="post-hero" src={`${prefixLink(page.path)}${page.data.hero || 'hero.jpg'}`} />
+              <Link to={page.path}>
+                <img alt="post-hero" src={`${page.path}${page.hero || 'hero.jpg'}`} />
               </Link>
             </div>
             <time dateTime={moment(datePublished).format('DD-MMMM-YYYY')}>
@@ -57,10 +57,10 @@ class BlogIndex extends Component {
             </time>
             <span className="postpreview__category">{ category }</span>
             {pinned}
-            <h2><Link to={prefixLink(page.path)}> { title } </Link></h2>
+            <h2><Link to={page.path}> { page.title } </Link></h2>
             <p className="postpreview__content">
               <span dangerouslySetInnerHTML={{ __html: description }} />
-              <Link to={prefixLink(page.path)}>more »</Link>
+              <Link to={page.path}>more »</Link>
             </p>
           </div>
         );
@@ -69,14 +69,17 @@ class BlogIndex extends Component {
     return (
       <div id="startpage">
         <Helmet
-          title={config.blogTitle}
+          title={get('node.frontmatter.title')}
           meta={[
             { name: 'keywords', content: 'blog, articles, coding, design, 3d printing, raspberry pi, development, linux' },
             { name: 'robots', content: 'index, follow' }
           ]}
         />
         <div>
-          <Header />
+          <Header
+            title={metadata.title}
+            author={metadata.author}
+          />
           {pageLinks}
         </div>
       </div>
@@ -89,3 +92,29 @@ BlogIndex.propTypes = {
 };
 
 export default BlogIndex;
+
+export const pageQuery = graphql`
+  query IndexQuery {
+    site {
+      siteMetadata {
+        title
+        author {
+          name
+          email
+        }
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          html
+          frontmatter {
+            path
+            date
+            title
+          }
+        }
+      }
+    }
+  }
+`

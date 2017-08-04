@@ -1,23 +1,17 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { prefixLink } from 'gatsby-helpers';
 
 const BUILD_TIME = new Date().getTime();
 
-module.exports = React.createClass({
-  displayName: 'HTML',
-  propTypes: {
-    body: React.PropTypes.string
-  },
+export default class HTML extends React.Component {
   render() {
-    const { body } = this.props;
     const head = Helmet.rewind();
 
     let css;
     let piwikTracking;
     let piwikTrackingNoJS;
     if (process.env.NODE_ENV === 'production') {
-      css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
+      css = <style dangerouslySetInnerHTML={{ __html: require('!raw!../public/styles.css') }} />
       piwikTracking = (
         <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
           <!-- Piwik -->
@@ -56,14 +50,15 @@ module.exports = React.createClass({
           {head.title.toComponent()}
           {head.meta.toComponent()}
           {css}
+          {this.props.headComponents}
         </head>
         <body>
-          <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
-          <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <div id="___gatsby" dangerouslySetInnerHTML={{ __html: this.props.body }} />
+          {this.props.postBodyComponents}
           {piwikTracking}
           {piwikTrackingNoJS}
         </body>
       </html>
     );
   }
-});
+}
