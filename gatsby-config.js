@@ -14,8 +14,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/`,
-      },
+        path: `${__dirname}/src/pages/`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -24,21 +24,21 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 690,
-            },
+              maxWidth: 690
+            }
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
+            resolve: `gatsby-remark-responsive-iframe`
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-        ],
+          `gatsby-remark-smartypants`
+        ]
       }
     },
     `gatsby-plugin-sharp`
   ]
-};
+}
 
 // blogTitle = "Raphael's Blog – rphl.io"
 // blogDescription = "A blog about coding 3d printing and linux"

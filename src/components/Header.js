@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import profilePic from './profile-pic.svg';
+import React, { Component } from 'react'
+import profilePic from './profile-pic.svg'
 
-import '../scss/header.scss';
+import '../scss/header.scss'
 
 class Header extends Component {
-  render() {
+  render () {
     return (
-      <div className="header">
-        <div className="header__backdrop" />
-        <h1 className="header__headline">{ this.props.title }</h1>
+      <div className='header'>
+        <div className='header__backdrop' />
+        <h1 className='header__headline'>{ this.props.title }</h1>
         <p>
           <img
-            className="header__me"
+            className='header__me'
             src={profilePic}
             alt={`author ${this.props.author.name}`}
           />
@@ -20,24 +20,24 @@ class Header extends Component {
             Write me
           </a>
           &nbsp;if you have any questions!
-          <span className="header__links">
-            <a className="link link__github" href="https://github.com/Algram" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-github" />
+          <span className='header__links'>
+            <a className='link link__github' href='https://github.com/Algram' rel='noopener noreferrer' target='_blank'>
+              <i className='fa fa-github' />
             </a>
-            <a className="link link__feed" href="/feed.xml" rel="noopener noreferrer" target="_blank">
-              <i className="fa fa-rss" />
+            <a className='link link__feed' href='/feed.xml' rel='noopener noreferrer' target='_blank'>
+              <i className='fa fa-rss' />
             </a>
             {/* <a className=" link link__donate" href="#" rel="noopener noreferrer" target="_blank">
               <i className="fa fa-coffee" />
-            </a>*/}
+            </a> */}
           </span>
         </p>
       </div>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header
 
 export const pageQuery = graphql`
   query HeaderQuery {

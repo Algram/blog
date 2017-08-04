@@ -1,18 +1,15 @@
-import React from "react"
-import Link from "gatsby-link"
-//require('prismjs/themes/prism.css')
-
-import 'normalize.css';
-import '../scss/material.scss';
-import '../scss/font-awesome/font-awesome.css';
-import '../scss/global.scss';
+import React from 'react'
+import 'normalize.css'
+import '../scss/material.scss'
+import '../scss/font-awesome/font-awesome.css'
+import '../scss/global.scss'
 
 class Layout extends React.Component {
-  render() {
+  render () {
     const { children } = this.props
 
     return (
-      <div className="container">
+      <div className='container'>
         {children()}
       </div>
     )
@@ -21,7 +18,7 @@ class Layout extends React.Component {
 
 Layout.propTypes = {
   location: React.PropTypes.object,
-  route: React.PropTypes.object,
+  route: React.PropTypes.object
 }
 
 export default Layout

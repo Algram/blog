@@ -1,22 +1,22 @@
-import React from 'react';
-import profilePic from './profile-pic.svg';
+import React from 'react'
+import profilePic from './profile-pic.svg'
 
-import '../scss/bio.scss';
+import '../scss/bio.scss'
 
 class Bio extends React.Component {
-  render() {
+  render () {
     return (
-      <p className="bio">
+      <p className='bio'>
         <img
-          className="bio__img"
+          className='bio__img'
           src={profilePic}
           alt={`author ${this.props.author.name}`}
         />
           Written by <strong>{this.props.author.name}</strong> who lives in Germany and likes to code a lot.&nbsp;
         <a
-          href="https://github.com/Algram"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://github.com/Algram'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           You should check out his GitHub
         </a>
@@ -26,11 +26,11 @@ class Bio extends React.Component {
         </a>
         .
       </p>
-    );
+    )
   }
 }
 
-export default Bio;
+export default Bio
 
 export const pageQuery = graphql`
   query BioQuery {
