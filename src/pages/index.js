@@ -49,7 +49,7 @@ class BlogIndex extends Component {
           <div className='postpreview' key={page.path}>
             <div className='postpreview__hero'>
               <Link to={page.path}>
-                <img alt='post-hero' src={`${page.path}${page.hero || 'hero.jpg'}`} />
+                <img alt='post-hero' src={`${page.path}${access(page, 'hero.base') || 'hero.jpg'}`} />
               </Link>
             </div>
             <time dateTime={moment(datePublished).format('DD-MMMM-YYYY')}>
@@ -112,6 +112,9 @@ export const pageQuery = graphql`
             path
             date
             title
+            hero {
+              base
+            }
           }
         }
       }

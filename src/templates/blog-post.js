@@ -38,7 +38,7 @@ class BlogPostTemplate extends React.Component {
             }}
           />
           <hr />
-          <ReadNext post={post} pages={'/'} />
+          <ReadNext next={post.frontmatter.readNext} />
         </div>
       </div>
     )
@@ -57,6 +57,7 @@ query BlogPostBySlug($slug: String!) {
     html
     frontmatter {
       title
+      readNext
     }
   }
 }

@@ -8,7 +8,11 @@ import '../scss/suggestions.scss'
 class ReadNext extends React.Component {
   render () {
     const { pages, post } = this.props
-    let { readNext } = post
+    let readNext = this.props.next
+
+    if (!readNext) {
+      return null
+    }
 
     // find similar post by category
     if (!readNext) {
@@ -30,7 +34,7 @@ class ReadNext extends React.Component {
     }
 
     if (!nextPost) {
-      return React.createElement('noscript', null)
+      return null
     } else {
       nextPost = find(pages, page =>
         includes(page.path, readNext.slice(1, -1))
@@ -61,11 +65,6 @@ class ReadNext extends React.Component {
       )
     }
   }
-}
-
-ReadNext.propTypes = {
-  post: React.PropTypes.object.isRequired,
-  pages: React.PropTypes.array
 }
 
 export default ReadNext
