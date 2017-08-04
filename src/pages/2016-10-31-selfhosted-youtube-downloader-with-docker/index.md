@@ -42,7 +42,7 @@ Isn't that amazing? You build an image from this file and have an application th
 
 
 ## 2 What does it do
-tldr; Watch the GIF down below{.notice .notice--info}
+<p class="notice notice--info">tldr; Watch the GIF down below</p>
 
 At the moment the application takes a link from a YouTube video as an input. Then the video gets downloaded with the popular command line tool [youtube-dl](https://rg3.github.io/youtube-dl/). Once it is finished it gets converted to an MP3. Note that I plan on adding other options here like downloading the video without converting, converting it to different formats, etc.
 
