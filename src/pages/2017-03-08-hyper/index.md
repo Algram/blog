@@ -1,6 +1,6 @@
 ---
 title: My Hyper Terminal Setup
-date: 2017-03-08 14:21
+date: 2018-03-08 14:21
 category: development
 keywords: electron, hyper, terminal, config, theme, nodejs, pretty
 layout: post
