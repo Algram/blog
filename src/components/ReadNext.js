@@ -6,6 +6,10 @@ class ReadNext extends React.Component {
   render () {
     let nextPost = this.props.post
 
+    if (!nextPost) {
+      return null
+    }
+
     return (
       <div className='suggestions'>
         <Link to={nextPost.frontmatter.path}>

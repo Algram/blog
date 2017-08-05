@@ -1,6 +1,6 @@
 ---
 title: My Hyper Terminal Setup
-date: 2018-03-08 14:21
+date: 2017-03-08 14:21
 category: development
 keywords: electron, hyper, terminal, config, theme, nodejs, pretty
 layout: post
@@ -8,10 +8,16 @@ path: "/hyper/"
 hero: hero.png
 ---
 
+[[someType]]
+| content
+[[anotherType]]
+| content
+
+{someType}ABCioaosdjqkwe
 
 I always hated the clunky pieces of software that call themselves *Youtube Downloader*. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.
 
-![Youtube Downloader](hero.png "Youtube Downloader Demonstration GIF")
+![Youtube Downloader](hero.png "Youtube Downloader Demonstration GIF"){someType}
 
 As a big fan of selfhosting I wanted something that was under my control. [Docker](https://www.docker.com/what-docker) is a perfect solution for an isolated problem like a Youtube Downloader, but after some research I realized that there was no such thing for Docker yet (Okey, there was no **good** one). I was really excited because this seemed like a nice opportunity to finally stress my homeserver a bit. Up to this point it was basically converting electricity to heat at terrible efficiency. The coding was done using **react** for the frontend and a **hapi**-webserver in the backend *(You gotta love Node.js)*.
 

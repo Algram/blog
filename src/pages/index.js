@@ -39,7 +39,7 @@ class BlogIndex extends Component {
         <div className='postpreview' key={pageMetadata.path}>
           <div className='postpreview__hero'>
             <Link to={pageMetadata.path}>
-              <img alt='post-hero' src={pageHero || 'Default Image'} />
+              <img alt='post-hero' src={`${__PATH_PREFIX__}${pageHero}` || 'Default Image'} />
             </Link>
           </div>
           <time dateTime={moment(pageMetadata.date).format('DD-MMMM-YYYY')}>

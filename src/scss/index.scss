@@ -1,5 +1,10 @@
 @import '_variables';
 
+.teststyle {
+  text-align: right;
+  color: aqua;
+}
+
 .postpreview {
   background: $colorBackground;
   box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.16);
@@ -42,7 +47,7 @@
     }
 
     @include mobile {
-      max-height: 150px;
+      max-height: 200px;
     }
   }
 

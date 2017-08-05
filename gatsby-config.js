@@ -3,13 +3,14 @@ module.exports = {
     title: "Raphael's Blog – rphl.io",
     description: 'A blog about coding 3d printing and linux',
     siteUrl: 'https://blog.rphl.io',
-    pathPrefix: '/',
     author: {
       name: 'Raphael',
       email: 'aliasgram@gmail.com'
     }
   },
+  pathPrefix: '/',
   plugins: [
+    `gatsby-plugin-preact`,
     'gatsby-plugin-sass',
     `gatsby-transformer-sharp`,
     {
@@ -80,7 +81,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 690,
+              maxWidth: 640,
               linkImagesToOriginal: false
             }
           },
