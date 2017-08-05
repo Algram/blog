@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Aug 2017 20:01:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Aug 2017 20:03:15 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
 &lt;p&gt;You just hit a route that doesn’t exist… the sadness.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Hyper Terminal Setup]]></title><description><![CDATA[[ someType ]
 | content
 [ anotherType ]
@@ -22,12 +22,12 @@
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Youtube Downloader&quot;
         title=&quot;Youtube Downloader Demonstration GIF&quot;
-        src=&quot;/static/4a918c8ddd0ad583300ec7822264be24-be30b.png&quot;
-        srcset=&quot;/static/4a918c8ddd0ad583300ec7822264be24-990ca.png 160w,
-/static/4a918c8ddd0ad583300ec7822264be24-3d464.png 320w,
-/static/4a918c8ddd0ad583300ec7822264be24-be30b.png 640w,
-/static/4a918c8ddd0ad583300ec7822264be24-fdb73.png 960w,
-/static/4a918c8ddd0ad583300ec7822264be24-d60ff.png 988w&quot;
+        src=&quot;/blog/static/4a918c8ddd0ad583300ec7822264be24-be30b.png&quot;
+        srcset=&quot;/blog/static/4a918c8ddd0ad583300ec7822264be24-990ca.png 160w,
+/blog/static/4a918c8ddd0ad583300ec7822264be24-3d464.png 320w,
+/blog/static/4a918c8ddd0ad583300ec7822264be24-be30b.png 640w,
+/blog/static/4a918c8ddd0ad583300ec7822264be24-fdb73.png 960w,
+/blog/static/4a918c8ddd0ad583300ec7822264be24-d60ff.png 988w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -140,9 +140,9 @@ docker run -p 3000:3000 -d &lt;span class=&quot;token operator&quot;&gt;&amp;lt;
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;packaging material&quot;
         title=&quot;&quot;
-        src=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-e5c8b.jpg&quot;
-        srcset=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-7a602.jpg 160w,
-/static/5ebd8129b5539ccaa356f0b4cd07f3d6-e5c8b.jpg 300w&quot;
+        src=&quot;/blog/static/5ebd8129b5539ccaa356f0b4cd07f3d6-e5c8b.jpg&quot;
+        srcset=&quot;/blog/static/5ebd8129b5539ccaa356f0b4cd07f3d6-7a602.jpg 160w,
+/blog/static/5ebd8129b5539ccaa356f0b4cd07f3d6-e5c8b.jpg 300w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -168,9 +168,9 @@ To be honest at first I didn’t realize how many packages there were going to a
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;custom wood part&quot;
         title=&quot;&quot;
-        src=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-e5c8b.jpg&quot;
-        srcset=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-7a602.jpg 160w,
-/static/7dc02bcc1578ded64eaa63d020759cfb-e5c8b.jpg 300w&quot;
+        src=&quot;/blog/static/7dc02bcc1578ded64eaa63d020759cfb-e5c8b.jpg&quot;
+        srcset=&quot;/blog/static/7dc02bcc1578ded64eaa63d020759cfb-7a602.jpg 160w,
+/blog/static/7dc02bcc1578ded64eaa63d020759cfb-e5c8b.jpg 300w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -196,10 +196,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-15beb.jpg&quot;
-        srcset=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-7a602.jpg 160w,
-/static/0fb1ec3cd70dc2c73df8bdff3960e384-f9f69.jpg 320w,
-/static/0fb1ec3cd70dc2c73df8bdff3960e384-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/0fb1ec3cd70dc2c73df8bdff3960e384-15beb.jpg&quot;
+        srcset=&quot;/blog/static/0fb1ec3cd70dc2c73df8bdff3960e384-7a602.jpg 160w,
+/blog/static/0fb1ec3cd70dc2c73df8bdff3960e384-f9f69.jpg 320w,
+/blog/static/0fb1ec3cd70dc2c73df8bdff3960e384-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -219,10 +219,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/bb34d5753f42686bf58f2801f83faf39-15beb.jpg&quot;
-        srcset=&quot;/static/bb34d5753f42686bf58f2801f83faf39-7a602.jpg 160w,
-/static/bb34d5753f42686bf58f2801f83faf39-f9f69.jpg 320w,
-/static/bb34d5753f42686bf58f2801f83faf39-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/bb34d5753f42686bf58f2801f83faf39-15beb.jpg&quot;
+        srcset=&quot;/blog/static/bb34d5753f42686bf58f2801f83faf39-7a602.jpg 160w,
+/blog/static/bb34d5753f42686bf58f2801f83faf39-f9f69.jpg 320w,
+/blog/static/bb34d5753f42686bf58f2801f83faf39-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -242,10 +242,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/dca668a698affed87992ad30b622b183-15beb.jpg&quot;
-        srcset=&quot;/static/dca668a698affed87992ad30b622b183-7a602.jpg 160w,
-/static/dca668a698affed87992ad30b622b183-f9f69.jpg 320w,
-/static/dca668a698affed87992ad30b622b183-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/dca668a698affed87992ad30b622b183-15beb.jpg&quot;
+        srcset=&quot;/blog/static/dca668a698affed87992ad30b622b183-7a602.jpg 160w,
+/blog/static/dca668a698affed87992ad30b622b183-f9f69.jpg 320w,
+/blog/static/dca668a698affed87992ad30b622b183-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -265,10 +265,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-15beb.jpg&quot;
-        srcset=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-7a602.jpg 160w,
-/static/f7db928c18ffb7eb9302c77a51df3776-f9f69.jpg 320w,
-/static/f7db928c18ffb7eb9302c77a51df3776-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/f7db928c18ffb7eb9302c77a51df3776-15beb.jpg&quot;
+        srcset=&quot;/blog/static/f7db928c18ffb7eb9302c77a51df3776-7a602.jpg 160w,
+/blog/static/f7db928c18ffb7eb9302c77a51df3776-f9f69.jpg 320w,
+/blog/static/f7db928c18ffb7eb9302c77a51df3776-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -288,10 +288,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-15beb.jpg&quot;
-        srcset=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-7a602.jpg 160w,
-/static/2afc9ab254bb722f9ca720c5e2ad8609-f9f69.jpg 320w,
-/static/2afc9ab254bb722f9ca720c5e2ad8609-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/2afc9ab254bb722f9ca720c5e2ad8609-15beb.jpg&quot;
+        srcset=&quot;/blog/static/2afc9ab254bb722f9ca720c5e2ad8609-7a602.jpg 160w,
+/blog/static/2afc9ab254bb722f9ca720c5e2ad8609-f9f69.jpg 320w,
+/blog/static/2afc9ab254bb722f9ca720c5e2ad8609-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -311,10 +311,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/7159d05278706807d6014f0c9842c541-15beb.jpg&quot;
-        srcset=&quot;/static/7159d05278706807d6014f0c9842c541-7a602.jpg 160w,
-/static/7159d05278706807d6014f0c9842c541-f9f69.jpg 320w,
-/static/7159d05278706807d6014f0c9842c541-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/7159d05278706807d6014f0c9842c541-15beb.jpg&quot;
+        srcset=&quot;/blog/static/7159d05278706807d6014f0c9842c541-7a602.jpg 160w,
+/blog/static/7159d05278706807d6014f0c9842c541-f9f69.jpg 320w,
+/blog/static/7159d05278706807d6014f0c9842c541-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -334,10 +334,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-15beb.jpg&quot;
-        srcset=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-7a602.jpg 160w,
-/static/a24c4bea0d12d66e2f433e7489eda6c3-f9f69.jpg 320w,
-/static/a24c4bea0d12d66e2f433e7489eda6c3-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/a24c4bea0d12d66e2f433e7489eda6c3-15beb.jpg&quot;
+        srcset=&quot;/blog/static/a24c4bea0d12d66e2f433e7489eda6c3-7a602.jpg 160w,
+/blog/static/a24c4bea0d12d66e2f433e7489eda6c3-f9f69.jpg 320w,
+/blog/static/a24c4bea0d12d66e2f433e7489eda6c3-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -357,10 +357,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-15beb.jpg&quot;
-        srcset=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-7a602.jpg 160w,
-/static/831c9f9ff12d852b2bc1d486d8008292-f9f69.jpg 320w,
-/static/831c9f9ff12d852b2bc1d486d8008292-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/831c9f9ff12d852b2bc1d486d8008292-15beb.jpg&quot;
+        srcset=&quot;/blog/static/831c9f9ff12d852b2bc1d486d8008292-7a602.jpg 160w,
+/blog/static/831c9f9ff12d852b2bc1d486d8008292-f9f69.jpg 320w,
+/blog/static/831c9f9ff12d852b2bc1d486d8008292-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -380,10 +380,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-15beb.jpg&quot;
-        srcset=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-7a602.jpg 160w,
-/static/d3d1bcd3375388d21c5f3ee0775dbf4f-f9f69.jpg 320w,
-/static/d3d1bcd3375388d21c5f3ee0775dbf4f-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/d3d1bcd3375388d21c5f3ee0775dbf4f-15beb.jpg&quot;
+        srcset=&quot;/blog/static/d3d1bcd3375388d21c5f3ee0775dbf4f-7a602.jpg 160w,
+/blog/static/d3d1bcd3375388d21c5f3ee0775dbf4f-f9f69.jpg 320w,
+/blog/static/d3d1bcd3375388d21c5f3ee0775dbf4f-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -409,10 +409,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/8ed27ce283a1936155fd558fbf87a739-15beb.jpg&quot;
-        srcset=&quot;/static/8ed27ce283a1936155fd558fbf87a739-7a602.jpg 160w,
-/static/8ed27ce283a1936155fd558fbf87a739-f9f69.jpg 320w,
-/static/8ed27ce283a1936155fd558fbf87a739-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/8ed27ce283a1936155fd558fbf87a739-15beb.jpg&quot;
+        srcset=&quot;/blog/static/8ed27ce283a1936155fd558fbf87a739-7a602.jpg 160w,
+/blog/static/8ed27ce283a1936155fd558fbf87a739-f9f69.jpg 320w,
+/blog/static/8ed27ce283a1936155fd558fbf87a739-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -432,10 +432,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-15beb.jpg&quot;
-        srcset=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-7a602.jpg 160w,
-/static/3c03a6bc5b86eab9548df5787d44b026-f9f69.jpg 320w,
-/static/3c03a6bc5b86eab9548df5787d44b026-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/3c03a6bc5b86eab9548df5787d44b026-15beb.jpg&quot;
+        srcset=&quot;/blog/static/3c03a6bc5b86eab9548df5787d44b026-7a602.jpg 160w,
+/blog/static/3c03a6bc5b86eab9548df5787d44b026-f9f69.jpg 320w,
+/blog/static/3c03a6bc5b86eab9548df5787d44b026-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -455,10 +455,10 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-15beb.jpg&quot;
-        srcset=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-7a602.jpg 160w,
-/static/347bcdc66fbc403950ecd7eafebc0261-f9f69.jpg 320w,
-/static/347bcdc66fbc403950ecd7eafebc0261-15beb.jpg 640w&quot;
+        src=&quot;/blog/static/347bcdc66fbc403950ecd7eafebc0261-15beb.jpg&quot;
+        srcset=&quot;/blog/static/347bcdc66fbc403950ecd7eafebc0261-7a602.jpg 160w,
+/blog/static/347bcdc66fbc403950ecd7eafebc0261-f9f69.jpg 320w,
+/blog/static/347bcdc66fbc403950ecd7eafebc0261-15beb.jpg 640w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -478,12 +478,12 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gallery image&quot;
         title=&quot;&quot;
-        src=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-15beb.jpg&quot;
-        srcset=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-7a602.jpg 160w,
-/static/1943767c614b27e29afae0d1ee9fa57e-f9f69.jpg 320w,
-/static/1943767c614b27e29afae0d1ee9fa57e-15beb.jpg 640w,
-/static/1943767c614b27e29afae0d1ee9fa57e-37edf.jpg 960w,
-/static/1943767c614b27e29afae0d1ee9fa57e-396d2.jpg 1280w&quot;
+        src=&quot;/blog/static/1943767c614b27e29afae0d1ee9fa57e-15beb.jpg&quot;
+        srcset=&quot;/blog/static/1943767c614b27e29afae0d1ee9fa57e-7a602.jpg 160w,
+/blog/static/1943767c614b27e29afae0d1ee9fa57e-f9f69.jpg 320w,
+/blog/static/1943767c614b27e29afae0d1ee9fa57e-15beb.jpg 640w,
+/blog/static/1943767c614b27e29afae0d1ee9fa57e-37edf.jpg 960w,
+/blog/static/1943767c614b27e29afae0d1ee9fa57e-396d2.jpg 1280w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -593,11 +593,11 @@ Okey let’s get serious. The plugin is pretty neat and it certainly gives you t
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;File Icons&quot;
         title=&quot;File Icons&quot;
-        src=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-be30b.png&quot;
-        srcset=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-990ca.png 160w,
-/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-3d464.png 320w,
-/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-be30b.png 640w,
-/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-446de.png 690w&quot;
+        src=&quot;/blog/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-be30b.png&quot;
+        srcset=&quot;/blog/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-990ca.png 160w,
+/blog/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-3d464.png 320w,
+/blog/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-be30b.png 640w,
+/blog/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-446de.png 690w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -620,11 +620,11 @@ This is the #1 (hah) package you absolutely need to install when using Atom. Its
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Material UI &amp; Material Syntax&quot;
         title=&quot;Material UI &amp; Material Syntax&quot;
-        src=&quot;/static/0c61468094ec3c089403eab90812348c-be30b.png&quot;
-        srcset=&quot;/static/0c61468094ec3c089403eab90812348c-990ca.png 160w,
-/static/0c61468094ec3c089403eab90812348c-3d464.png 320w,
-/static/0c61468094ec3c089403eab90812348c-be30b.png 640w,
-/static/0c61468094ec3c089403eab90812348c-e20ae.png 773w&quot;
+        src=&quot;/blog/static/0c61468094ec3c089403eab90812348c-be30b.png&quot;
+        srcset=&quot;/blog/static/0c61468094ec3c089403eab90812348c-990ca.png 160w,
+/blog/static/0c61468094ec3c089403eab90812348c-3d464.png 320w,
+/blog/static/0c61468094ec3c089403eab90812348c-be30b.png 640w,
+/blog/static/0c61468094ec3c089403eab90812348c-e20ae.png 773w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -651,11 +651,11 @@ This is one of those small packages that you get so used to that you can’t use
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Minimap&quot;
         title=&quot;Minimap&quot;
-        src=&quot;/static/87bafd4ead3629e862273d4de9f107fe-be30b.png&quot;
-        srcset=&quot;/static/87bafd4ead3629e862273d4de9f107fe-990ca.png 160w,
-/static/87bafd4ead3629e862273d4de9f107fe-3d464.png 320w,
-/static/87bafd4ead3629e862273d4de9f107fe-be30b.png 640w,
-/static/87bafd4ead3629e862273d4de9f107fe-dc76a.png 944w&quot;
+        src=&quot;/blog/static/87bafd4ead3629e862273d4de9f107fe-be30b.png&quot;
+        srcset=&quot;/blog/static/87bafd4ead3629e862273d4de9f107fe-990ca.png 160w,
+/blog/static/87bafd4ead3629e862273d4de9f107fe-3d464.png 320w,
+/blog/static/87bafd4ead3629e862273d4de9f107fe-be30b.png 640w,
+/blog/static/87bafd4ead3629e862273d4de9f107fe-dc76a.png 944w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -682,11 +682,11 @@ This is a real gem. I don’t think many people know about it. Docblockr helps y
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Markdown Preview&quot;
         title=&quot;Markdown Preview&quot;
-        src=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-be30b.png&quot;
-        srcset=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-990ca.png 160w,
-/static/87993ce345f5252b1ba1e15df67e0e71-3d464.png 320w,
-/static/87993ce345f5252b1ba1e15df67e0e71-be30b.png 640w,
-/static/87993ce345f5252b1ba1e15df67e0e71-14657.png 800w&quot;
+        src=&quot;/blog/static/87993ce345f5252b1ba1e15df67e0e71-be30b.png&quot;
+        srcset=&quot;/blog/static/87993ce345f5252b1ba1e15df67e0e71-990ca.png 160w,
+/blog/static/87993ce345f5252b1ba1e15df67e0e71-3d464.png 320w,
+/blog/static/87993ce345f5252b1ba1e15df67e0e71-be30b.png 640w,
+/blog/static/87993ce345f5252b1ba1e15df67e0e71-14657.png 800w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -715,11 +715,11 @@ I decided to finally take the risk and buy the printer. This was the moment wher
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;BOM-Wilson II&quot;
         title=&quot;&quot;
-        src=&quot;/static/168dd08de73c323e05ea32438e9855e8-be30b.png&quot;
-        srcset=&quot;/static/168dd08de73c323e05ea32438e9855e8-990ca.png 160w,
-/static/168dd08de73c323e05ea32438e9855e8-3d464.png 320w,
-/static/168dd08de73c323e05ea32438e9855e8-be30b.png 640w,
-/static/168dd08de73c323e05ea32438e9855e8-301b9.png 837w&quot;
+        src=&quot;/blog/static/168dd08de73c323e05ea32438e9855e8-be30b.png&quot;
+        srcset=&quot;/blog/static/168dd08de73c323e05ea32438e9855e8-990ca.png 160w,
+/blog/static/168dd08de73c323e05ea32438e9855e8-3d464.png 320w,
+/blog/static/168dd08de73c323e05ea32438e9855e8-be30b.png 640w,
+/blog/static/168dd08de73c323e05ea32438e9855e8-301b9.png 837w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
@@ -749,12 +749,12 @@ For anyone interested and in search for a comprehensive list in order to build t
         style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;printed parts&quot;
         title=&quot;&quot;
-        src=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-15beb.jpg&quot;
-        srcset=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-7a602.jpg 160w,
-/static/5c5abe5189fd329171933bf7d8b521e1-f9f69.jpg 320w,
-/static/5c5abe5189fd329171933bf7d8b521e1-15beb.jpg 640w,
-/static/5c5abe5189fd329171933bf7d8b521e1-37edf.jpg 960w,
-/static/5c5abe5189fd329171933bf7d8b521e1-23fa8.jpg 1000w&quot;
+        src=&quot;/blog/static/5c5abe5189fd329171933bf7d8b521e1-15beb.jpg&quot;
+        srcset=&quot;/blog/static/5c5abe5189fd329171933bf7d8b521e1-7a602.jpg 160w,
+/blog/static/5c5abe5189fd329171933bf7d8b521e1-f9f69.jpg 320w,
+/blog/static/5c5abe5189fd329171933bf7d8b521e1-15beb.jpg 640w,
+/blog/static/5c5abe5189fd329171933bf7d8b521e1-37edf.jpg 960w,
+/blog/static/5c5abe5189fd329171933bf7d8b521e1-23fa8.jpg 1000w&quot;
         sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
       /&gt;
     &lt;/span&gt;
