@@ -1,2 +1,0 @@
-webpackJsonp([0xa2868bfb69fc9000],{"./node_modules/json-loader/index.js!./.cache/json/404-html.json":function(t,e){t.exports={data:{markdownRemark:{html:"<h1>NOT FOUND</h1>\n<p>You just hit a route that doesn’t exist… the sadness.</p>",frontmatter:{title:"",readNext:null}}},pathContext:{slug:"/404.html"}}}});
-//# sourceMappingURL=path---404-html-ddc0e5cb2b12f2ccea22.js.map

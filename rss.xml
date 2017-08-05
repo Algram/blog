@@ -1,37 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Fri, 04 Aug 2017 19:30:59 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Aug 2017 14:19:45 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
 &lt;p&gt;You just hit a route that doesn’t exist… the sadness.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Hyper Terminal Setup]]></title><description><![CDATA[I always hated the clunky pieces of software that call themselves  Youtube Downloader . They look terrible, are a pain to use, littered with...]]></description><link>https://blog.rphl.io/hyper/</link><guid isPermaLink="false">https://blog.rphl.io/hyper/</guid><pubDate>Thu, 08 Mar 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;I always hated the clunky pieces of software that call themselves &lt;em&gt;Youtube Downloader&lt;/em&gt;. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.&lt;/p&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/4a918c8ddd0ad583300ec7822264be24-1e757.png&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 68.0161943319838%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACoElEQVQ4y21TaW/aQBT0n6kKwSe28YExl7HNGQgEEpETVCAQaBpVbfrrp7Mmidq0H0bjfd4371zpk+rjTyhmBTLx0Z4r1pA36++QS02obusvm4CUsxtQgxiyH0FxmijQKJzfcGI16UzHxgD5Wg9atYt8tYe886/YUdCNoQUJFJdiFiNbDGDV3mG4EVQ7Rs6OkKN4zmwwUB2ftTBD7gOk4s0N3MMDvG9buE9bePs1vMcV7MMO+tMzPNrcwxal/Yb/H+A+7+B93/8Xpd0akjO+RnDLy9dfYM6XUO5W0O7XsK9XsK5W8G+I2zXCxRaV+w282xU8skMuL3dw79bZ2V88oHS5gOS1Jgi7c7jxOfT6KXKdGZTuJax4glLzDOVkBi+dwmtPYbfOUGyc8l4fctCGxp4qYQdKpQOV33K5TcHGCLV0Bp9sBB3kkzEMijr1Ieywj3I0zhAwsECpOoDXGMIKezArXfq0oXsJihTV/RSSzyyq6QU8ssEL+XQCJT2HmTn14VPMjUZwkhFcwooGzPwUZthFkdDLKTRCCAvOMgyZoWCj0kMhHqOQlXbMQgQUAlbchxn1YNQ7MMI2FK8FnSKqn1DoCPEtuR8EZYqpyQQOz3a1n2VeYt+cZAgnHsLkHtr1QdYewW+ZmtxNUfZryW+CLJkZnlDQao6ykl320mowu6QPI2KJTTEA7i0fg1pLOZA4g1o92iThUE1eBQMKtkaQO9PsbDGACOhRPGBvvXh0HEJw7JnIyOSUNZYqMhU2qUTBoH3Bxo+h1/i8uB4Kp+xyoibPwm5FnHjnDBbLVhlEY2/V4Mg626JwXQxOXxZTFkOQZ1zo6QLKfI3Ccg+DLKDRXiQXrzYwlgdY8w2KX39Be/wB4/CSsb7/CWP/kp3lxSN+A8Q88vMMTSNuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;Youtube Downloader&quot;
-                  title=&quot;Youtube Downloader Demonstration GIF&quot;
-                  src=&quot;/static/4a918c8ddd0ad583300ec7822264be24-ad1f0.png&quot;
-                  srcset=&quot;/static/4a918c8ddd0ad583300ec7822264be24-71707.png 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 68.0161943319838%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAACoElEQVQ4y21TaW/aQBT0n6kKwSe28YExl7HNGQgEEpETVCAQaBpVbfrrp7Mmidq0H0bjfd4371zpk+rjTyhmBTLx0Z4r1pA36++QS02obusvm4CUsxtQgxiyH0FxmijQKJzfcGI16UzHxgD5Wg9atYt8tYe886/YUdCNoQUJFJdiFiNbDGDV3mG4EVQ7Rs6OkKN4zmwwUB2ftTBD7gOk4s0N3MMDvG9buE9bePs1vMcV7MMO+tMzPNrcwxal/Yb/H+A+7+B93/8Xpd0akjO+RnDLy9dfYM6XUO5W0O7XsK9XsK5W8G+I2zXCxRaV+w282xU8skMuL3dw79bZ2V88oHS5gOS1Jgi7c7jxOfT6KXKdGZTuJax4glLzDOVkBi+dwmtPYbfOUGyc8l4fctCGxp4qYQdKpQOV33K5TcHGCLV0Bp9sBB3kkzEMijr1Ieywj3I0zhAwsECpOoDXGMIKezArXfq0oXsJihTV/RSSzyyq6QU8ssEL+XQCJT2HmTn14VPMjUZwkhFcwooGzPwUZthFkdDLKTRCCAvOMgyZoWCj0kMhHqOQlXbMQgQUAlbchxn1YNQ7MMI2FK8FnSKqn1DoCPEtuR8EZYqpyQQOz3a1n2VeYt+cZAgnHsLkHtr1QdYewW+ZmtxNUfZryW+CLJkZnlDQao6ykl320mowu6QPI2KJTTEA7i0fg1pLOZA4g1o92iThUE1eBQMKtkaQO9PsbDGACOhRPGBvvXh0HEJw7JnIyOSUNZYqMhU2qUTBoH3Bxo+h1/i8uB4Kp+xyoibPwm5FnHjnDBbLVhlEY2/V4Mg626JwXQxOXxZTFkOQZ1zo6QLKfI3Ccg+DLKDRXiQXrzYwlgdY8w2KX39Be/wB4/CSsb7/CWP/kp3lxSN+A8Q88vMMTSNuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Youtube Downloader&quot;
+        title=&quot;Youtube Downloader Demonstration GIF&quot;
+        src=&quot;/static/4a918c8ddd0ad583300ec7822264be24-ad1f0.png&quot;
+        srcset=&quot;/static/4a918c8ddd0ad583300ec7822264be24-71707.png 173w,
 /static/4a918c8ddd0ad583300ec7822264be24-14127.png 345w,
 /static/4a918c8ddd0ad583300ec7822264be24-ad1f0.png 690w,
 /static/4a918c8ddd0ad583300ec7822264be24-1e757.png 988w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          &lt;/p&gt;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
 &lt;p&gt;As a big fan of selfhosting I wanted something that was under my control. &lt;a href=&quot;https://www.docker.com/what-docker&quot;&gt;Docker&lt;/a&gt; is a perfect solution for an isolated problem like a Youtube Downloader, but after some research I realized that there was no such thing for Docker yet (Okey, there was no &lt;strong&gt;good&lt;/strong&gt; one). I was really excited because this seemed like a nice opportunity to finally stress my homeserver a bit. Up to this point it was basically converting electricity to heat at terrible efficiency. The coding was done using &lt;strong&gt;react&lt;/strong&gt; for the frontend and a &lt;strong&gt;hapi&lt;/strong&gt;-webserver in the backend &lt;em&gt;(You gotta love Node.js)&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;    fontFamily&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&quot;Roboto Mono&quot;, monospace&apos;&lt;/span&gt;
@@ -126,35 +118,27 @@ docker run -p 3000:3000 -d &lt;span class=&quot;token operator&quot;&gt;&amp;lt;
 &lt;p&gt;Now back to my story. The last article ended with me having ordered all my parts. This was about two months ago. Yes, &lt;strong&gt;two months&lt;/strong&gt;. As I stated last time, one of the most annoying disadvantages about Aliexpress is the incredible long waiting time. Also you have no tracking as soon as the package leaves China and so you are constantly in doubt and fear about your parts not arriving.&lt;/p&gt;
 &lt;p&gt;So, what did actually arrive? &lt;strong&gt;Almost&lt;/strong&gt; everything. The shaft-couplers are still missing and I ordered a new pair from a different seller a while ago that got delivered really fast – thank god. The other package had the wrong contents. Instead of 624RS ball bearings I got 625RS ones. Not a big deal for some people but for a 3D printer this makes a huge difference and I actually wouldn’t have been able to assemble it with these ones. I opened a &lt;strong&gt;dispute&lt;/strong&gt; on Aliexpress with an image as proof. A few days later I got my money back without a problem. Basically I got the 625RS ball bearings for free now. From the new money I bought the 624RS bearings and this time they got delivered.&lt;/p&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-432dd.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 75%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAADAf/aAAwDAQACEAMQAAABSt9sSZckCz//xAAcEAACAgIDAAAAAAAAAAAAAAABAgMSAAQRMTL/2gAIAQEAAQUChNckFnPa+QgI2OFm/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABYRAQEBAAAAAAAAAAAAAAAAAAABQf/aAAgBAgEBPwHUf//EABcQAQEBAQAAAAAAAAAAAAAAABEBABD/2gAIAQEABj8CcycgPLDf/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERITFhgf/aAAgBAQABPyGGmvWWczFg1DScox+MfQ52f//aAAwDAQACAAMAAAAQrC//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QsQx//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIUH/2gAIAQIBAT8QeX0Sqn//xAAbEAEBAQACAwAAAAAAAAAAAAABEQAhQVFhwf/aAAgBAQABPxAGRlA+GZJTFQ71ISPvCAShaAd7gmB4z6KILRv/2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;packaging material&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-432dd.jpg&quot;
-                  srcset=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMEBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAADAf/aAAwDAQACEAMQAAABSt9sSZckCz//xAAcEAACAgIDAAAAAAAAAAAAAAABAgMSAAQRMTL/2gAIAQEAAQUChNckFnPa+QgI2OFm/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BV//EABYRAQEBAAAAAAAAAAAAAAAAAAABQf/aAAgBAgEBPwHUf//EABcQAQEBAQAAAAAAAAAAAAAAABEBABD/2gAIAQEABj8CcycgPLDf/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERITFhgf/aAAgBAQABPyGGmvWWczFg1DScox+MfQ52f//aAAwDAQACAAMAAAAQrC//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QsQx//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERIUH/2gAIAQIBAT8QeX0Sqn//xAAbEAEBAQACAwAAAAAAAAAAAAABEQAhQVFhwf/aAAgBAQABPxAGRlA+GZJTFQ71ISPvCAShaAd7gmB4z6KILRv/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;packaging material&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-432dd.jpg&quot;
+        srcset=&quot;/static/5ebd8129b5539ccaa356f0b4cd07f3d6-b1c52.jpg 173w,
 /static/5ebd8129b5539ccaa356f0b4cd07f3d6-432dd.jpg 300w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          {.img .img—right}
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  {.img .img—right}
 To be honest at first I didn’t realize how many packages there were going to arrive at my house. It is &lt;strong&gt;a lot&lt;/strong&gt; of stuff after all. On the image you can see &lt;em&gt;part&lt;/em&gt; of them. The pile of garbage got so big that I eventually gave up and just threw the packaging material away. Feels good to get so much (packaging) for your money though!&lt;/p&gt;
 &lt;p&gt;After everything I ordered arrived I started building. Five minutes later I realized that I forgot something. &lt;strong&gt;You forgot about it too, right?&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -162,35 +146,27 @@ To be honest at first I didn’t realize how many packages there were going to a
 &lt;/blockquote&gt;
 &lt;p&gt;Do you remember when I wrote last time that I wanted to build a custom Wilson II with less plastic parts? Yeah. Less plastic means more of a different kind of material – In my case MDF (basically wood + glue + pressure). You can get that stuff from literally anywhere and it is extremely cheap. I got my sheet for 5€ and only used about 10% of it.&lt;/p&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-432dd.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 104%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBQED/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAY38LXb1Z5KPRJBP/8QAGBABAQEBAQAAAAAAAAAAAAAAAQIAAyH/2gAIAQEAAQUC48ysI73RTzqGHdbW9FMO/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/ASv/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/AWZf/8QAHRAAAQMFAQAAAAAAAAAAAAAAIQABEgIQESAxYf/aAAgBAQAGPwKTnxC86RlB+af/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhQVFxMf/aAAgBAQABPyE6wgbbEMyOvhXszWjx3CHoH2OcjEdmZ0eGXP/aAAwDAQACAAMAAAAQtxh//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERECH/2gAIAQMBAT8QUnBoWZ//xAAYEQEBAAMAAAAAAAAAAAAAAAABABARIf/aAAgBAgEBPxBO+xUHH//EAB0QAQACAgMBAQAAAAAAAAAAAAEAESExQVFhgaH/2gAIAQEAAT8QwRDVOH2N0opXJKXm4OEtq0laPT77GABULoPR3CNOF5Tf7HREw7jcQbJWPX0gnLlds//Z&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;custom wood part&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-432dd.jpg&quot;
-                  srcset=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 104%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBQED/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/2gAMAwEAAhADEAAAAY38LXb1Z5KPRJBP/8QAGBABAQEBAQAAAAAAAAAAAAAAAQIAAyH/2gAIAQEAAQUC48ysI73RTzqGHdbW9FMO/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/ASv/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAECAQE/AWZf/8QAHRAAAQMFAQAAAAAAAAAAAAAAIQABEgIQESAxYf/aAAgBAQAGPwKTnxC86RlB+af/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhQVFxMf/aAAgBAQABPyE6wgbbEMyOvhXszWjx3CHoH2OcjEdmZ0eGXP/aAAwDAQACAAMAAAAQtxh//8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERECH/2gAIAQMBAT8QUnBoWZ//xAAYEQEBAAMAAAAAAAAAAAAAAAABABARIf/aAAgBAgEBPxBO+xUHH//EAB0QAQACAgMBAQAAAAAAAAAAAAEAESExQVFhgaH/2gAIAQEAAT8QwRDVOH2N0opXJKXm4OEtq0laPT77GABULoPR3CNOF5Tf7HREw7jcQbJWPX0gnLlds//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;custom wood part&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-432dd.jpg&quot;
+        srcset=&quot;/static/7dc02bcc1578ded64eaa63d020759cfb-b1c52.jpg 173w,
 /static/7dc02bcc1578ded64eaa63d020759cfb-432dd.jpg 300w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          {.img .img—left}
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  {.img .img—left}
 The next step was to somehow get the holes into that sheet of MDF. Luckily I have a friend that has a hand-router. This made milling the wood into its correct shape a matter of minutes. If someone wants the schematic I used for the parts just leave a comment and let me know.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Finally&lt;/strong&gt; everything was there and I could start building for real! Assembling such a big project was one of the most rewarding experiences I ever had. You get to understand those people that constantly build new 3D printers just for fun.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -198,414 +174,312 @@ The next step was to somehow get the holes into that sheet of MDF. Luckily I hav
 &lt;/blockquote&gt;
 &lt;p&gt;This was among the first things I heard on the #reprap IRC. I remember this a lot now because I finally understand. Back to the assembly! I started with the 3D printed parts. They all came out incredibly well by the way – big shoutout to 3D Hubs!&lt;/p&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABnjTL7BSn/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAIBAxIRMf/aAAgBAQABBQKXmBbm1noxX6f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAABBQAAAAAAAAAAAAAAAAAAESAhQVH/2gAIAQEABj8Co0lGf//EABoQAQADAAMAAAAAAAAAAAAAAAEAESExQXH/2gAIAQEAAT8hK2mXKwSj1LNWHyE5rYdxW5//2gAMAwEAAgADAAAAEHAf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EBwtb//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxBNn//EABsQAQEBAQADAQAAAAAAAAAAAAERACFBYYHx/9oACAEBAAE/EBxSUv5oUNAIE+4QaPALz27shRLMVYU3kN//2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-737f4.jpg&quot;
-                  srcset=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABnjTL7BSn/8QAGhAAAgMBAQAAAAAAAAAAAAAAAAIBAxIRMf/aAAgBAQABBQKXmBbm1noxX6f/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAABBQAAAAAAAAAAAAAAAAAAESAhQVH/2gAIAQEABj8Co0lGf//EABoQAQADAAMAAAAAAAAAAAAAAAEAESExQXH/2gAIAQEAAT8hK2mXKwSj1LNWHyE5rYdxW5//2gAMAwEAAgADAAAAEHAf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EBwtb//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxBNn//EABsQAQEBAQADAQAAAAAAAAAAAAERACFBYYHx/9oACAEBAAE/EBxSUv5oUNAIE+4QaPALz27shRLMVYU3kN//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-737f4.jpg&quot;
+        srcset=&quot;/static/0fb1ec3cd70dc2c73df8bdff3960e384-b1c52.jpg 173w,
 /static/0fb1ec3cd70dc2c73df8bdff3960e384-a4b17.jpg 345w,
 /static/0fb1ec3cd70dc2c73df8bdff3960e384-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/bb34d5753f42686bf58f2801f83faf39-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAP/aAAwDAQACEAMQAAABhSLF6Ikj/8QAGBABAQEBAQAAAAAAAAAAAAAAAQIAAxH/2gAIAQEAAQUCaF521vNdM6HC7//EABYRAAMAAAAAAAAAAAAAAAAAABARQf/aAAgBAwEBPwFwf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAABARAAESIf/aAAgBAQAGPwLLU6HR/8QAGhABAQEBAAMAAAAAAAAAAAAAAREAMSFhcf/aAAgBAQABPyER79y04+YsuZFjmSr5e6Du/9oADAMBAAIAAwAAABDgP//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QzBb/xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QVH//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhEDFBgf/aAAgBAQABPxAxN0jzh1Ma4u2jxSuQKaCPxxh1ilp9YIUp/9k=&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/bb34d5753f42686bf58f2801f83faf39-737f4.jpg&quot;
-                  srcset=&quot;/static/bb34d5753f42686bf58f2801f83faf39-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAP/aAAwDAQACEAMQAAABhSLF6Ikj/8QAGBABAQEBAQAAAAAAAAAAAAAAAQIAAxH/2gAIAQEAAQUCaF521vNdM6HC7//EABYRAAMAAAAAAAAAAAAAAAAAABARQf/aAAgBAwEBPwFwf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAABARAAESIf/aAAgBAQAGPwLLU6HR/8QAGhABAQEBAAMAAAAAAAAAAAAAAREAMSFhcf/aAAgBAQABPyER79y04+YsuZFjmSr5e6Du/9oADAMBAAIAAwAAABDgP//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QzBb/xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QVH//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhEDFBgf/aAAgBAQABPxAxN0jzh1Ma4u2jxSuQKaCPxxh1ilp9YIUp/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bb34d5753f42686bf58f2801f83faf39-737f4.jpg&quot;
+        srcset=&quot;/static/bb34d5753f42686bf58f2801f83faf39-b1c52.jpg 173w,
 /static/bb34d5753f42686bf58f2801f83faf39-a4b17.jpg 345w,
 /static/bb34d5753f42686bf58f2801f83faf39-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/dca668a698affed87992ad30b622b183-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFJVHNauqT/xAAbEAACAwADAAAAAAAAAAAAAAACAwEEEQASM//aAAgBAQABBQJlk+zzOYSgDWcaun65z//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGH/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAECAxEhURAScf/aAAgBAQAGPwJpYsZlcUpVer0NvQ/OP//EABkQAQACAwAAAAAAAAAAAAAAAAEAESFBUf/aAAgBAQABPyHKgYlblfpDpiIU4gGBRpDctOE//9oADAMBAAIAAwAAABDH7//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxBMgat//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxBapD//xAAbEAACAwEBAQAAAAAAAAAAAAABEQAhMUFRcf/aAAgBAQABPxAwXrSrm42VomAxpcXwRXsJ7fCMK2CYANt+iEqZq6J//9k=&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/dca668a698affed87992ad30b622b183-737f4.jpg&quot;
-                  srcset=&quot;/static/dca668a698affed87992ad30b622b183-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFJVHNauqT/xAAbEAACAwADAAAAAAAAAAAAAAACAwEEEQASM//aAAgBAQABBQJlk+zzOYSgDWcaun65z//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/Aar/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGH/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAECAxEhURAScf/aAAgBAQAGPwJpYsZlcUpVer0NvQ/OP//EABkQAQACAwAAAAAAAAAAAAAAAAEAESFBUf/aAAgBAQABPyHKgYlblfpDpiIU4gGBRpDctOE//9oADAMBAAIAAwAAABDH7//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxBMgat//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxBapD//xAAbEAACAwEBAQAAAAAAAAAAAAABEQAhMUFRcf/aAAgBAQABPxAwXrSrm42VomAxpcXwRXsJ7fCMK2CYANt+iEqZq6J//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dca668a698affed87992ad30b622b183-737f4.jpg&quot;
+        srcset=&quot;/static/dca668a698affed87992ad30b622b183-b1c52.jpg 173w,
 /static/dca668a698affed87992ad30b622b183-a4b17.jpg 345w,
 /static/dca668a698affed87992ad30b622b183-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAAAAECAwQFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAXVYEK6IzRH/xAAaEAADAAMBAAAAAAAAAAAAAAABAgQAAxEy/9oACAEBAAEFAnpKA1bWYU6+ITyb1n//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGH/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEhAhAiMVH/2gAIAQEABj8Cx7sSTRNUjHb/xAAcEAEAAgEFAAAAAAAAAAAAAAABABExECFRYaH/2gAIAQEAAT8hZhzs6SoSswYhgFyirm55dP/aAAwDAQACAAMAAAAQyM//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBEx/9oACAEDAQE/EFoyP//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QjSn/xAAcEAACAwADAQAAAAAAAAAAAAABEQAhMVFxkcH/2gAIAQEAAT8QGhsKK1sZBjEuGNUBQgALaVHMpj6no+5xP//Z&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-737f4.jpg&quot;
-                  srcset=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGgAAAQUBAAAAAAAAAAAAAAAAAAECAwQFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAXVYEK6IzRH/xAAaEAADAAMBAAAAAAAAAAAAAAABAgQAAxEy/9oACAEBAAEFAnpKA1bWYU6+ITyb1n//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGH/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEhAhAiMVH/2gAIAQEABj8Cx7sSTRNUjHb/xAAcEAEAAgEFAAAAAAAAAAAAAAABABExECFRYaH/2gAIAQEAAT8hZhzs6SoSswYhgFyirm55dP/aAAwDAQACAAMAAAAQyM//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBEx/9oACAEDAQE/EFoyP//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QjSn/xAAcEAACAwADAQAAAAAAAAAAAAABEQAhMVFxkcH/2gAIAQEAAT8QGhsKK1sZBjEuGNUBQgALaVHMpj6no+5xP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-737f4.jpg&quot;
+        srcset=&quot;/static/f7db928c18ffb7eb9302c77a51df3776-b1c52.jpg 173w,
 /static/f7db928c18ffb7eb9302c77a51df3776-a4b17.jpg 345w,
 /static/f7db928c18ffb7eb9302c77a51df3776-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFLo5JrfMsP/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQADBBICESExMv/aAAgBAQABBQIu1AmbWMoV7TvBb8f/xAAWEQEBAQAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8BrH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAgMBAAAAAAAAAAAAAAABABECECEx/9oACAEBAAY/AiuRMqJ4uyf/xAAbEAEAAgIDAAAAAAAAAAAAAAABACERQRBRgf/aAAgBAQABPyFrDDsjYQEpNRI9huIC7gAxXD//2gAMAwEAAgADAAAAEAfv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFR/9oACAEDAQE/EITD/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QCf/EABwQAQACAwADAAAAAAAAAAAAAAEAESFBUWGBof/aAAgBAQABPxAcCHPfRn3DU+Ztrz2XSsKxQBCDjAIgrUaVOr+z/9k=&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-737f4.jpg&quot;
-                  srcset=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFLo5JrfMsP/8QAHRAAAQQCAwAAAAAAAAAAAAAAAQADBBICESExMv/aAAgBAQABBQIu1AmbWMoV7TvBb8f/xAAWEQEBAQAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8BrH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAEAAgMBAAAAAAAAAAAAAAABABECECEx/9oACAEBAAY/AiuRMqJ4uyf/xAAbEAEAAgIDAAAAAAAAAAAAAAABACERQRBRgf/aAAgBAQABPyFrDDsjYQEpNRI9huIC7gAxXD//2gAMAwEAAgADAAAAEAfv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFR/9oACAEDAQE/EITD/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QCf/EABwQAQACAwADAAAAAAAAAAAAAAEAESFBUWGBof/aAAgBAQABPxAcCHPfRn3DU+Ztrz2XSsKxQBCDjAIgrUaVOr+z/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-737f4.jpg&quot;
+        srcset=&quot;/static/2afc9ab254bb722f9ca720c5e2ad8609-b1c52.jpg 173w,
 /static/2afc9ab254bb722f9ca720c5e2ad8609-a4b17.jpg 345w,
 /static/2afc9ab254bb722f9ca720c5e2ad8609-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/7159d05278706807d6014f0c9842c541-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB56clFIj1n//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEDEv/aAAgBAQABBQKjlnptaTTGf//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAEAAwAAAAAAAAAAAAAAAAABACAh/9oACAEBAAY/AoYV/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERIRBBUf/aAAgBAQABPyFe4NbpfBzhClcG0//aAAwDAQACAAMAAAAQ5z//xAAVEQEBAAAAAAAAAAAAAAAAAAAQMf/aAAgBAwEBPxCT/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABkQAQADAQEAAAAAAAAAAAAAAAEAESExcf/aAAgBAQABPxABGGm6YDSA5SowchwcfYrpsSiJfZ//2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/7159d05278706807d6014f0c9842c541-737f4.jpg&quot;
-                  srcset=&quot;/static/7159d05278706807d6014f0c9842c541-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAADBf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB56clFIj1n//EABkQAAMBAQEAAAAAAAAAAAAAAAABAhEDEv/aAAgBAQABBQKjlnptaTTGf//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAEAAwAAAAAAAAAAAAAAAAABACAh/9oACAEBAAY/AoYV/8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERIRBBUf/aAAgBAQABPyFe4NbpfBzhClcG0//aAAwDAQACAAMAAAAQ5z//xAAVEQEBAAAAAAAAAAAAAAAAAAAQMf/aAAgBAwEBPxCT/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABkQAQADAQEAAAAAAAAAAAAAAAEAESExcf/aAAgBAQABPxABGGm6YDSA5SowchwcfYrpsSiJfZ//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7159d05278706807d6014f0c9842c541-737f4.jpg&quot;
+        srcset=&quot;/static/7159d05278706807d6014f0c9842c541-b1c52.jpg 173w,
 /static/7159d05278706807d6014f0c9842c541-a4b17.jpg 345w,
 /static/7159d05278706807d6014f0c9842c541-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFSZIvRJRP/xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIUERIx/9oACAEBAAEFArEUWFE3U0YFz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMAAwAAAAAAAAAAAAAAAAABESAhIv/aAAgBAQAGPwJrdOqVYf/EABkQAQEBAQEBAAAAAAAAAAAAAAERADFhQf/aAAgBAQABPyGuMPMXQPJzABQTIPzIvMoJv//aAAwDAQACAAMAAAAQCO//xAAWEQADAAAAAAAAAAAAAAAAAAAQESH/2gAIAQMBAT8QiH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhQTGBsfD/2gAIAQEAAT8QEKsa0aj2SFICr72IMwQlMYyHqaJEAqA4n//Z&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-737f4.jpg&quot;
-                  srcset=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFSZIvRJRP/xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIUERIx/9oACAEBAAEFArEUWFE3U0YFz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAMAAwAAAAAAAAAAAAAAAAABESAhIv/aAAgBAQAGPwJrdOqVYf/EABkQAQEBAQEBAAAAAAAAAAAAAAERADFhQf/aAAgBAQABPyGuMPMXQPJzABQTIPzIvMoJv//aAAwDAQACAAMAAAAQCO//xAAWEQADAAAAAAAAAAAAAAAAAAAQESH/2gAIAQMBAT8QiH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhQTGBsfD/2gAIAQEAAT8QEKsa0aj2SFICr72IMwQlMYyHqaJEAqA4n//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-737f4.jpg&quot;
+        srcset=&quot;/static/a24c4bea0d12d66e2f433e7489eda6c3-b1c52.jpg 173w,
 /static/a24c4bea0d12d66e2f433e7489eda6c3-a4b17.jpg 345w,
 /static/a24c4bea0d12d66e2f433e7489eda6c3-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAGeiRRWqIKf/8QAGhAAAwADAQAAAAAAAAAAAAAAAAECBBMiI//aAAgBAQABBQLcTkpOumQvQ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABESEg/9oACAEBAAY/AtuFTdZbx//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExURBh/9oACAEBAAE/IXifhhhTBEqnbyVe4Vsa8//aAAwDAQACAAMAAAAQhN//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQMBAT8QoZ//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QjH//xAAdEAACAwACAwAAAAAAAAAAAAABEQAhMUFhcYGh/9oACAEBAAE/ECpXosu+lAVyBMbxbg2zRkPkIDR+ZllGOoSXs//Z&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-737f4.jpg&quot;
-                  srcset=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAGeiRRWqIKf/8QAGhAAAwADAQAAAAAAAAAAAAAAAAECBBMiI//aAAgBAQABBQLcTkpOumQvQ//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABgQAAMBAQAAAAAAAAAAAAAAAAABESEg/9oACAEBAAY/AtuFTdZbx//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExURBh/9oACAEBAAE/IXifhhhTBEqnbyVe4Vsa8//aAAwDAQACAAMAAAAQhN//xAAWEQEBAQAAAAAAAAAAAAAAAAARARD/2gAIAQMBAT8QoZ//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QjH//xAAdEAACAwACAwAAAAAAAAAAAAABEQAhMUFhcYGh/9oACAEBAAE/ECpXosu+lAVyBMbxbg2zRkPkIDR+ZllGOoSXs//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-737f4.jpg&quot;
+        srcset=&quot;/static/831c9f9ff12d852b2bc1d486d8008292-b1c52.jpg 173w,
 /static/831c9f9ff12d852b2bc1d486d8008292-a4b17.jpg 345w,
 /static/831c9f9ff12d852b2bc1d486d8008292-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFLp9TVgsP/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADETL/2gAIAQEAAQUCsbIrll0ywArVxP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGtf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABAhEgITH/2gAIAQEABj8CWipM7h//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQITFRgf/aAAgBAQABPyEHUtbJ6eVKgNw7l4ScGP/aAAwDAQACAAMAAAAQ9y//xAAXEQADAQAAAAAAAAAAAAAAAAAAARHw/9oACAEDAQE/EGpWR//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAn/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxAQSVQVT45Hxu4Wv2AKgUYamiScbgpzravtlz//2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-737f4.jpg&quot;
-                  srcset=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFLp9TVgsP/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADETL/2gAIAQEAAQUCsbIrll0ywArVxP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGtf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABAhEgITH/2gAIAQEABj8CWipM7h//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQITFRgf/aAAgBAQABPyEHUtbJ6eVKgNw7l4ScGP/aAAwDAQACAAMAAAAQ9y//xAAXEQADAQAAAAAAAAAAAAAAAAAAARHw/9oACAEDAQE/EGpWR//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAn/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMUFRcf/aAAgBAQABPxAQSVQVT45Hxu4Wv2AKgUYamiScbgpzravtlz//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-737f4.jpg&quot;
+        srcset=&quot;/static/d3d1bcd3375388d21c5f3ee0775dbf4f-b1c52.jpg 173w,
 /static/d3d1bcd3375388d21c5f3ee0775dbf4f-a4b17.jpg 345w,
 /static/d3d1bcd3375388d21c5f3ee0775dbf4f-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          &lt;/p&gt;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
 &lt;p&gt;Once most of what I could add to the plastic was done, I started to build the extruder. I am using the E3D v6 Lite. There is some really good documentation from the E3D guys out there on how to assemble that thing &lt;a href=&quot;http://wiki.e3d-online.com/wiki/E3D-Lite6_Assembly&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It was pretty straightforward to build. The only two things you need to look out for are:
-1. Be careful about the cables. Add zip ties where the guide says. This will stress relief the wires and help out prolong the life of your printer.
-2. Hot-tighten the extruder. Basically you heat it up to 245°C and then tighten the nozzle against the aluminium heat block. This will properly seal them together so that no filament can get out later. Don’t worry though, you can do that at the very last step of your assembly this does not hurry.&lt;/p&gt;
+&lt;p&gt;It was pretty straightforward to build. The only two things you need to look out for are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Be careful about the cables. Add zip ties where the guide says. This will stress relief the wires and help out prolong the life of your printer.&lt;/li&gt;
+&lt;li&gt;Hot-tighten the extruder. Basically you heat it up to 245°C and then tighten the nozzle against the aluminium heat block. This will properly seal them together so that no filament can get out later. Don’t worry though, you can do that at the very last step of your assembly this does not hurry.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/8ed27ce283a1936155fd558fbf87a739-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFLp9TVooP/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADETL/2gAIAQEAAQUCsbIrll0ywArVxP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGtf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABAhEgITH/2gAIAQEABj8CWipM7h//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQITFRgf/aAAgBAQABPyEHUtbJ6eVKgNw7l4ScGP/aAAwDAQACAAMAAAAQ9C//xAAXEQADAQAAAAAAAAAAAAAAAAAAARHw/9oACAEDAQE/EGpWR//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAn/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRcaH/2gAIAQEAAT8QEElUFU8aj428Fl9gCoFFBr5MiSabgpzbavbLn//Z&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/8ed27ce283a1936155fd558fbf87a739-737f4.jpg&quot;
-                  srcset=&quot;/static/8ed27ce283a1936155fd558fbf87a739-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAAFLp9TVooP/xAAZEAACAwEAAAAAAAAAAAAAAAABAgADETL/2gAIAQEAAQUCsbIrll0ywArVxP/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwGtf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABAhEgITH/2gAIAQEABj8CWipM7h//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEQITFRgf/aAAgBAQABPyEHUtbJ6eVKgNw7l4ScGP/aAAwDAQACAAMAAAAQ9C//xAAXEQADAQAAAAAAAAAAAAAAAAAAARHw/9oACAEDAQE/EGpWR//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EAn/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRcaH/2gAIAQEAAT8QEElUFU8aj428Fl9gCoFFBr5MiSabgpzbavbLn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8ed27ce283a1936155fd558fbf87a739-737f4.jpg&quot;
+        srcset=&quot;/static/8ed27ce283a1936155fd558fbf87a739-b1c52.jpg 173w,
 /static/8ed27ce283a1936155fd558fbf87a739-a4b17.jpg 345w,
 /static/8ed27ce283a1936155fd558fbf87a739-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 177.81249999999997%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAZqczu2A8sz0nuwnEQFf/8QAHBAAAgMAAwEAAAAAAAAAAAAAABEBAiEDEBIg/9oACAEBAAEFAolkPrkVZ9Y4L39j3YEVwfx//8QAGBEAAgMAAAAAAAAAAAAAAAAAARARICH/2gAIAQMBAT8BjEDT/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQIBAT8BWv/EABoQAAIDAQEAAAAAAAAAAAAAAAABEBEhIFH/2gAIAQEABj8Co9UUp3BJMzv/xAAfEAACAgAHAQAAAAAAAAAAAAABEQAhEDFBUWGBkaH/2gAIAQEAAT8h1TTyOZ1E9oRADAmM4DJs7fINyHvYAqj945gAEFcSwUIgq8l8yesXP//aAAwDAQACAAMAAAAQt/vweC//xAAZEQEAAwEBAAAAAAAAAAAAAAABABEhEDH/2gAIAQMBAT8QG2mQj2NXnf/EABgRAAIDAAAAAAAAAAAAAAAAAAEQABEh/9oACAECAQE/ENKRED//xAAdEAEAAgMBAQEBAAAAAAAAAAABABEhMUFhUXGR/9oACAEBAAE/EHuslLimPgHiy3T7MupQJK055BzK1UKKtWv3cUdw0YqCPYGvd3DOXZZAcQF1pgCrDzf93Ow34qIY1LZaf//Z&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-737f4.jpg&quot;
-                  srcset=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.81249999999997%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAZqczu2A8sz0nuwnEQFf/8QAHBAAAgMAAwEAAAAAAAAAAAAAABEBAiEDEBIg/9oACAEBAAEFAolkPrkVZ9Y4L39j3YEVwfx//8QAGBEAAgMAAAAAAAAAAAAAAAAAARARICH/2gAIAQMBAT8BjEDT/8QAFREBAQAAAAAAAAAAAAAAAAAAASD/2gAIAQIBAT8BWv/EABoQAAIDAQEAAAAAAAAAAAAAAAABEBEhIFH/2gAIAQEABj8Co9UUp3BJMzv/xAAfEAACAgAHAQAAAAAAAAAAAAABEQAhEDFBUWGBkaH/2gAIAQEAAT8h1TTyOZ1E9oRADAmM4DJs7fINyHvYAqj945gAEFcSwUIgq8l8yesXP//aAAwDAQACAAMAAAAQt/vweC//xAAZEQEAAwEBAAAAAAAAAAAAAAABABEhEDH/2gAIAQMBAT8QG2mQj2NXnf/EABgRAAIDAAAAAAAAAAAAAAAAAAEQABEh/9oACAECAQE/ENKRED//xAAdEAEAAgMBAQEBAAAAAAAAAAABABEhMUFhUXGR/9oACAEBAAE/EHuslLimPgHiy3T7MupQJK055BzK1UKKtWv3cUdw0YqCPYGvd3DOXZZAcQF1pgCrDzf93Ow34qIY1LZaf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-737f4.jpg&quot;
+        srcset=&quot;/static/3c03a6bc5b86eab9548df5787d44b026-b1c52.jpg 173w,
 /static/3c03a6bc5b86eab9548df5787d44b026-a4b17.jpg 345w,
 /static/3c03a6bc5b86eab9548df5787d44b026-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-737f4.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 177.81249999999997%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCA//EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAW58Y60OpJp7MXES0Z0GQf/EAB0QAAEFAQADAAAAAAAAAAAAAAEAAgMREhAEEzH/2gAIAQEAAQUCLqNoulROBshN8iKpG6b75NVfKCoJvzn/xAAYEQACAwAAAAAAAAAAAAAAAAAAASAhMf/aAAgBAwEBPwFYXH//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAgEBPwFr/8QAHhAAAQMEAwAAAAAAAAAAAAAAAAERIRATIGEiUaH/2gAIAQEABj8CTeyGOjkrj2/CUrOf/8QAHBABAAIDAQEBAAAAAAAAAAAAAQARITFBYVGR/9oACAEBAAE/IaBji2AA7GiKeeGC1jdeS+PA0suN9/sCismogLNfczIuyy7i3J5RRcuf/9oADAMBAAIAAwAAABDgLPN/7//EABkRAAMAAwAAAAAAAAAAAAAAAAEQEQAxQf/aAAgBAwEBPxCNsJ4VL//EABcRAAMBAAAAAAAAAAAAAAAAAAAgITH/2gAIAQIBAT8Q1CL/AP/EAB8QAQACAwABBQAAAAAAAAAAAAEAESExUUFhcZGhsf/aAAgBAQABPxDJHwF6TWFAjtur+5dRPwls2RFbB7Id+MsDx8RSNyEMkHMk1OGnDQ0UfrKEmwtYMxEOWiAGkWkVF3P/2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-737f4.jpg&quot;
-                  srcset=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.81249999999997%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQCA//EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAW58Y60OpJp7MXES0Z0GQf/EAB0QAAEFAQADAAAAAAAAAAAAAAEAAgMREhAEEzH/2gAIAQEAAQUCLqNoulROBshN8iKpG6b75NVfKCoJvzn/xAAYEQACAwAAAAAAAAAAAAAAAAAAASAhMf/aAAgBAwEBPwFYXH//xAAVEQEBAAAAAAAAAAAAAAAAAAABIP/aAAgBAgEBPwFr/8QAHhAAAQMEAwAAAAAAAAAAAAAAAAERIRATIGEiUaH/2gAIAQEABj8CTeyGOjkrj2/CUrOf/8QAHBABAAIDAQEBAAAAAAAAAAAAAQARITFBYVGR/9oACAEBAAE/IaBji2AA7GiKeeGC1jdeS+PA0suN9/sCismogLNfczIuyy7i3J5RRcuf/9oADAMBAAIAAwAAABDgLPN/7//EABkRAAMAAwAAAAAAAAAAAAAAAAEQEQAxQf/aAAgBAwEBPxCNsJ4VL//EABcRAAMBAAAAAAAAAAAAAAAAAAAgITH/2gAIAQIBAT8Q1CL/AP/EAB8QAQACAwABBQAAAAAAAAAAAAEAESExUUFhcZGhsf/aAAgBAQABPxDJHwF6TWFAjtur+5dRPwls2RFbB7Id+MsDx8RSNyEMkHMk1OGnDQ0UfrKEmwtYMxEOWiAGkWkVF3P/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-737f4.jpg&quot;
+        srcset=&quot;/static/347bcdc66fbc403950ecd7eafebc0261-b1c52.jpg 173w,
 /static/347bcdc66fbc403950ecd7eafebc0261-a4b17.jpg 345w,
 /static/347bcdc66fbc403950ecd7eafebc0261-737f4.jpg 640w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-91857.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 177.81249999999997%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAHV4y6a4mZlbIZdiTYtoDgP/8QAHBAAAwABBQAAAAAAAAAAAAAAAAECEAMREiJC/9oACAEBAAEFArqSn22KOM0izyVppihLFZ//xAAXEQADAQAAAAAAAAAAAAAAAAAQICEx/9oACAEDAQE/AcET/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAGhAAAgIDAAAAAAAAAAAAAAAAARAAERIwcf/aAAgBAQAGPwKU7zHGNH//xAAbEAACAwEBAQAAAAAAAAAAAAAAAREhMWEgQf/aAAgBAQABPyFNahU+iJgpW/xYlRrcKaU3LFg4nHwhtrwk/9oADAMBAAIAAwAAABC7N4EL/wD/xAAZEQACAwEAAAAAAAAAAAAAAAAAARARMSH/2gAIAQMBAT8QboLC2XdLn//EABgRAAIDAAAAAAAAAAAAAAAAAAABICEx/9oACAECAQE/EEPS4f/EAB0QAQEBAAMBAAMAAAAAAAAAAAERACFBUTFhofD/2gAIAQEAAT8QdRp43HFY8O/3hiLJxJk3zIXTWXk1idX++5QC1AF9ZzoUU+PzgUwvkgKv17wgNfL6dsshaqWTcbhlbq3/2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;gallery image&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-60ea6.jpg&quot;
-                  srcset=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 177.81249999999997%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAkABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAHV4y6a4mZlbIZdiTYtoDgP/8QAHBAAAwABBQAAAAAAAAAAAAAAAAECEAMREiJC/9oACAEBAAEFArqSn22KOM0izyVppihLFZ//xAAXEQADAQAAAAAAAAAAAAAAAAAQICEx/9oACAEDAQE/AcET/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwFf/8QAGhAAAgIDAAAAAAAAAAAAAAAAARAAERIwcf/aAAgBAQAGPwKU7zHGNH//xAAbEAACAwEBAQAAAAAAAAAAAAAAAREhMWEgQf/aAAgBAQABPyFNahU+iJgpW/xYlRrcKaU3LFg4nHwhtrwk/9oADAMBAAIAAwAAABC7N4EL/wD/xAAZEQACAwEAAAAAAAAAAAAAAAAAARARMSH/2gAIAQMBAT8QboLC2XdLn//EABgRAAIDAAAAAAAAAAAAAAAAAAABICEx/9oACAECAQE/EEPS4f/EAB0QAQEBAAMBAAMAAAAAAAAAAAERACFBUTFhofD/2gAIAQEAAT8QdRp43HFY8O/3hiLJxJk3zIXTWXk1idX++5QC1AF9ZzoUU+PzgUwvkgKv17wgNfL6dsshaqWTcbhlbq3/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gallery image&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-60ea6.jpg&quot;
+        srcset=&quot;/static/1943767c614b27e29afae0d1ee9fa57e-b1c52.jpg 173w,
 /static/1943767c614b27e29afae0d1ee9fa57e-a4b17.jpg 345w,
 /static/1943767c614b27e29afae0d1ee9fa57e-60ea6.jpg 690w,
 /static/1943767c614b27e29afae0d1ee9fa57e-78c06.jpg 1035w,
 /static/1943767c614b27e29afae0d1ee9fa57e-91857.jpg 1280w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          &lt;/p&gt;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
 &lt;p&gt;Up to this point I had zero problems with the build. The documentation is great with the videos mrice provides on YouTube and although they are a little outdated sometimes you can’t seriously screw up if you follow them. I was not sure if assembling your own 3D printer with no experience at all would be possible, but with great documentation it certainly is. That is also one of the reasons I am writing this by the way :)&lt;/p&gt;
 &lt;p&gt;This was Part 2 of me building a 3D printer. Next week you will see me assembling the 3D printer frame &lt;strong&gt;exactly one time /s&lt;/strong&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Automatically download Podcasts with the Raspberry Pi]]></title><description><![CDATA[As a regular listener to podcasts you will know the pain of not having
 them available right when you need them most. There are tons of apps...]]></description><link>https://blog.rphl.io/raspberry-pi-podcast-downloader/</link><guid isPermaLink="false">https://blog.rphl.io/raspberry-pi-podcast-downloader/</guid><pubDate>Sun, 24 Apr 2016 19:51:00 GMT</pubDate><content:encoded>&lt;p&gt;As a regular listener to podcasts you will know the pain of not having
@@ -697,71 +571,55 @@ Okey let’s get serious. The plugin is pretty neat and it certainly gives you t
 &lt;p&gt;&lt;a href=&quot;https://atom.io/packages/activate-power-mode&quot;&gt;Activate Power Mode&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;2 File Icons&lt;/h2&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-ad1f0.png&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 58.1159420289855%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz2WS226FIBBFzx95QMUrCt61PU2aPvX/f6QLbCzFiRLids3sGXgIIfvXV9d1wzBM08Sm7/tnEHy31hrDY5C01lmWndKDt7JzmqaZDykl+xAGqKqqKIqyrJRSbIQQf3A9ruSefPBf0zQhjBfUfd+XZXEOjLkkB+v9YxzHeZ4h75WRKE5eVqyFqoOVmXIfSZI8b0GTJFUqh0x8/INzu7Q+MHznvVt7mo9MedtmwRVd4ZyRRDAfGfi2b8dxkCKGu6Kp6xqBygwzgsuyLJTSnUZttY7hqRE0TE1WBhbBtANMCnqOfDn4+71kpNu2YT46J4J2hnF8Ow78L/N8HbKDhZT6+MTzeRjhMV49c722deUHa4ewuKvcckWlZM7nGsH0kqa/vUTqDxzemdfZnufkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;File Icons&quot;
-                  title=&quot;File Icons&quot;
-                  src=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-ad1f0.png&quot;
-                  srcset=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-71707.png 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 58.1159420289855%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAAAsSAAALEgHS3X78AAABKUlEQVQoz2WS226FIBBFzx95QMUrCt61PU2aPvX/f6QLbCzFiRLids3sGXgIIfvXV9d1wzBM08Sm7/tnEHy31hrDY5C01lmWndKDt7JzmqaZDykl+xAGqKqqKIqyrJRSbIQQf3A9ruSefPBf0zQhjBfUfd+XZXEOjLkkB+v9YxzHeZ4h75WRKE5eVqyFqoOVmXIfSZI8b0GTJFUqh0x8/INzu7Q+MHznvVt7mo9MedtmwRVd4ZyRRDAfGfi2b8dxkCKGu6Kp6xqBygwzgsuyLJTSnUZttY7hqRE0TE1WBhbBtANMCnqOfDn4+71kpNu2YT46J4J2hnF8Ow78L/N8HbKDhZT6+MTzeRjhMV49c722deUHa4ewuKvcckWlZM7nGsH0kqa/vUTqDxzemdfZnufkAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;File Icons&quot;
+        title=&quot;File Icons&quot;
+        src=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-ad1f0.png&quot;
+        srcset=&quot;/static/0fdbe0bcc81a887ce3421d6c3a4a9f00-71707.png 173w,
 /static/0fdbe0bcc81a887ce3421d6c3a4a9f00-14127.png 345w,
 /static/0fdbe0bcc81a887ce3421d6c3a4a9f00-ad1f0.png 690w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 This is the #1 (hah) package you absolutely need to install when using Atom. Its job is simple: Adding file icons for various file types. It is beautiful and helpful when trying to recognize different files. No way around it – install!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://atom.io/packages/file-icons&quot;&gt;File Icons&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;3 Material UI &amp;#x26; Material Syntax&lt;/h2&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/0c61468094ec3c089403eab90812348c-7c580.png&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 66.49417852522639%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABZklEQVQoz4VS2W7CMBDkX6pSKCQBx46PNT5iYnIABfVArVr1pf//DTURfcBpVWnedmdnZndHCzD5ys3paoxYhIRrUbXgO6yru5wPG0YTLKBqh4V7ItNVo46v+ulNnj6KeieaEjvNaou0uZCnRJTHFhkVkwuJBEgrpZEMpOEKQZXIBvFNwELanoxZu6fcxMohSLCK1Nq0z377LvQeW0/KDXX1lW216TKho1SznjzOuVAPUh9E1c1Z7O6sXDc0Y7FyJuwk5xnYKYHhRi7kkO3l82spy6iwgJIozRQEYA6cQsZdqrYpc4h5pFyw3Cu3LKHx1FSYCeaFrVz3WB9PTHsKHS13ufbgd+GKIdQo9CFpl2Bi22B/Mh9CZlrWw1OfyURXS7BRYSld6E64mRcqLWyYFXz+QtaVJ3odDV6AnRFxm+GbNP8LvW2mkLTDJyEYGDPMNSnYwtaFDb9RXivn3O/2ut4ngzP+i29ioaN5flk3UAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;Material UI &amp; Material Syntax&quot;
-                  title=&quot;Material UI &amp; Material Syntax&quot;
-                  src=&quot;/static/0c61468094ec3c089403eab90812348c-ad1f0.png&quot;
-                  srcset=&quot;/static/0c61468094ec3c089403eab90812348c-71707.png 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 66.49417852522639%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABZklEQVQoz4VS2W7CMBDkX6pSKCQBx46PNT5iYnIABfVArVr1pf//DTURfcBpVWnedmdnZndHCzD5ys3paoxYhIRrUbXgO6yru5wPG0YTLKBqh4V7ItNVo46v+ulNnj6KeieaEjvNaou0uZCnRJTHFhkVkwuJBEgrpZEMpOEKQZXIBvFNwELanoxZu6fcxMohSLCK1Nq0z377LvQeW0/KDXX1lW216TKho1SznjzOuVAPUh9E1c1Z7O6sXDc0Y7FyJuwk5xnYKYHhRi7kkO3l82spy6iwgJIozRQEYA6cQsZdqrYpc4h5pFyw3Cu3LKHx1FSYCeaFrVz3WB9PTHsKHS13ufbgd+GKIdQo9CFpl2Bi22B/Mh9CZlrWw1OfyURXS7BRYSld6E64mRcqLWyYFXz+QtaVJ3odDV6AnRFxm+GbNP8LvW2mkLTDJyEYGDPMNSnYwtaFDb9RXivn3O/2ut4ngzP+i29ioaN5flk3UAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Material UI &amp; Material Syntax&quot;
+        title=&quot;Material UI &amp; Material Syntax&quot;
+        src=&quot;/static/0c61468094ec3c089403eab90812348c-ad1f0.png&quot;
+        srcset=&quot;/static/0c61468094ec3c089403eab90812348c-71707.png 173w,
 /static/0c61468094ec3c089403eab90812348c-14127.png 345w,
 /static/0c61468094ec3c089403eab90812348c-ad1f0.png 690w,
 /static/0c61468094ec3c089403eab90812348c-7c580.png 773w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 Most beautiful theme for Atom – &lt;strong&gt;Period&lt;/strong&gt; There is no better theme both for looks and functionality. The Material Syntax provides a healthy mix of modern colors pleasing to the eye. The Material UI provides a modern experience in the style of Google Material Design. They support all extensions and they simply looks &lt;strong&gt;great&lt;/strong&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://atom.io/themes/atom-material-ui&quot;&gt;Material UI&lt;/a&gt; | &lt;a href=&quot;https://atom.io/themes/atom-material-syntax&quot;&gt;Material Syntax&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;4 Pigments&lt;/h2&gt;
@@ -770,37 +628,29 @@ This is one of those small packages that you get so used to that you can’t use
 &lt;p&gt;&lt;a href=&quot;https://atom.io/packages/pigments&quot;&gt;Pigments&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;5 Minimap&lt;/h2&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/87bafd4ead3629e862273d4de9f107fe-7a712.png&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 34.42796610169492%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAAA9klEQVQY042Q3VLDIBBGeRYvemEMgYTlN4GFkDbaakfv9P0fxE2rTh1vnDlzhoXZbwHGh6BclRobOe4adbfj/6HlwIVhXEVvc3TFWRR+FhZ1nGHKasomzS2M98L/ZTmdXz/eWQdp8hVDTb54l70vcazeImV5hwAR1IZUsevHRoYr8/ryfH5jdGE7HbQrMR9iXn2sANir+IO8uFOp/e4kaj2W5cQGW/qwdCbbvIZ6VGPlgFRySLS4eKOF1Nw07+vjVJ/Y4IrQmZC2KErRKEzu7UwmriW5VfG2OeNCP8Kk+Tqmxwuy3qZ1gBS37ZjNXP0aSziHD0P4BL8yWgq3J8y2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;Minimap&quot;
-                  title=&quot;Minimap&quot;
-                  src=&quot;/static/87bafd4ead3629e862273d4de9f107fe-ad1f0.png&quot;
-                  srcset=&quot;/static/87bafd4ead3629e862273d4de9f107fe-71707.png 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.42796610169492%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAAsSAAALEgHS3X78AAAA9klEQVQY042Q3VLDIBBGeRYvemEMgYTlN4GFkDbaakfv9P0fxE2rTh1vnDlzhoXZbwHGh6BclRobOe4adbfj/6HlwIVhXEVvc3TFWRR+FhZ1nGHKasomzS2M98L/ZTmdXz/eWQdp8hVDTb54l70vcazeImV5hwAR1IZUsevHRoYr8/ryfH5jdGE7HbQrMR9iXn2sANir+IO8uFOp/e4kaj2W5cQGW/qwdCbbvIZ6VGPlgFRySLS4eKOF1Nw07+vjVJ/Y4IrQmZC2KErRKEzu7UwmriW5VfG2OeNCP8Kk+Tqmxwuy3qZ1gBS37ZjNXP0aSziHD0P4BL8yWgq3J8y2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Minimap&quot;
+        title=&quot;Minimap&quot;
+        src=&quot;/static/87bafd4ead3629e862273d4de9f107fe-ad1f0.png&quot;
+        srcset=&quot;/static/87bafd4ead3629e862273d4de9f107fe-71707.png 173w,
 /static/87bafd4ead3629e862273d4de9f107fe-14127.png 345w,
 /static/87bafd4ead3629e862273d4de9f107fe-ad1f0.png 690w,
 /static/87bafd4ead3629e862273d4de9f107fe-7a712.png 944w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 This is a weird one. Some love it, some can’t stand it. For me personally this is useful in large files with lots of &lt;em&gt;spaghetti-code&lt;/em&gt;. It gets in the way sometimes, especially when trying to scroll but its advantages outweigh that most of the time. My advice is to just try it out for a while and then decide about keeping it or not.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://atom.io/packages/minimap&quot;&gt;Minimap&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;6 Docblockr&lt;/h2&gt;
@@ -809,37 +659,29 @@ This is a real gem. I don’t think many people know about it. Docblockr helps y
 &lt;p&gt;&lt;a href=&quot;https://atom.io/packages/docblockr&quot;&gt;Docblockr&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;7 Markdown Preview&lt;/h2&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-ae6c1.png&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 62.5%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABiElEQVQoz52S2W7bMBBF8yt9iGVx31dTohOnVhu0idEUXfzW//+IjkRXRZa+FLgaDHl1qMuBrnqWemJUvMnj0fgKfYfku2vctMXahprK+7i7A1ERNv1f92oLJPdV51HlKGOWCXY2SDVBD+qJhdphjZiF+seVAGthChxv/CBVrClT7pUfqUrwnrDlx/nXp9P3x6fz49PP48fT59O309dz2U8dVvOXKU/JTFbfcp1tGKzxJWfCHcCY+7L/sKvHu+khj1OuE9xuuv9iQr3A0tawu89+EqJoVY0sXo/9krOnVofK7IHKiJjHIkBlKiHmGqyJStSMSg6c7wQvAiorgAEMR0McFQ4QAZarlhEsMKLWxlsb9lQkRD2iDtQm1JJrP0Jtw1s1wxCAcB+Gg8177hKWbkttUzfP2WhfiAgvyAsMBpaeuYCVFyFyF3vmmoBHxJgwtJxvwHC3nlkgEXdwChZu3lm0Jn9NXmB45gV+0/4n+Rwm/wVf9wJ+NBAsWrMKrOaCtWqxVEfUBsvfnXiWMLZ4c2gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;Markdown Preview&quot;
-                  title=&quot;Markdown Preview&quot;
-                  src=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-ad1f0.png&quot;
-                  srcset=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-71707.png 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 62.5%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABiElEQVQoz52S2W7bMBBF8yt9iGVx31dTohOnVhu0idEUXfzW//+IjkRXRZa+FLgaDHl1qMuBrnqWemJUvMnj0fgKfYfku2vctMXahprK+7i7A1ERNv1f92oLJPdV51HlKGOWCXY2SDVBD+qJhdphjZiF+seVAGthChxv/CBVrClT7pUfqUrwnrDlx/nXp9P3x6fz49PP48fT59O309dz2U8dVvOXKU/JTFbfcp1tGKzxJWfCHcCY+7L/sKvHu+khj1OuE9xuuv9iQr3A0tawu89+EqJoVY0sXo/9krOnVofK7IHKiJjHIkBlKiHmGqyJStSMSg6c7wQvAiorgAEMR0McFQ4QAZarlhEsMKLWxlsb9lQkRD2iDtQm1JJrP0Jtw1s1wxCAcB+Gg8177hKWbkttUzfP2WhfiAgvyAsMBpaeuYCVFyFyF3vmmoBHxJgwtJxvwHC3nlkgEXdwChZu3lm0Jn9NXmB45gV+0/4n+Rwm/wVf9wJ+NBAsWrMKrOaCtWqxVEfUBsvfnXiWMLZ4c2gAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Markdown Preview&quot;
+        title=&quot;Markdown Preview&quot;
+        src=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-ad1f0.png&quot;
+        srcset=&quot;/static/87993ce345f5252b1ba1e15df67e0e71-71707.png 173w,
 /static/87993ce345f5252b1ba1e15df67e0e71-14127.png 345w,
 /static/87993ce345f5252b1ba1e15df67e0e71-ad1f0.png 690w,
 /static/87993ce345f5252b1ba1e15df67e0e71-ae6c1.png 800w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
 &lt;strong&gt;If&lt;/strong&gt; you use Markdown for &lt;strong&gt;something&lt;/strong&gt; get this. If not, just ignore this package. As an example, I am writing my blog post with it at this very moment. Pretty cool, huh?&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://atom.io/packages/markdown-preview&quot;&gt;Markdown Preview&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;8 Color Picker&lt;/h2&gt;
@@ -850,37 +692,29 @@ My last pick but nonetheless an important one: The Color Picker package allows y
 I decided to finally take the risk and buy the printer. This was the moment where I should have realized that you don’t just &lt;em&gt;buy&lt;/em&gt; the parts to assemble your printer – But I didn’t.&lt;/p&gt;
 &lt;p&gt;There is literally no comprehensive documentation on the topic and even though the &lt;a href=&quot;http://reprap.org/&quot;&gt;RepRap-Wiki&lt;/a&gt; saved me a few times from giving up, I was almost at the point where I would say &lt;strong&gt;fuck-it&lt;/strong&gt;. Fortunately I didn’t and eventually a few guys on the #reprap-IRC helped me out and pointed me to a nice list of parts I needed to buy in order to get the printing going.&lt;/p&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/168dd08de73c323e05ea32438e9855e8-f1521.png&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 69.05615292712066%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABlElEQVQ4y52TyXKDQAxE+f8PNDvlsIPN7qV8UvQEuOykcogPqlExotWt1jhZlsk0z7Isi8x6TtMkfd8L39M0k7Zt7fse3BPLsv5D/vrdiaJIgiCQKArF930Jw9DyeV6k6zo5nVqN8xatnM+cp+dJw7ZtpFMS1DthGMjhcDAw13Ulz3Mpy0KWy0Vut5s8Ho9/hVNVlWQKUhSFApUyjuMm6SLX6/X/gMhzXU88GCrTvh8UcJTLpwyz9EuiODF2sIQdLPMt/wAwVcBYkF5qMOhxGGQYxs8kJ0lshsCurmtzCsmDsgScb01TWzMctcaqhrr7/f4rHC7ZOU4CEABZm6ZpzHWaEdQxW/aPIEfFazhxHCnDwDpXm+Rh6G3ZyWlSb3fkVVVaXm/Npml+B0ySxJYZOQDwSoyhMoBVrPeB3q8LH/0p9U3yLosTYFzu1RibnblPTWb7ykyp3RXtzJlxVVerKZ7nGQOeIHPCZV4KIIwD0zzPt3N/qmttbnOmCcAQcVJdm+Px+L4222uheJ9bXpRPd38a8RrfjJ8fx5OUg30AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;BOM-Wilson II&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/168dd08de73c323e05ea32438e9855e8-ad1f0.png&quot;
-                  srcset=&quot;/static/168dd08de73c323e05ea32438e9855e8-71707.png 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 69.05615292712066%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABlElEQVQ4y52TyXKDQAxE+f8PNDvlsIPN7qV8UvQEuOykcogPqlExotWt1jhZlsk0z7Isi8x6TtMkfd8L39M0k7Zt7fse3BPLsv5D/vrdiaJIgiCQKArF930Jw9DyeV6k6zo5nVqN8xatnM+cp+dJw7ZtpFMS1DthGMjhcDAw13Ulz3Mpy0KWy0Vut5s8Ho9/hVNVlWQKUhSFApUyjuMm6SLX6/X/gMhzXU88GCrTvh8UcJTLpwyz9EuiODF2sIQdLPMt/wAwVcBYkF5qMOhxGGQYxs8kJ0lshsCurmtzCsmDsgScb01TWzMctcaqhrr7/f4rHC7ZOU4CEABZm6ZpzHWaEdQxW/aPIEfFazhxHCnDwDpXm+Rh6G3ZyWlSb3fkVVVaXm/Npml+B0ySxJYZOQDwSoyhMoBVrPeB3q8LH/0p9U3yLosTYFzu1RibnblPTWb7ykyp3RXtzJlxVVerKZ7nGQOeIHPCZV4KIIwD0zzPt3N/qmttbnOmCcAQcVJdm+Px+L4222uheJ9bXpRPd38a8RrfjJ8fx5OUg30AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;BOM-Wilson II&quot;
+        title=&quot;&quot;
+        src=&quot;/static/168dd08de73c323e05ea32438e9855e8-ad1f0.png&quot;
+        srcset=&quot;/static/168dd08de73c323e05ea32438e9855e8-71707.png 173w,
 /static/168dd08de73c323e05ea32438e9855e8-14127.png 345w,
 /static/168dd08de73c323e05ea32438e9855e8-ad1f0.png 690w,
 /static/168dd08de73c323e05ea32438e9855e8-f1521.png 837w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          &lt;em&gt;Bill of Materials of the Reprap Wilson II – incomplete&lt;/em&gt;&lt;/p&gt;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;em&gt;Bill of Materials of the Reprap Wilson II – incomplete&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Now you have to know that buying all those parts isn’t as easy as going on Amazon and put the stuff into your basket. In fact you probably wouldn’t even find half of the listed parts there.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;RepRap is humanity’s first general-purpose self-replicating manufacturing machine.&lt;/p&gt;
@@ -892,41 +726,35 @@ I decided to finally take the risk and buy the printer. This was the moment wher
 For anyone interested and in search for a comprehensive list in order to build the Wilson II, here is the link to the sheet: &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1kI-1lE4GC9MqIZvxjbZlEe3kBZOYJa4L2h2OIP9b9GI/edit?usp=sharing&quot;&gt;RepRap Wilson II&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;You might notice that there are some parts I bought from different shops. This is where we get back to the few exceptions I mentioned:&lt;/p&gt;
 &lt;p&gt;
-          &lt;a
-            class=&quot;gatsby-resp-image-link&quot;
-            href=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-bbc31.jpg&quot;
-            style=&quot;display: block&quot;
-            target=&quot;_blank&quot;
-            rel=&quot;noopener&quot;
-          &gt;
-            &lt;span
-              class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; display: block; &quot;
-            &gt;
-              &lt;span
-                class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 75.1%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABbO1pqA0wv//EABwQAAMAAQUAAAAAAAAAAAAAAAECAxIAERMhMf/aAAgBAQABBQIV3pjXLjodKGDHxD1//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABwQAAMAAQUAAAAAAAAAAAAAAAABESESMUFxgf/aAAgBAQAGPwLTwVPHZh30biFcG0P/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIUFx/9oACAEBAAE/IfFNdIJ37fE1xE/MWlFqBA5wa5P/2gAMAwEAAgADAAAAEFM//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QV//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QnFn/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRkWH/2gAIAQEAAT8QxhYkbJi4nWjQthC3UXS037Lw4zot87g10cQRee4BbkilP2f/2Q==&apos;); background-size: cover; display: block;&quot;
-              &gt;
-                &lt;img
-                  class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
-                  alt=&quot;printed parts&quot;
-                  title=&quot;&quot;
-                  src=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-60ea6.jpg&quot;
-                  srcset=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-b1c52.jpg 173w,
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; z-index: -1; display: block; &quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.1%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABbO1pqA0wv//EABwQAAMAAQUAAAAAAAAAAAAAAAECAxIAERMhMf/aAAgBAQABBQIV3pjXLjodKGDHxD1//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8BV//EABwQAAMAAQUAAAAAAAAAAAAAAAABESESMUFxgf/aAAgBAQAGPwLTwVPHZh30biFcG0P/xAAaEAEAAwEBAQAAAAAAAAAAAAABABExIUFx/9oACAEBAAE/IfFNdIJ37fE1xE/MWlFqBA5wa5P/2gAMAwEAAgADAAAAEFM//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8QV//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQIBAT8QnFn/xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRkWH/2gAIAQEAAT8QxhYkbJi4nWjQthC3UXS037Lw4zot87g10cQRee4BbkilP2f/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;printed parts&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-60ea6.jpg&quot;
+        srcset=&quot;/static/5c5abe5189fd329171933bf7d8b521e1-b1c52.jpg 173w,
 /static/5c5abe5189fd329171933bf7d8b521e1-a4b17.jpg 345w,
 /static/5c5abe5189fd329171933bf7d8b521e1-60ea6.jpg 690w,
 /static/5c5abe5189fd329171933bf7d8b521e1-bbc31.jpg 1000w&quot;
-                  sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
-                /&gt;
-              &lt;/span&gt;
-            &lt;/span&gt;
-          &lt;/a&gt;
-          
-1. Don’t buy heavy materials on Aliexpress, the shipping is way to high for those. I went with a local shop on Ebay for the &lt;strong&gt;Aluminium Extrusion&lt;/strong&gt; because of that.
-2. Precision parts probably have worse quality on Aliexpress. There are tons of fakes and most of the times this isn’t an issue. However very crucial parts of your printer need to have high quality manufacturing. I would recommend to &lt;strong&gt;buy your Hotend&lt;/strong&gt; from an original supplier for that reason.
-I went with the &lt;a href=&quot;http://e3d-online.com/Lite6-1.75mm-Bowden&quot;&gt;E3D v6 Lite&lt;/a&gt;.
-3. Get the 3d printed parts from someone local. That way you can ensure quality prints and you also support other people with 3d printers. I did this by searching for a local supplier with good ratings on &lt;a href=&quot;https://www.3dhubs.com/&quot;&gt;3D Hubs&lt;/a&gt; and bought the parts from there. It is easy enough to do, just upload the parts you need in the &lt;code&gt;.stl&lt;/code&gt;-Format (for the Wilson II the files can be found &lt;a href=&quot;https://github.com/mjrice/Wilson2&quot;&gt;here&lt;/a&gt;)&lt;/p&gt;
+        sizes=&quot;(max-width: 690px) 100vw, 690px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Don’t buy heavy materials on Aliexpress, the shipping is way to high for those. I went with a local shop on Ebay for the &lt;strong&gt;Aluminium Extrusion&lt;/strong&gt; because of that.&lt;/li&gt;
+&lt;li&gt;Precision parts probably have worse quality on Aliexpress. There are tons of fakes and most of the times this isn’t an issue. However very crucial parts of your printer need to have high quality manufacturing. I would recommend to &lt;strong&gt;buy your Hotend&lt;/strong&gt; from an original supplier for that reason.
+I went with the &lt;a href=&quot;http://e3d-online.com/Lite6-1.75mm-Bowden&quot;&gt;E3D v6 Lite&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Get the 3d printed parts from someone local. That way you can ensure quality prints and you also support other people with 3d printers. I did this by searching for a local supplier with good ratings on &lt;a href=&quot;https://www.3dhubs.com/&quot;&gt;3D Hubs&lt;/a&gt; and bought the parts from there. It is easy enough to do, just upload the parts you need in the &lt;code&gt;.stl&lt;/code&gt;-Format (for the Wilson II the files can be found &lt;a href=&quot;https://github.com/mjrice/Wilson2&quot;&gt;here&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;With those exceptions in mind I had a great bill of materials I could work with. I also tried to source some parts myself like the &lt;strong&gt;glass for the heatbed&lt;/strong&gt;. Of course you could buy expensive borosilicate glass since it is more rigid and won’t shatter that easily, but for a first 3d printing experience I figured using cheap picture frame glass was good enough.
 That way the complete project &lt;strong&gt;cost me about 400€ now.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;That was a great improvement to the Amazon/Ebay price and I sacrificed almost nothing in terms of quality. Also keep in mind that most orders on Aliexpress come in bigger quantities than you will actually use. That way you are going to have a &lt;strong&gt;lot&lt;/strong&gt; of spare parts for your printer and future projects.&lt;/p&gt;
