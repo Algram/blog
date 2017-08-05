@@ -3,7 +3,7 @@ module.exports = {
     title: "Raphael's Blog – rphl.io",
     description: 'A blog about coding 3d printing and linux',
     siteUrl: 'https://blog.rphl.io',
-    domain: 'https://blog.rphl.io',
+    pathPrefix: '/',
     author: {
       name: 'Raphael',
       email: 'aliasgram@gmail.com'
