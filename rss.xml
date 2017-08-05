@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Aug 2017 14:27:44 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
-&lt;p&gt;You just hit a route that doesn’t exist… the sadness.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Hyper Terminal Setup]]></title><description><![CDATA[I always hated the clunky pieces of software that call themselves  Youtube Downloader . They look terrible, are a pain to use, littered with...]]></description><link>https://blog.rphl.io/hyper/</link><guid isPermaLink="false">https://blog.rphl.io/hyper/</guid><pubDate>Thu, 08 Mar 2018 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;I always hated the clunky pieces of software that call themselves &lt;em&gt;Youtube Downloader&lt;/em&gt;. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Aug 2017 18:02:58 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
+&lt;p&gt;You just hit a route that doesn’t exist… the sadness.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Hyper Terminal Setup]]></title><description><![CDATA[[ someType ]
+| content
+[ anotherType ]
+| content {someType}ABCioaosdjqkwe I always hated the clunky pieces of software that call themselves...]]></description><link>https://blog.rphl.io/hyper/</link><guid isPermaLink="false">https://blog.rphl.io/hyper/</guid><pubDate>Wed, 08 Mar 2017 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;[[someType]]
+| content
+[[anotherType]]
+| content&lt;/p&gt;
+&lt;p&gt;{someType}ABCioaosdjqkwe&lt;/p&gt;
+&lt;p&gt;I always hated the clunky pieces of software that call themselves &lt;em&gt;Youtube Downloader&lt;/em&gt;. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.&lt;/p&gt;
 &lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -23,7 +31,7 @@
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  &lt;/p&gt;
+  {someType}&lt;/p&gt;
 &lt;p&gt;As a big fan of selfhosting I wanted something that was under my control. &lt;a href=&quot;https://www.docker.com/what-docker&quot;&gt;Docker&lt;/a&gt; is a perfect solution for an isolated problem like a Youtube Downloader, but after some research I realized that there was no such thing for Docker yet (Okey, there was no &lt;strong&gt;good&lt;/strong&gt; one). I was really excited because this seemed like a nice opportunity to finally stress my homeserver a bit. Up to this point it was basically converting electricity to heat at terrible efficiency. The coding was done using &lt;strong&gt;react&lt;/strong&gt; for the frontend and a &lt;strong&gt;hapi&lt;/strong&gt;-webserver in the backend &lt;em&gt;(You gotta love Node.js)&lt;/em&gt;.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
       &lt;pre class=&quot;language-javascript&quot;&gt;&lt;code&gt;    fontFamily&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;&quot;Roboto Mono&quot;, monospace&apos;&lt;/span&gt;
