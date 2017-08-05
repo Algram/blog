@@ -16,9 +16,4 @@ class Layout extends React.Component {
   }
 }
 
-Layout.propTypes = {
-  location: React.PropTypes.object,
-  route: React.PropTypes.object
-}
-
 export default Layout

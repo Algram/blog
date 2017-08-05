@@ -4,13 +4,13 @@ import Helmet from 'react-helmet'
 import ReadNext from '../components/ReadNext'
 import Bio from '../components/Bio'
 import Link from 'gatsby-link'
-
 import '../scss/post.scss'
 import '../scss/material.scss'
 
 class BlogPostTemplate extends React.Component {
   render () {
     const post = this.props.data.markdownRemark
+    const context = this.props.pathContext
 
     return (
       <div className='post'>
@@ -21,7 +21,7 @@ class BlogPostTemplate extends React.Component {
           <Helmet
             title={post.frontmatter.title}
             meta={[
-              { name: 'keywords', content: post.keywords },
+              { name: 'keywords', content: post.frontmatter.keywords },
               { name: 'robots', content: 'index, follow' }
             ]}
           />
@@ -38,15 +38,11 @@ class BlogPostTemplate extends React.Component {
             }}
           />
           <hr />
-          <ReadNext next={post.frontmatter.readNext} />
+          <ReadNext post={context.next} />
         </div>
       </div>
     )
   }
-}
-
-BlogPostTemplate.propTypes = {
-  route: React.PropTypes.object
 }
 
 export default BlogPostTemplate
@@ -57,7 +53,7 @@ query BlogPostBySlug($slug: String!) {
     html
     frontmatter {
       title
-      readNext
+      keywords
     }
   }
 }
