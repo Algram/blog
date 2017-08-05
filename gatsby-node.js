@@ -61,9 +61,7 @@ function generateRSSFeed (allPages) {
   fs.writeFileSync(`${__dirname}/public/feed.xml`, feed.render('rss-2.0'))
 }
 
-exports.onPostBuild = (pages, callback) => {
-  generateRSSFeed(pages)
-  callback()
+exports.onPostBuild = (graphql, callback) => {
 }
 
 exports.createPages = ({ graphql, boundActionCreators }) => {

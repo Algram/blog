@@ -1,10 +1,11 @@
 ---
 title: Most Useful Atom Packages
-date: 2016-04-18 21:08 
+date: 2016-04-18 21:08
 category: development
 keywords: atom, packages, plugins, useful, development, editor
 layout: post
 path: "/most-useful-atom-packages/"
+hero: hero.jpg
 ---
 
 Over the years Atom has really gotten my goto editor for all kinds of programming. I rarely use anything besides it now. By itself Atom seems barebone – and that is intentional. As the main developer of the editor, GitHub wanted a lean and fast piece of software to write more software with – Yay!

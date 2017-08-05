@@ -5,6 +5,8 @@ category: raspberry pi
 keywords: raspberry pi, sdcard, soldering, accident
 layout: post
 path: "/sd-card-raspberry-pi/"
+hero: hero.jpg
+pinned: false
 ---
 
 A while ago I found out that my Raspberry Pi B+ was not broken after all.

@@ -5,6 +5,7 @@ category: 3d printing
 keywords: 3d printing, wilson ii, wilson 2, reprap, assembling, building
 layout: post
 path: "/building-wilson-part-2/"
+hero: hero.jpg
 ---
 
 This is the second part of me documenting my adventures on the journey of building a 3D printer. If you missed the first one make sure to check it out: [Part 1: Sourcing](/building-wilson-part-1/).

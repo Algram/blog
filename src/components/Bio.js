@@ -1,6 +1,5 @@
 import React from 'react'
 import profilePic from './profile-pic.svg'
-
 import '../scss/bio.scss'
 
 class Bio extends React.Component {
