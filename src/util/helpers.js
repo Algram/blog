@@ -8,6 +8,14 @@ function tee (a, fn) {
   return matches.concat(nonMatches)
 }
 
+function isScrolledIntoView (el) {
+  const elemTop = el.getBoundingClientRect().top
+  const elemBottom = el.getBoundingClientRect().bottom
+  const isVisible = elemTop < window.innerHeight && elemBottom >= 0
+  return isVisible
+}
+
 module.exports = {
-  tee
+  tee,
+  isScrolledIntoView
 }

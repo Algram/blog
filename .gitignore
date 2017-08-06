@@ -5,3 +5,4 @@ public
 .intermediate-representation/
 .cache
 npm-debug.log
+comments.json

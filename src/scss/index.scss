@@ -11,7 +11,7 @@
   margin-bottom: 40px;
   padding: 20px;
 
-  @include mobile {
+  @include phone {
     border-bottom: 1px solid $colorBackgroundLight;
     box-shadow: none;
     padding: 0px;
@@ -46,7 +46,7 @@
       max-width:100%;
     }
 
-    @include mobile {
+    @include phone {
       max-height: 200px;
     }
   }

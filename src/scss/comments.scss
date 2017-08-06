@@ -1,0 +1,25 @@
+@import '_variables';
+
+.comment {
+  margin-bottom: 10px;
+  display: flex;
+  background: $colorBackgroundLight;
+
+  &__content {
+    flex: 1;
+    padding: 10px;
+
+    & .text {
+      color: $colorText;
+    }
+
+    & .author {
+      color: $colorTextLighter;
+    }
+  }
+
+  &__avatar {
+    width: 80px;
+    flex-shrink: 0;
+  }
+}

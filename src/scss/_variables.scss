@@ -6,9 +6,6 @@ $colorText: #333333;
 $colorTextLighter: #4e4e4e;
 $colorTextLight: #ffffff;
 
-$colorQuoteBackground: #eeeeee;
-$colorQuoteForeground: #4e4e4e;
-
 $colorLink: #4a79df;
 
 $colorDonate: #e3b93c;
@@ -18,18 +15,18 @@ $colorAccent: #bb354c;
 $colorInfo: #61bde2;
 $colorDanger: #bb354c;
 
-$mobileWidth: 480px;
+$phoneWidth: 480px;
 $tabletWidth: 768px;
 $desktopWidth: 1100px;
 
-@mixin mobile {
-  @media (max-width: #{$mobileWidth}) {
+@mixin phone {
+  @media (max-width: #{$phoneWidth}) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (min-width: #{$mobileWidth + 1px}) and (max-width: #{$desktopWidth - 1px}) {
+  @media (min-width: #{$phoneWidth + 1px}) and (max-width: #{$desktopWidth - 1px}) {
     @content;
   }
 }

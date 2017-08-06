@@ -20,6 +20,7 @@
     "gatsby-transformer-sharp": "^1.6.0",
     "image-webpack-loader": "^3.0.0",
     "lodash": "^4.15.0",
+    "marked": "^0.3.6",
     "moment": "^2.15.1",
     "normalize.css": "^5.0.0",
     "object-assign": "^4.1.0",
@@ -52,7 +53,8 @@
   "standard": {
     "globals": [
       "graphql",
-      "__PATH_PREFIX__"
+      "__PATH_PREFIX__",
+      "styled"
     ]
   }
 }

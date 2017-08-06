@@ -2,6 +2,7 @@ import React from 'react'
 import moment from 'moment'
 import Helmet from 'react-helmet'
 import ReadNext from '../components/ReadNext'
+import CommentsList from '../components/comments/CommentsList'
 import Bio from '../components/Bio'
 import Link from 'gatsby-link'
 import '../scss/post.scss'
@@ -39,6 +40,8 @@ class BlogPostTemplate extends React.Component {
           />
           <hr />
           <ReadNext post={context.next} />
+          <hr />
+          <CommentsList />
         </div>
       </div>
     )

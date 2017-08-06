@@ -10,6 +10,7 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-preact`,
     'gatsby-plugin-sass',
     `gatsby-transformer-sharp`,
