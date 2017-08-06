@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Aug 2017 20:03:15 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
-&lt;p&gt;You just hit a route that doesn’t exist… the sadness.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Hyper Terminal Setup]]></title><description><![CDATA[[ someType ]
-| content
-[ anotherType ]
-| content {someType}ABCioaosdjqkwe I always hated the clunky pieces of software that call themselves...]]></description><link>https://blog.rphl.io/hyper/</link><guid isPermaLink="false">https://blog.rphl.io/hyper/</guid><pubDate>Wed, 08 Mar 2017 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;[[someType]]
-| content
-[[anotherType]]
-| content&lt;/p&gt;
-&lt;p&gt;{someType}ABCioaosdjqkwe&lt;/p&gt;
-&lt;p&gt;I always hated the clunky pieces of software that call themselves &lt;em&gt;Youtube Downloader&lt;/em&gt;. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Raphael's Blog – rphl.io]]></title><description><![CDATA[A blog about coding 3d printing and linux]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sun, 06 Aug 2017 12:39:46 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[NOT FOUND You just hit a route that doesn’t exist… the sadness.]]></description><link>https://blog.rphl.io/404.html</link><guid isPermaLink="false">https://blog.rphl.io/404.html</guid><content:encoded>&lt;h1&gt;NOT FOUND&lt;/h1&gt;
+&lt;p&gt;You just hit a route that doesn’t exist… the sadness.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Hyper Terminal Setup]]></title><description><![CDATA[I always hated the clunky pieces of software that call themselves  Youtube Downloader . They look terrible, are a pain to use, littered with...]]></description><link>https://blog.rphl.io/hyper/</link><guid isPermaLink="false">https://blog.rphl.io/hyper/</guid><pubDate>Wed, 08 Mar 2017 13:21:00 GMT</pubDate><content:encoded>&lt;p&gt;I always hated the clunky pieces of software that call themselves &lt;em&gt;Youtube Downloader&lt;/em&gt;. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.&lt;/p&gt;
 &lt;p&gt;
   &lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -66,7 +58,6 @@ css&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class
 &lt;p&gt;At the moment the application takes a link from a YouTube video as an input. Then the video gets downloaded with the popular command line tool &lt;a href=&quot;https://rg3.github.io/youtube-dl/&quot;&gt;youtube-dl&lt;/a&gt;. Once it is finished it gets converted to an MP3. Note that I plan on adding other options here like downloading the video without converting, converting it to different formats, etc.&lt;/p&gt;
 &lt;p&gt;Functionality like that is easy to implement with the current structure, so if you enjoy coding as much as I do, head over to the &lt;a href=&quot;https://github.com/Algram/ytdl-webserver&quot;&gt;project page&lt;/a&gt; and &lt;strong&gt;contribute&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;I also added some kind of web storage caching for the already downloaded videos and tried to keep everything as consistent as possible. The project is far from finished though, so give it some love.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;hero.gif&quot; alt=&quot;Youtube Downloader&quot; title=&quot;Youtube Downloader Demonstration GIF&quot;&gt;&lt;/p&gt;
 &lt;h2&gt;3 Using it&lt;/h2&gt;
 &lt;p&gt;The appliation is super easy to get going. Everything runs with Node.js, so installing is a matter of one line. Since the GitHub-Repo also includes the &lt;code&gt;Dockerfile&lt;/code&gt; you can even build your own image and host it wherever you want!&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot;&gt;
