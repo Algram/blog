@@ -41,6 +41,8 @@ class CommentsList extends Component {
       loading: false,
       comments: []
     }
+
+    this.scrollHandler = this.scrollHandler.bind(this)
   }
 
   loadComments () {
@@ -51,21 +53,25 @@ class CommentsList extends Component {
         this.setState({ comments: json.reverse(), loading: false })
       })
       .catch(err => {
+        console.error('ass', err)
         // TODO handle error and show github issue link as alternative
       })
   }
 
-  componentDidMount () {
+  scrollHandler () {
     const commentsList = document.querySelector('.js-comments')
 
-    document.addEventListener('scroll', () => {
-      if (isScrolledIntoView(commentsList) &&
-          this.state.comments.length === 0 &&
-          !this.state.loading
-      ) {
-        this.loadComments()
-      }
-    })
+    if (isScrolledIntoView(commentsList) &&
+        this.state.comments.length === 0 &&
+        !this.state.loading
+    ) {
+      this.loadComments()
+      document.removeEventListener('scroll', this.scrollHandler)
+    }
+  }
+
+  componentDidMount () {
+    document.addEventListener('scroll', this.scrollHandler)
   }
 
   render () {
@@ -81,12 +87,15 @@ class CommentsList extends Component {
           <H2>Comments</H2>
           <Button
             href={`https://github.com/Algram/blog-comments/issues/${this.props.id}#new_comment_field`}
-            target="_blank"
+            target='_blank'
           >
             Leave a Comment over at GitHub
           </Button>
         </Header>
         <div>
+          {!this.state.comments.length && (
+            <span>No comments yet. Change that!</span>
+          )}
           {this.state.comments.map(comment =>
             <Comment data={comment} />
           )}

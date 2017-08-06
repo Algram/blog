@@ -13,7 +13,7 @@ With the help of plugins Atom can get a lot more powerful though. They are all a
 
 ## 1 Activate Power Mode
 ![Activate Power Mode](activate-power-mode.gif "best plugin EVER"){.img .img--right}
-Okey let's get serious. The plugin is pretty neat and it certainly gives you this feeling of endless power at the tip of your fingers. If we get back down from our position of divinity though, we quickly realize how useless the power mode actually is. You go crazy just from looking at the gif – right? Onto the next one!
+Okay let's get serious. The plugin is pretty neat and it certainly gives you this feeling of endless power at the tip of your fingers. If we get back down from our position of divinity though, we quickly realize how useless the power mode actually is. You go crazy just from looking at the gif – right? Onto the next one!
 
 [Activate Power Mode](https://atom.io/packages/activate-power-mode)
 

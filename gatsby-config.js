@@ -32,7 +32,7 @@ module.exports = {
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               const filtered = allMarkdownRemark.edges.filter(edge => {
-                return edge.node.frontmatter !== ''
+                return edge.node.fields.slug !== '/404.html'
               })
               return filtered.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {

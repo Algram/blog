@@ -9,8 +9,8 @@ export default class HTML extends React.Component {
     let piwikTracking
     let piwikTrackingNoJS
     if (process.env.NODE_ENV === 'production') {
-      // css = <style dangerouslySetInnerHTML={{ __html: require('!raw!../public/styles.css') }} /> // eslint-disable-line
-      css = <link rel='stylesheet' type='text/css' href={`${__PATH_PREFIX__}/styles.css`} />
+      css = <style dangerouslySetInnerHTML={{ __html: require('!raw!../public/styles.css') }} /> // eslint-disable-line
+      // css = <link rel='stylesheet' type='text/css' href={`${__PATH_PREFIX__}/styles.css`} />
       piwikTracking = (
         <script type='text/javascript' dangerouslySetInnerHTML={{ __html: `
           <!-- Piwik -->
