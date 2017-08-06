@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Comment from './Comment'
 import { isScrolledIntoView } from '../../util/helpers'
-import '../../scss/comments.scss'
 import mock from './comments.json'
 
 class CommentsList extends Component {

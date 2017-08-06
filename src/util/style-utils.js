@@ -22,7 +22,8 @@ export const media = Object.keys(sizes).reduce((accumulator, label) => {
 export const colors = {
   colorBackground: '#ffffff',
   colorBackgroundDark: '#2d3642',
-  colorBackgroundLight: '#e3e3e3',
+  colorBackgroundLighter: '#e3e3e3',
+  colorBackgroundLight: '#f2f2f2',
   colorText: '#333333',
   colorTextLighter: '#4e4e4e',
   colorTextLight: '#ffffff',

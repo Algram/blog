@@ -12,7 +12,7 @@
   padding: 20px;
 
   @include phone {
-    border-bottom: 1px solid $colorBackgroundLight;
+    border-bottom: 1px solid $colorBackgroundLighter;
     box-shadow: none;
     padding: 0px;
     padding-bottom: 20px;
