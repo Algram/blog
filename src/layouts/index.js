@@ -1,7 +1,7 @@
 import React from 'react'
 import 'normalize.css'
 import '../scss/material.scss'
-import '../scss/font-awesome/font-awesome.css'
+import '../scss/iconfont/iconfont.css'
 import '../scss/global.scss'
 
 class Layout extends React.Component {

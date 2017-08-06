@@ -80,7 +80,9 @@ class CommentsList extends Component {
         <Header>
           <H2>Comments</H2>
           <Button
-            href={`https://github.com/Algram/blog-comments/issues/${this.props.id}#new_comment_field`}>
+            href={`https://github.com/Algram/blog-comments/issues/${this.props.id}#new_comment_field`}
+            target="_blank"
+          >
             Leave a Comment over at GitHub
           </Button>
         </Header>

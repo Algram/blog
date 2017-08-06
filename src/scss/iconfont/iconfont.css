@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../fonts/iconfont.woff?lt16rv') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\f004";
+}
+.icon-star:before {
+  content: "\f005";
+}
+.icon-tag:before {
+  content: "\f02b";
+}
+.icon-bookmark:before {
+  content: "\f02e";
+}
+.icon-thumb-tack:before {
+  content: "\f08d";
+}
+.icon-github:before {
+  content: "\f09b";
+}
+.icon-feed:before {
+  content: "\f09e";
+}
+.icon-rss:before {
+  content: "\f09e";
+}
+.icon-comments-o:before {
+  content: "\f0e6";
+}
+.icon-coffee:before {
+  content: "\f0f4";
+}

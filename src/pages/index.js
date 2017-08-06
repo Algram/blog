@@ -32,7 +32,7 @@ class BlogIndex extends Component {
       // Styling for pinned post
       let pinned
       if (pageMetadata.pinned) {
-        pinned = <i className='postpreview__pinned fa fa-thumb-tack' />
+        pinned = <i className='postpreview__pinned icon-thumb-tack' />
       }
 
       pageLinks.push(
