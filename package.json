@@ -24,6 +24,7 @@
     "moment": "^2.15.1",
     "normalize.css": "^5.0.0",
     "object-assign": "^4.1.0",
+    "polished": "^1.3.0",
     "react-helmet": "^3.1.0",
     "safe-access": "^0.1.0",
     "underscore.string": "^3.2.3"
@@ -53,8 +54,7 @@
   "standard": {
     "globals": [
       "graphql",
-      "__PATH_PREFIX__",
-      "styled"
+      "__PATH_PREFIX__"
     ]
   }
 }
