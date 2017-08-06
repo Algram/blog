@@ -40,8 +40,12 @@ class BlogPostTemplate extends React.Component {
           />
           <hr />
           <ReadNext post={context.next} />
-          <hr />
-          <CommentsList />
+          {post.frontmatter.githubIssue &&
+            <hr />
+          }
+          {post.frontmatter.githubIssue &&
+            <CommentsList id={post.frontmatter.githubIssue} />
+          }
         </div>
       </div>
     )
@@ -57,6 +61,7 @@ query BlogPostBySlug($slug: String!) {
     frontmatter {
       title
       keywords
+      githubIssue
     }
   }
 }

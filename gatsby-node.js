@@ -22,6 +22,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   category
                   keywords
                   title
+                  githubIssue
                 }
                 fields {
                   slug
@@ -46,6 +47,10 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         posts.forEach((edge, index) => {
           const prev = index === 0 ? false : posts[index - 1].node
           let next = index === posts.length - 1 ? false : posts[index + 1].node
+
+          if (!next) {
+            next = posts[0].node
+          }
 
           createPage({
             path: edge.node.fields.slug, // required

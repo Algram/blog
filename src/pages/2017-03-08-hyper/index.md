@@ -8,13 +8,6 @@ path: "/hyper/"
 hero: hero.png
 ---
 
-[[someType]]
-| content
-[[anotherType]]
-| content
-
-{someType}ABCioaosdjqkwe
-
 I always hated the clunky pieces of software that call themselves *Youtube Downloader*. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.
 
 ![Youtube Downloader](hero.png "Youtube Downloader Demonstration GIF"){someType}
@@ -61,8 +54,6 @@ At the moment the application takes a link from a YouTube video as an input. The
 Functionality like that is easy to implement with the current structure, so if you enjoy coding as much as I do, head over to the [project page](https://github.com/Algram/ytdl-webserver) and **contribute**.
 
 I also added some kind of web storage caching for the already downloaded videos and tried to keep everything as consistent as possible. The project is far from finished though, so give it some love.
-
-![Youtube Downloader](hero.gif "Youtube Downloader Demonstration GIF")
 
 
 ## 3 Using it

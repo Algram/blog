@@ -1,25 +1,27 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { darken } from 'polished'
-import { colors } from '../../util/style-utils'
+import { colors, media } from '../../util/style-utils'
 import { isScrolledIntoView } from '../../util/helpers'
 import Loader from '../Loader'
 import Comment from './Comment'
-import mock from './comments.json'
 
 const Header = styled.div`
   display: flex;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+
+  ${media.phone`
+    flex-direction: column;
+  `}
 `
 
-const Button = styled.button`
-  flex-grow: 0;
-  height: 40px;
-  padding: 10px;
+const Button = styled.a`
+  padding: 12px;
   border: none;
   background: ${colors.colorAccent};
   color: ${colors.colorTextLight};
+  text-decoration: none;
 
   &:hover {
     cursor: pointer;
@@ -37,33 +39,31 @@ class CommentsList extends Component {
     super()
     this.state = {
       loading: false,
-      comments: mock
+      comments: []
     }
   }
 
   loadComments () {
     this.setState({ loading: true })
-    window.fetch('https://api.github.com/repos/dwilliamson/donw.io/issues/1/comments')
+    window.fetch(`https://api.github.com/repos/algram/blog-comments/issues/${this.props.id}/comments`)
       .then(response => response.json())
       .then(json => {
-        console.log(json)
         this.setState({ comments: json.reverse(), loading: false })
+      })
+      .catch(err => {
+        // TODO handle error and show github issue link as alternative
       })
   }
 
   componentDidMount () {
-    this.setState({ loading: true })
-    setTimeout(() => {
-      this.setState({ loading: false })
-    }, 2000)
     const commentsList = document.querySelector('.js-comments')
 
     document.addEventListener('scroll', () => {
       if (isScrolledIntoView(commentsList) &&
-          this.state.comments.length === 1 &&
+          this.state.comments.length === 0 &&
           !this.state.loading
       ) {
-        // this.loadComments()
+        this.loadComments()
       }
     })
   }
@@ -79,7 +79,10 @@ class CommentsList extends Component {
       <div className='js-comments'>
         <Header>
           <H2>Comments</H2>
-          <Button>Leave a Comment over at GitHub</Button>
+          <Button
+            href={`https://github.com/Algram/blog-comments/issues/${this.props.id}#new_comment_field`}>
+            Leave a Comment over at GitHub
+          </Button>
         </Header>
         <div>
           {this.state.comments.map(comment =>

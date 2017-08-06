@@ -6,6 +6,7 @@ keywords: selfhosting, docker, youtube downloader, nodejs, react, webserver
 layout: post
 path: "/selfhosted-youtube-downloader-with-docker/"
 hero: hero.png
+githubIssue: "1"
 ---
 
 I always hated the clunky pieces of software that call themselves *Youtube Downloader*. They look terrible, are a pain to use, littered with ads and just in general not a nice experience.
