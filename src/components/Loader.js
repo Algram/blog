@@ -22,7 +22,7 @@ const LoaderWrapper = styled.div`
   display:flex;
   justify-content: center;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 `
 
 const LoaderText = styled.span`

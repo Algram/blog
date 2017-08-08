@@ -53,7 +53,7 @@ class CommentsList extends Component {
         this.setState({ comments: json.reverse(), loading: false })
       })
       .catch(err => {
-        console.error('ass', err)
+        console.error(err)
         // TODO handle error and show github issue link as alternative
       })
   }
@@ -72,6 +72,10 @@ class CommentsList extends Component {
 
   componentDidMount () {
     document.addEventListener('scroll', this.scrollHandler)
+  }
+
+  componentWillUnmount () {
+    document.removeEventListener('scroll', this.scrollHandler)
   }
 
   render () {

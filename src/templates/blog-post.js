@@ -15,7 +15,7 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div className='post'>
-        <Link className='navHome' to={'/'}>
+        <Link className='navHome' to={`/#${post.frontmatter.title}`}>
           All Articles
         </Link>
         <div className='markdown'>

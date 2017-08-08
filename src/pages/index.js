@@ -27,7 +27,7 @@ class BlogIndex extends Component {
 
       const pageContent = page.node.html
       const pageDescription = prune(pageContent.replace(/<[^>]*>/g, ''), 300)
-      const pageHero = get(pageMetadata, 'hero.childImageSharp.original.src')
+      const pageHero = get(pageMetadata, 'hero.childImageSharp.resize.src')
 
       // Styling for pinned post
       let pinned
@@ -36,7 +36,7 @@ class BlogIndex extends Component {
       }
 
       pageLinks.push(
-        <div className='postpreview' key={pageMetadata.path}>
+        <div className='postpreview' id={pageMetadata.title} key={pageMetadata.path}>
           <div className='postpreview__hero'>
             <Link to={pageMetadata.path}>
               <img alt='post-hero' src={`${__PATH_PREFIX__}${pageHero}` || 'Default Image'} />
@@ -104,7 +104,7 @@ export const pageQuery = graphql`
             pinned
             hero {
               childImageSharp {
-                original {
+                resize(width: 600) {
                   src
                 }
               }
