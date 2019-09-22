@@ -17,6 +17,21 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-sharp',
     {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Merriweather`,
+            subsets: [`latin`],
+          },
+          {
+            family: `Roboto Mono`,
+            subsets: [`latin`],
+          },
+        ],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-feed',
       options: {
         query: `

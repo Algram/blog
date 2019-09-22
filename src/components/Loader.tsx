@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import { colors } from '../utils/style-utils'
+import { colors } from '../utils/style'
 
 const rotate = keyframes`
   0% {transform: rotate(0deg);}

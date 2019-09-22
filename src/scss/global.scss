@@ -8,14 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-#___gatsby {
-  .container {
-    margin: 0 auto;
-    max-width: 640px;
-    padding: 0 20px 20px;
-  }
-}
-
 .link {
   &--external {
     display: inline-block;
@@ -24,7 +16,7 @@ body {
     padding-right: 16px;
 
     &:after {
-      content: "\f08e"; //"🗗";
+      content: '\f08e'; //"🗗";
       display: inline-block;
       font-family: FontAwesome;
       font-size: 0.8em;
@@ -57,10 +49,8 @@ a {
   color: $colorLink;
 
   &:hover {
-
   }
 
   &:visited {
-
   }
 }

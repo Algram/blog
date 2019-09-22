@@ -1,11 +1,22 @@
 import React from 'react'
+import styled from 'styled-components'
+import { clearFix } from 'polished'
 
-import profilePic from './profile-pic.svg'
-import '../scss/bio.scss'
+import profilePic from '../../assets/profile-pic.svg'
+
+const Wrapper = styled.p`
+  ${clearFix()}
+`
+
+const BioImage = styled.img`
+  float: left;
+  padding-right: 15px;
+  width: 100px;
+`
 
 export const Bio = ({ author }) => (
-  <p className="bio">
-    <img className="bio__img" src={profilePic} alt={`author ${author.name}`} />
+  <Wrapper>
+    <BioImage src={profilePic} alt={`author ${author.name}`} />
     Written by <strong>{author.name}</strong> who lives in Germany and likes to
     code a lot.&nbsp;
     <a
@@ -17,5 +28,5 @@ export const Bio = ({ author }) => (
     </a>
     &nbsp; or write him an &nbsp;
     <a href={`mailto:${author.email}`}>Email</a>.
-  </p>
+  </Wrapper>
 )

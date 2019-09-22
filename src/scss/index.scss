@@ -1,13 +1,8 @@
 @import '_variables';
 
-.teststyle {
-  text-align: right;
-  color: aqua;
-}
-
 .postpreview {
   background: $colorBackground;
-  box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.16);
   margin-bottom: 40px;
   padding: 20px;
 
@@ -39,11 +34,11 @@
 
   &__hero {
     margin-bottom: 20px;
-    max-height:250px;
+    max-height: 250px;
     overflow: hidden;
 
     img {
-      max-width:100%;
+      max-width: 100%;
     }
 
     @include phone {

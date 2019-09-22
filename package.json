@@ -10,6 +10,7 @@
     "gatsby": "^2.15.20",
     "gatsby-plugin-feed": "^2.3.13",
     "gatsby-plugin-preact": "^3.1.11",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.1.8",
     "gatsby-plugin-sass": "^2.1.15",
     "gatsby-plugin-sharp": "^2.2.25",
@@ -50,6 +51,7 @@
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "@types/react-helmet": "^5.0.10",
+    "@types/styled-components": "^4.1.19",
     "eslint": "^6.4.0",
     "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import marked from 'marked'
 import moment from 'moment'
-import { colors, media } from '../../utils/style-utils'
+import { colors, media } from '../../utils/style'
 
 const Wrapper = styled.div`
   margin-bottom: 15px;
@@ -33,19 +33,19 @@ const Avatar = styled.img`
   flex-shrink: 0;
   object-fit: contain;
 
-  ${media.phone`
+  @media (${media.phone}) {
     display: none;
-  `}
+  }
 `
 
 const AvatarInline = styled(Avatar)`
   display: none;
 
-  ${media.phone`
+  @media (${media.phone}) {
     display: inline;
     max-width: 40px;
     height: 40px;
-  `}
+  }
 `
 
 const ContentWrapper = styled.div`
@@ -58,10 +58,10 @@ const Author = styled.span`
   color: ${colors.colorTextLighter};
   font-size: 0.9em;
 
-  ${media.phone`
+  @media (${media.phone}) {
     margin-left: 15px;
     vertical-align: 25px;
-  `}
+  }
 `
 
 const Date = styled.span`

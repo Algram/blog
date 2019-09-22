@@ -2,8 +2,8 @@ import React from 'react'
 import moment from 'moment'
 import { Helmet } from 'react-helmet'
 import { graphql } from 'gatsby'
-import ReadNext from '../components/ReadNext'
-import CommentsList from '../components/comments/CommentsList'
+import { ReadNext } from '../components/ReadNext'
+import CommentsList from '../components/Comment/CommentsList'
 import { Bio } from '../components/Bio'
 import Link from 'gatsby-link'
 import { Default as DefaultLayout } from '../components/Layout'
@@ -45,7 +45,7 @@ class BlogPostTemplate extends React.Component {
               }}
             />
             <hr />
-            <ReadNext post={context.next} />
+            {context.next && <ReadNext post={context.next} />}
             {post.frontmatter.githubIssue && <hr />}
             {post.frontmatter.githubIssue && (
               <CommentsList id={post.frontmatter.githubIssue} />

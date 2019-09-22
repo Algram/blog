@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { darken } from 'polished'
-import { colors, media } from '../../utils/style-utils'
+import { colors, media } from '../../utils/style'
 import { isScrolledIntoView } from '../../utils/helpers'
 import { Square as SquareLoader } from '../Loader'
 import Comment from './Comment'
@@ -11,9 +11,9 @@ const Header = styled.div`
   margin-top: 30px;
   margin-bottom: 15px;
 
-  ${media.phone`
+  @media (${media.phone}) {
     flex-direction: column;
-  `}
+  }
 `
 
 const Button = styled.a`
