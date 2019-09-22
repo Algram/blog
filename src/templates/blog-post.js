@@ -1,19 +1,22 @@
 import React from 'react'
 import moment from 'moment'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
 import ReadNext from '../components/ReadNext'
 import CommentsList from '../components/comments/CommentsList'
 import Bio from '../components/Bio'
 import Link from 'gatsby-link'
+import Layout from "../components/layout"
 import '../scss/post.scss'
 import '../scss/material.scss'
 
 class BlogPostTemplate extends React.Component {
   render () {
     const post = this.props.data.markdownRemark
-    const context = this.props.pathContext
+    const context = this.props.pageContext
 
     return (
+      <Layout>
       <div className='post'>
         <Link className='navHome' to={`/#${post.frontmatter.title}`}>
           All Articles
@@ -48,6 +51,7 @@ class BlogPostTemplate extends React.Component {
           }
         </div>
       </div>
+      </Layout>
     )
   }
 }

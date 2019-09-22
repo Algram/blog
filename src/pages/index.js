@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import moment from 'moment'
+import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { prune } from 'underscore.string'
 import Header from '../components/Header'
 import { tee } from '../util/helpers'
 import '../scss/index.scss'
+import Layout from "../components/layout"
 
 class BlogIndex extends Component {
   render () {
@@ -57,6 +59,7 @@ class BlogIndex extends Component {
     })
 
     return (
+      <Layout>
       <div id='startpage'>
         <Helmet
           title={siteMetadata.title}
@@ -73,6 +76,7 @@ class BlogIndex extends Component {
           {pageLinks}
         </div>
       </div>
+      </Layout>
     )
   }
 }

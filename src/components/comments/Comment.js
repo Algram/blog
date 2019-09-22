@@ -38,7 +38,7 @@ const Avatar = styled.img`
   `}
 `
 
-const AvatarInline = Avatar.extend`
+const AvatarInline = styled(Avatar)`
   display: none;
 
   ${media.phone`

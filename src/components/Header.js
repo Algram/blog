@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import profilePic from './profile-pic.svg'
+import { graphql } from 'gatsby'
 
+import profilePic from './profile-pic.svg'
 import '../scss/header.scss'
 
 class Header extends Component {

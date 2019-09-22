@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+
 import profilePic from './profile-pic.svg'
 import '../scss/bio.scss'
 

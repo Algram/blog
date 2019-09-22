@@ -23,17 +23,17 @@ In the follwing I will go over the changes I made to the default config to perfe
 
 First I changed to font to Roboto Mono because I think it works very well. In fact even the syntax highlighting in this blog post is using Roboto Mono.
 ```javascript
-    fontFamily: '"Roboto Mono", monospace'
+fontFamily: '"Roboto Mono", monospace'
 ```
 
 Next there are the plugins I use in Hyper.
 ```javascript
-  plugins: [
-    'hyper-statusline',
-    'hyperterm-chesterish',
-    'hypercwd',
-    'hyper-dark-scrollbar'
-  ]
+plugins: [
+  'hyper-statusline',
+  'hyperterm-chesterish',
+  'hypercwd',
+  'hyper-dark-scrollbar'
+]
 ```
  - `hyper-statusline` Adds information about the current directory like git-branch and folder name on the bottom of the terminal
  - `hyperterm-chesterish` A gorgeous theme for hyper
