@@ -5,4 +5,5 @@ public
 .intermediate-representation/
 .cache
 npm-debug.log
+yarn-error.log
 comments.json

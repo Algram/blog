@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import { colors } from '../util/style-utils'
+import { colors } from '../utils/style-utils'
 
 const rotate = keyframes`
   0% {transform: rotate(0deg);}
@@ -19,7 +19,7 @@ const fill = keyframes`
 `
 
 const LoaderWrapper = styled.div`
-  display:flex;
+  display: flex;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -49,13 +49,11 @@ const LoaderInner = styled.span`
   animation: ${fill} 3s infinite ease-in;
 `
 
-export default () => {
-  return (
-    <LoaderWrapper>
-      <LoaderText>Loading</LoaderText>
-      <Loader>
-        <LoaderInner />
-      </Loader>
-    </LoaderWrapper>
-  )
-}
+export const Square = () => (
+  <LoaderWrapper>
+    <LoaderText>Loading</LoaderText>
+    <Loader>
+      <LoaderInner />
+    </Loader>
+  </LoaderWrapper>
+)

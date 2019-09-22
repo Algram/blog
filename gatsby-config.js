@@ -5,17 +5,19 @@ module.exports = {
     siteUrl: 'https://blog.rphl.io',
     author: {
       name: 'Raphael',
-      email: 'aliasgram@gmail.com'
-    }
+      email: 'aliasgram@gmail.com',
+    },
   },
   pathPrefix: '/',
   plugins: [
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-preact`,
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
+    'gatsby-plugin-preact',
     'gatsby-plugin-sass',
-    `gatsby-transformer-sharp`,
+    'gatsby-transformer-sharp',
     {
-      resolve: `gatsby-plugin-feed`,
+      resolve: 'gatsby-plugin-feed',
       options: {
         query: `
           {
@@ -39,7 +41,7 @@ module.exports = {
                   description: edge.node.excerpt,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-                  custom_elements: [{ 'content:encoded': edge.node.html }]
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
                 })
               })
             },
@@ -63,17 +65,17 @@ module.exports = {
                 }
               }
             `,
-            output: '/rss.xml'
-          }
-        ]
-      }
+            output: '/rss.xml',
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/`
-      }
+        path: `${__dirname}/src/pages/`,
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -83,18 +85,18 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 640,
-              linkImagesToOriginal: false
-            }
+              linkImagesToOriginal: false,
+            },
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`
+            resolve: `gatsby-remark-responsive-iframe`,
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`
-        ]
-      }
+          `gatsby-remark-smartypants`,
+        ],
+      },
     },
-    `gatsby-plugin-sharp`
-  ]
+    `gatsby-plugin-sharp`,
+  ],
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import marked from 'marked'
 import moment from 'moment'
-import { colors, media } from '../../util/style-utils'
+import { colors, media } from '../../utils/style-utils'
 
 const Wrapper = styled.div`
   margin-bottom: 15px;
@@ -56,7 +56,7 @@ const ContentWrapper = styled.div`
 
 const Author = styled.span`
   color: ${colors.colorTextLighter};
-  font-size: 0.90em;
+  font-size: 0.9em;
 
   ${media.phone`
     margin-left: 15px;
@@ -67,19 +67,17 @@ const Author = styled.span`
 const Date = styled.span`
   color: ${colors.colorTextLighter};
   float: right;
-  font-size: 0.90em;
+  font-size: 0.9em;
 `
 
-export default ({ data }) => {
-  return (
-    <Wrapper>
-      <Avatar src={data.user.avatar_url} />
-      <ContentWrapper>
-        <AvatarInline src={data.user.avatar_url} />
-        <Author>{data.user.login}</Author>
-        <Date>{moment(data.created_at).fromNow()}</Date>
-        <span dangerouslySetInnerHTML={{ __html: marked(data.body) }} />
-      </ContentWrapper>
-    </Wrapper>
-  )
-}
+export default ({ data }) => (
+  <Wrapper>
+    <Avatar src={data.user.avatar_url} />
+    <ContentWrapper>
+      <AvatarInline src={data.user.avatar_url} />
+      <Author>{data.user.login}</Author>
+      <Date>{moment(data.created_at).fromNow()}</Date>
+      <span dangerouslySetInnerHTML={{ __html: marked(data.body) }} />
+    </ContentWrapper>
+  </Wrapper>
+)

@@ -3,7 +3,7 @@ import { css } from 'styled-components'
 const sizes = {
   desktop: 1100,
   tablet: 768,
-  phone: 480
+  phone: 480,
 }
 
 // iterate through the sizes and create a media template
@@ -31,5 +31,5 @@ export const colors = {
   colorDonate: '#e3b93c',
   colorAccent: '#bb354c',
   colorInfo: '#61bde2',
-  colorDanger: '#bb354c'
+  colorDanger: '#bb354c',
 }

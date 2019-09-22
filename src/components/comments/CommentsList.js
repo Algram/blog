@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import { darken } from 'polished'
-import { colors, media } from '../../util/style-utils'
-import { isScrolledIntoView } from '../../util/helpers'
-import Loader from '../Loader'
+import { colors, media } from '../../utils/style-utils'
+import { isScrolledIntoView } from '../../utils/helpers'
+import { Square as SquareLoader } from '../Loader'
 import Comment from './Comment'
 
 const Header = styled.div`
@@ -35,19 +35,22 @@ const H2 = styled.h2`
 `
 
 class CommentsList extends Component {
-  constructor () {
+  constructor() {
     super()
     this.state = {
       loading: false,
-      comments: []
+      comments: [],
     }
 
     this.scrollHandler = this.scrollHandler.bind(this)
   }
 
-  loadComments () {
+  loadComments() {
     this.setState({ loading: true })
-    window.fetch(`https://api.github.com/repos/algram/blog-comments/issues/${this.props.id}/comments`)
+    window
+      .fetch(
+        `https://api.github.com/repos/algram/blog-comments/issues/${this.props.id}/comments`
+      )
       .then(response => response.json())
       .then(json => {
         this.setState({ comments: json.reverse(), loading: false })
@@ -58,40 +61,39 @@ class CommentsList extends Component {
       })
   }
 
-  scrollHandler () {
+  scrollHandler() {
     const commentsList = document.querySelector('.js-comments')
 
-    if (isScrolledIntoView(commentsList) &&
-        this.state.comments.length === 0 &&
-        !this.state.loading
+    if (
+      isScrolledIntoView(commentsList) &&
+      this.state.comments.length === 0 &&
+      !this.state.loading
     ) {
       this.loadComments()
       document.removeEventListener('scroll', this.scrollHandler)
     }
   }
 
-  componentDidMount () {
+  componentDidMount() {
     document.addEventListener('scroll', this.scrollHandler)
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     document.removeEventListener('scroll', this.scrollHandler)
   }
 
-  render () {
+  render() {
     if (this.state.loading) {
-      return (
-        <Loader />
-      )
+      return <SquareLoader />
     }
 
     return (
-      <div className='js-comments'>
+      <div className="js-comments">
         <Header>
           <H2>Comments</H2>
           <Button
             href={`https://github.com/Algram/blog-comments/issues/${this.props.id}#new_comment_field`}
-            target='_blank'
+            target="_blank"
           >
             Leave a Comment over at GitHub
           </Button>
@@ -100,9 +102,9 @@ class CommentsList extends Component {
           {!this.state.comments.length && (
             <span>No comments yet. Change that!</span>
           )}
-          {this.state.comments.map(comment =>
+          {this.state.comments.map(comment => (
             <Comment data={comment} />
-          )}
+          ))}
         </div>
       </div>
     )
